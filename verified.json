@@ -1,4 +1,14 @@
 {
   "_comment": "Safelight verified-extension allowlist. Each entry is a GitHub 'owner/repo' (case-insensitive) that a maintainer has reviewed. Listed repos show a green Verified badge in the Extensions store and install without the unverified-risk prompt. To get verified, open a pull request adding your repo here; a maintainer reviews the extension's code before merging.",
-  "verified": []
+  "verified": ["anthonyreimche/Graphite-Theme-for-Safelight",
+    "anthonyreimche/Solarized-Theme",
+    "anthonyreimche/Ivory-Theme-for-Safelight",
+    "anthonyreimche/Slate-Theme-for-Safelight",
+    "anthonyreimche/Darkroom-Amber-Theme-for-Safelight",
+    "anthonyreimche/Advanced-Denoise-Tools-for-Safelight",
+    "anthonyreimche/Advanced-Library-Sort-for-Safelight",
+    "anthonyreimche/Image-Comparison-Tools-for-Safelight",
+    "anthonyreimche/Advanced-Rendering-for-SafeLight",
+    "anthonyreimche/Image-Warp-for-Safelight"
+  ]
 }
