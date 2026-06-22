@@ -9,6 +9,11 @@
     "anthonyreimche/Advanced-Library-Sort-for-Safelight",
     "anthonyreimche/Image-Comparison-Tools-for-Safelight",
     "anthonyreimche/Advanced-Rendering-for-SafeLight",
-    "anthonyreimche/Image-Warp-for-Safelight"
+    "anthonyreimche/Image-Warp-for-Safelight",
+    "OPGERUIMD97/safelight-claude-theme",
+    "oatbiscuit/safelight-theme-catppuccin-mocha",
+    "oatbiscuit/safelight-theme-catppuccin-macchiato",
+    "oatbiscuit/safelight-theme-catppuccin-frappe",
+    "oatbiscuit/safelight-theme-catppuccin-latte"
   ]
 }
