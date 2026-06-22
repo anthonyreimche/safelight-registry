@@ -1,0 +1,6 @@
+{
+  "_comment": "Safelight banned-extension kill-switch. 'repos' bans specific GitHub 'owner/repo' entries; 'owners' bans every repo under a GitHub account (use for typosquatters or a compromised account). 'reason' maps a banned 'owner/repo' or 'owner' to a short explanation shown to users. Banned extensions are refused at install AND skipped at load — so an extension already installed on someone's machine is disabled the next time the app launches. All entries are case-insensitive.",
+  "repos": [],
+  "owners": [],
+  "reason": {}
+}
