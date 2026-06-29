@@ -1,5 +1,5 @@
 {
-  "_comment": "Safelight verified-extension allowlist. Each entry is a GitHub 'owner/repo' (case-insensitive) that a maintainer has reviewed. Listed repos show a green Verified badge in the Extensions store and install without the unverified-risk prompt. To get verified, open a pull request adding your repo here; a maintainer reviews the extension's code before merging.",
+  "_comment": "Safelight verified-extension allowlist. Each entry is either a GitHub 'owner/repo' string (verified but NOT pinned to a version) or an object { repo, version, commit } that pins the exact reviewed point (preferred). Listed repos show a Verified badge and install without the unverified-risk prompt — but for pinned entries, once the repo publishes a version newer than 'version', that newer version is treated as unreviewed (amber badge + install prompt) until re-reviewed and bumped here. To get verified, open a pull request; a maintainer reviews the code before merging. See README.",
   "verified": ["anthonyreimche/Graphite-Theme",
     "anthonyreimche/Solarized-Theme",
     "anthonyreimche/Ivory-Theme",
