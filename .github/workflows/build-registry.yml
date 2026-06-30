@@ -45,12 +45,15 @@ jobs:
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- registry.json; then
+          # Stage first, THEN check the staged diff — `git diff` alone ignores a
+          # new untracked file, so the first build (registry.json doesn't exist in
+          # the repo yet) would otherwise look "unchanged" and never commit.
+          git add registry.json
+          if git diff --cached --quiet; then
             echo "registry.json unchanged — nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add registry.json
           git commit -m "chore: rebuild registry index"
           git push
