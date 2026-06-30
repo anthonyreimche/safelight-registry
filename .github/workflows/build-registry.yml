@@ -30,6 +30,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Push back to PR-protected main as an admin (your PAT). The ruleset's
+          # bypass list includes "Repository admin", so this identity bypasses the
+          # "require pull request" rule that blocks the default GITHUB_TOKEN.
+          # persist-credentials (default true) makes the later `git push` use it.
+          token: ${{ secrets.REGISTRY_PUSH_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
