@@ -17,10 +17,42 @@ It is a community safety aid, **not a guarantee**. See [Scope & disclaimer](#sco
 |------|---------|
 | [`verified.json`](verified.json) | Repos a maintainer has code-reviewed at a point in time. Shown with a **✓ Verified** badge in the Extensions store and installed without the unverified-risk prompt. |
 | [`banned.json`](banned.json) | Repos / accounts assessed as malicious: refused at install **and** disabled at load, even if already installed. The kill-switch. |
+| `registry.json` | The store's **browse catalog** — auto-generated, do not hand-edit. See [Registry index](#registry-index-registryjson). |
 
 The app reads these from `raw.githubusercontent.com/anthonyreimche/safelight-registry/main/`,
 caches them for ~6 hours, and falls back to the last-known-good copy if a fetch fails
 (so a registry outage never un-bans anything or blocks installs).
+
+## Registry index (`registry.json`)
+
+The Extensions store's **Browse** tab loads a single prebuilt catalog of every
+published extension — name, description, stars, dates, topics and a resolved
+thumbnail — instead of running a live GitHub search and scraping each repo's
+preview image on every machine. That makes the store open in one CDN request, show
+the *complete* list (not the search API's first 25), and power the New / Popular /
+Recently-updated / Featured shelves.
+
+That catalog is `registry.json`, built by [`build-registry.mjs`](build-registry.mjs)
+and committed automatically by the
+[Build registry index](.github/workflows/build-registry.yml) workflow. It runs on a
+schedule (every 6h), on demand (the **Run workflow** button), and whenever
+`verified.json`, `banned.json` or the generator change. Banned repos/owners are
+excluded at build time as well as enforced live.
+
+**Setup (one time):** in the repo's **Settings ▸ Actions ▸ General ▸ Workflow
+permissions**, choose **Read and write permissions** so the job can commit the
+regenerated file. No secrets needed — it uses the built-in `GITHUB_TOKEN`.
+
+The app fetches it from `cdn.jsdelivr.net/gh/anthonyreimche/safelight-registry/registry.json`
+(CDN-cached ~1h; the store's ↻ pulls the un-cached `raw.githubusercontent` copy),
+and falls back to a live GitHub search if the index is ever unreachable.
+
+`registry.json` is **generated — never edit it by hand**; change `build-registry.mjs`
+instead. To preview locally before committing:
+
+```sh
+GITHUB_TOKEN=<a classic PAT, no scopes needed> node build-registry.mjs   # writes ./registry.json
+```
 
 ## What "verified" means — and doesn't
 

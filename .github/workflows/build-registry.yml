@@ -1,0 +1,56 @@
+# Regenerates registry.json — the static catalog the SafeLight Extensions store
+# loads from jsDelivr — on a schedule, on demand, and whenever the curation lists
+# or the generator change. See build-registry.mjs for what it produces.
+
+name: Build registry index
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours; the app caches it for 1h
+  workflow_dispatch: {} # manual "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - verified.json
+      - banned.json
+      - build-registry.mjs
+      - .github/workflows/build-registry.yml
+
+# Allow the job to commit the regenerated registry.json back to the repo.
+permissions:
+  contents: write
+
+# Never run two builds at once (a slow scrape + a scheduled tick could collide).
+concurrency:
+  group: build-registry
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build registry.json
+        env:
+          # The Actions token lifts the GitHub API budget to 5000/hr so a full
+          # paginated rebuild + per-repo thumbnail resolution stays well within
+          # limits. No extra secret needed.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node build-registry.mjs
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- registry.json; then
+            echo "registry.json unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add registry.json
+          git commit -m "chore: rebuild registry index"
+          git push
