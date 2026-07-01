@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-01T04:09:46.797Z",
+  "generatedAt": "2026-07-01T09:53:49.083Z",
   "topic": "safelight-extension",
-  "count": 32,
+  "count": 33,
   "extensions": [
     {
       "fullName": "anthonyreimche/Contrast-Equalizer",
@@ -101,22 +101,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Slate-Theme",
-      "description": "Cool blue-gray dark theme",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:53:08Z",
-      "updatedAt": "2026-06-24T00:52:04Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Graphite-Theme",
       "description": "Neutral mid/dark grey theme",
       "stars": 1,
@@ -133,6 +117,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Slate-Theme",
+      "description": "Cool blue-gray dark theme",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:53:08Z",
+      "updatedAt": "2026-06-24T00:52:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -145,6 +145,70 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Ivory-Theme",
+      "description": "Warm paper-white light theme with a terracotta accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:40:36Z",
+      "updatedAt": "2026-06-27T07:28:24Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Custom-Cursors",
+      "description": "Custom cursors for Safelight",
+      "stars": 1,
+      "createdAt": "2026-06-29T00:30:17Z",
+      "updatedAt": "2026-06-29T23:58:52Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
+      "description": ".xmp and .lrtemplate preset import",
+      "stars": 1,
+      "createdAt": "2026-06-21T07:37:06Z",
+      "updatedAt": "2026-06-27T07:27:09Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-preset"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Rendering",
+      "description": "Custom render pipeline options",
+      "stars": 1,
+      "createdAt": "2026-06-13T04:50:40Z",
+      "updatedAt": "2026-06-29T08:32:40Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
         "custom": true
       }
     },
@@ -193,54 +257,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1266709246/d81a7ca1-af66-4e70-9c4b-477d42fb07a2",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Spektrafilm-Support",
-      "description": "Spektrafilm support",
-      "stars": 1,
-      "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-06-29T11:03:30Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
-      "description": ".xmp and .lrtemplate preset import",
-      "stars": 1,
-      "createdAt": "2026-06-21T07:37:06Z",
-      "updatedAt": "2026-06-27T07:27:09Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-preset"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Advanced-Rendering",
-      "description": "Custom render pipeline options",
-      "stars": 1,
-      "createdAt": "2026-06-13T04:50:40Z",
-      "updatedAt": "2026-06-29T08:32:40Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
         "custom": true
       }
     },
@@ -309,34 +325,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Ivory-Theme",
-      "description": "Warm paper-white light theme with a terracotta accent",
+      "fullName": "anthonyreimche/Spektrafilm-Support",
+      "description": "Spektrafilm support",
       "stars": 1,
-      "createdAt": "2026-06-12T22:40:36Z",
-      "updatedAt": "2026-06-27T07:28:24Z",
+      "createdAt": "2026-06-21T05:18:35Z",
+      "updatedAt": "2026-07-01T05:04:05Z",
       "topics": [
-        "safelight-extension",
-        "safelight-theme"
+        "safelight-color",
+        "safelight-extension"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Custom-Cursors",
-      "description": "Custom cursors for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-29T00:30:17Z",
-      "updatedAt": "2026-06-29T23:58:52Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
+        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
         "custom": true
       }
     },
@@ -402,6 +402,22 @@
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
         "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Exif-Tools",
+      "description": "Advanced Exif tools in Safelight",
+      "stars": 0,
+      "createdAt": "2026-07-01T07:27:02Z",
+      "updatedAt": "2026-07-01T07:27:51Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
       }
     },
     {
