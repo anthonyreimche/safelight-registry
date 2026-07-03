@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T03:32:28.379Z",
+  "generatedAt": "2026-07-03T09:22:53.831Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -21,22 +21,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
-      "description": "Continuous 2D color editor for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-29T01:56:29Z",
-      "updatedAt": "2026-06-29T08:32:19Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Contrast-Equalizer",
       "description": "Contrast Equalizer panel for safelight",
       "stars": 1,
@@ -53,50 +37,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
-      "description": "Warm near-black theme with an amber safelight accent",
+      "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
+      "description": "Continuous 2D color editor for Safelight",
       "stars": 1,
-      "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-06-24T00:53:46Z",
+      "createdAt": "2026-06-29T01:56:29Z",
+      "updatedAt": "2026-06-29T08:32:19Z",
       "topics": [
         "safelight-extension",
-        "safelight-theme"
+        "safelight-pipeline"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Image-Comparison-Tools",
-      "description": "See your edit against the untouched original",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-06-24T00:49:23Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Lens-Correction",
-      "description": "Advanced Lens Correction for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-28T02:43:09Z",
-      "updatedAt": "2026-06-29T08:43:32Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be",
+        "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
         "custom": true
       }
     },
@@ -113,22 +65,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Slate-Theme",
-      "description": "Cool blue-gray dark theme",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:53:08Z",
-      "updatedAt": "2026-06-24T00:52:04Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
         "custom": true
       }
     },
@@ -165,18 +101,66 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Spektrafilm-Support",
-      "description": "Spektrafilm support",
+      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
+      "description": "Warm near-black theme with an amber safelight accent",
       "stars": 1,
-      "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-07-01T05:04:05Z",
+      "createdAt": "2026-06-12T22:38:06Z",
+      "updatedAt": "2026-06-24T00:53:46Z",
       "topics": [
-        "safelight-color",
-        "safelight-extension"
+        "safelight-extension",
+        "safelight-theme"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
+        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Slate-Theme",
+      "description": "Cool blue-gray dark theme",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:53:08Z",
+      "updatedAt": "2026-06-24T00:52:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Image-Comparison-Tools",
+      "description": "See your edit against the untouched original",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:59:59Z",
+      "updatedAt": "2026-06-24T00:49:23Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Lens-Correction",
+      "description": "Advanced Lens Correction for Safelight",
+      "stars": 1,
+      "createdAt": "2026-06-28T02:43:09Z",
+      "updatedAt": "2026-06-29T08:43:32Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be",
         "custom": true
       }
     },
@@ -209,6 +193,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Spektrafilm-Support",
+      "description": "Spektrafilm support",
+      "stars": 1,
+      "createdAt": "2026-06-21T05:18:35Z",
+      "updatedAt": "2026-07-01T05:04:05Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
         "custom": true
       }
     },
@@ -261,6 +261,38 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Advanced-Library-Sort",
+      "description": "Find any shot in seconds",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:46:18Z",
+      "updatedAt": "2026-06-29T08:31:57Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Red-Eye-Correction",
+      "description": "Auto and Manual red eye correction",
+      "stars": 1,
+      "createdAt": "2026-06-12T20:01:18Z",
+      "updatedAt": "2026-06-29T08:38:34Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
+        "custom": true
+      }
+    },
+    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-mocha",
       "description": "A Safelight Catppuccin Mocha Theme",
       "stars": 1,
@@ -309,38 +341,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Advanced-Library-Sort",
-      "description": "Find any shot in seconds",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:46:18Z",
-      "updatedAt": "2026-06-29T08:31:57Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Red-Eye-Correction",
-      "description": "Auto and Manual red eye correction",
-      "stars": 1,
-      "createdAt": "2026-06-12T20:01:18Z",
-      "updatedAt": "2026-06-29T08:38:34Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Image-Warp",
       "description": "Push, bloat, twist, and more",
       "stars": 1,
@@ -373,22 +373,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Web-Tools",
-      "description": "Web gallery and publish services for safelight",
-      "stars": 0,
-      "createdAt": "2026-06-28T01:31:15Z",
-      "updatedAt": "2026-06-30T07:29:19Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
-        "custom": true
-      }
-    },
-    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-macchiato",
       "description": "A Safelight Catppuccin Macchiato Theme",
       "stars": 0,
@@ -401,6 +385,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276375172/f95e7b42-eda1-4735-9a0c-3b76414f5316",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Web-Tools",
+      "description": "Web gallery and publish services for safelight",
+      "stars": 0,
+      "createdAt": "2026-06-28T01:31:15Z",
+      "updatedAt": "2026-06-30T07:29:19Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
         "custom": true
       }
     },
@@ -437,6 +437,21 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Virtual-Copies",
+      "description": "Create virtual copies in safelight",
+      "stars": 0,
+      "createdAt": "2026-06-30T07:15:29Z",
+      "updatedAt": "2026-06-30T08:08:50Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      }
+    },
+    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-latte",
       "description": "A Safelight Catppuccin Latte Theme",
       "stars": 0,
@@ -450,21 +465,6 @@
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276376581/9049f295-a9ad-47cf-81f8-fb0c35e39d58",
         "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Virtual-Copies",
-      "description": "Create virtual copies in safelight",
-      "stars": 0,
-      "createdAt": "2026-06-30T07:15:29Z",
-      "updatedAt": "2026-06-30T08:08:50Z",
-      "topics": [
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
-        "custom": false
       }
     },
     {
@@ -519,7 +519,7 @@
       "description": null,
       "stars": 0,
       "createdAt": "2026-06-24T17:51:06Z",
-      "updatedAt": "2026-06-29T22:50:02Z",
+      "updatedAt": "2026-07-03T06:53:24Z",
       "topics": [
         "safelight-extension",
         "safelight-panel"
