@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-03T09:22:53.831Z",
+  "generatedAt": "2026-07-03T14:11:55.544Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -21,22 +21,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Contrast-Equalizer",
-      "description": "Contrast Equalizer panel for safelight",
-      "stars": 1,
-      "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-06-29T23:59:03Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
       "description": "Continuous 2D color editor for Safelight",
       "stars": 1,
@@ -53,6 +37,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Contrast-Equalizer",
+      "description": "Contrast Equalizer panel for safelight",
+      "stars": 1,
+      "createdAt": "2026-06-28T02:09:57Z",
+      "updatedAt": "2026-06-29T23:59:03Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -65,6 +65,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Slate-Theme",
+      "description": "Cool blue-gray dark theme",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:53:08Z",
+      "updatedAt": "2026-06-24T00:52:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
         "custom": true
       }
     },
@@ -113,22 +129,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Slate-Theme",
-      "description": "Cool blue-gray dark theme",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:53:08Z",
-      "updatedAt": "2026-06-24T00:52:04Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
         "custom": true
       }
     },
