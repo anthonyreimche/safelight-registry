@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-04T03:25:03.459Z",
+  "generatedAt": "2026-07-04T08:41:19.365Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
     {
-      "fullName": "OPGERUIMD97/safelight-claude-theme",
-      "description": null,
+      "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
+      "description": "Continuous 2D color editor for Safelight",
       "stars": 1,
-      "createdAt": "2026-06-14T00:20:00Z",
-      "updatedAt": "2026-06-26T18:41:27Z",
+      "createdAt": "2026-06-29T01:56:29Z",
+      "updatedAt": "2026-06-29T08:32:19Z",
       "topics": [
         "safelight-extension",
-        "safelight-theme"
+        "safelight-pipeline"
       ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
+        "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
         "custom": true
       }
     },
@@ -37,18 +37,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
-      "description": "Continuous 2D color editor for Safelight",
+      "fullName": "OPGERUIMD97/safelight-claude-theme",
+      "description": null,
       "stars": 1,
-      "createdAt": "2026-06-29T01:56:29Z",
-      "updatedAt": "2026-06-29T08:32:19Z",
+      "createdAt": "2026-06-14T00:20:00Z",
+      "updatedAt": "2026-06-26T18:41:27Z",
       "topics": [
         "safelight-extension",
-        "safelight-pipeline"
+        "safelight-theme"
       ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
+        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
         "custom": true
       }
     },
