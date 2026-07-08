@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T14:19:51.259Z",
+  "generatedAt": "2026-07-08T19:36:30.637Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -53,22 +53,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
-      "description": "Warm near-black theme with an amber safelight accent",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-06-24T00:53:46Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -81,6 +65,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
+      "description": "Warm near-black theme with an amber safelight accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:38:06Z",
+      "updatedAt": "2026-06-24T00:53:46Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
         "custom": true
       }
     },
@@ -373,22 +373,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Advanced-Exif-Tools",
-      "description": "Advanced Exif tools in Safelight",
-      "stars": 0,
-      "createdAt": "2026-07-01T07:27:02Z",
-      "updatedAt": "2026-07-01T07:27:51Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
-        "custom": false
-      }
-    },
-    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-frappe",
       "description": "A Safelight Catppuccin Frappe Theme",
       "stars": 0,
@@ -402,6 +386,22 @@
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f",
         "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Exif-Tools",
+      "description": "Advanced Exif tools in Safelight",
+      "stars": 0,
+      "createdAt": "2026-07-01T07:27:02Z",
+      "updatedAt": "2026-07-01T07:27:51Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
       }
     },
     {
@@ -437,6 +437,21 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Virtual-Copies",
+      "description": "Create virtual copies in safelight",
+      "stars": 0,
+      "createdAt": "2026-06-30T07:15:29Z",
+      "updatedAt": "2026-06-30T08:08:50Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      }
+    },
+    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-latte",
       "description": "A Safelight Catppuccin Latte Theme",
       "stars": 0,
@@ -450,21 +465,6 @@
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276376581/9049f295-a9ad-47cf-81f8-fb0c35e39d58",
         "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Virtual-Copies",
-      "description": "Create virtual copies in safelight",
-      "stars": 0,
-      "createdAt": "2026-06-30T07:15:29Z",
-      "updatedAt": "2026-06-30T08:08:50Z",
-      "topics": [
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
-        "custom": false
       }
     },
     {
