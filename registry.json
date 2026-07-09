@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-08T19:36:30.637Z",
+  "generatedAt": "2026-07-09T03:33:35.674Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -165,22 +165,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Spektrafilm-Support",
-      "description": "Spektrafilm support",
-      "stars": 1,
-      "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-07-01T05:04:05Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Graphite-Theme",
       "description": "Neutral mid/dark grey theme",
       "stars": 1,
@@ -225,6 +209,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Spektrafilm-Support",
+      "description": "Spektrafilm support",
+      "stars": 1,
+      "createdAt": "2026-06-21T05:18:35Z",
+      "updatedAt": "2026-07-01T05:04:05Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
         "custom": true
       }
     },
@@ -373,22 +373,6 @@
       }
     },
     {
-      "fullName": "oatbiscuit/safelight-theme-catppuccin-frappe",
-      "description": "A Safelight Catppuccin Frappe Theme",
-      "stars": 0,
-      "createdAt": "2026-06-21T22:52:57Z",
-      "updatedAt": "2026-06-21T23:47:31Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Advanced-Exif-Tools",
       "description": "Advanced Exif tools in Safelight",
       "stars": 0,
@@ -417,6 +401,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "oatbiscuit/safelight-theme-catppuccin-frappe",
+      "description": "A Safelight Catppuccin Frappe Theme",
+      "stars": 0,
+      "createdAt": "2026-06-21T22:52:57Z",
+      "updatedAt": "2026-06-21T23:47:31Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f",
         "custom": true
       }
     },
