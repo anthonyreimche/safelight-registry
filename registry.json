@@ -1,25 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T08:10:48.470Z",
+  "generatedAt": "2026-07-14T13:49:59.903Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
-    {
-      "fullName": "OPGERUIMD97/safelight-claude-theme",
-      "description": null,
-      "stars": 1,
-      "createdAt": "2026-06-14T00:20:00Z",
-      "updatedAt": "2026-06-26T18:41:27Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
-        "custom": true
-      }
-    },
     {
       "fullName": "anthonyreimche/Contrast-Equalizer",
       "description": "Contrast Equalizer panel for safelight",
@@ -49,6 +33,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-claude-theme",
+      "description": null,
+      "stars": 1,
+      "createdAt": "2026-06-14T00:20:00Z",
+      "updatedAt": "2026-06-26T18:41:27Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
         "custom": true
       }
     },
@@ -373,22 +373,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Advanced-Exif-Tools",
-      "description": "Advanced Exif tools in Safelight",
-      "stars": 0,
-      "createdAt": "2026-07-01T07:27:02Z",
-      "updatedAt": "2026-07-01T07:27:51Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
-        "custom": false
-      }
-    },
-    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-macchiato",
       "description": "A Safelight Catppuccin Macchiato Theme",
       "stars": 0,
@@ -402,6 +386,22 @@
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276375172/f95e7b42-eda1-4735-9a0c-3b76414f5316",
         "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Exif-Tools",
+      "description": "Advanced Exif tools in Safelight",
+      "stars": 0,
+      "createdAt": "2026-07-01T07:27:02Z",
+      "updatedAt": "2026-07-01T07:27:51Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
       }
     },
     {
