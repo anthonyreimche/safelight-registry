@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T13:49:29.518Z",
+  "generatedAt": "2026-07-24T19:28:06.215Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -69,38 +69,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Image-Comparison-Tools",
-      "description": "See your edit against the untouched original",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-06-24T00:49:23Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Lens-Correction",
-      "description": "Advanced Lens Correction for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-28T02:43:09Z",
-      "updatedAt": "2026-06-29T08:43:32Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Slate-Theme",
       "description": "Cool blue-gray dark theme",
       "stars": 1,
@@ -149,6 +117,38 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Image-Comparison-Tools",
+      "description": "See your edit against the untouched original",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:59:59Z",
+      "updatedAt": "2026-06-24T00:49:23Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Lens-Correction",
+      "description": "Advanced Lens Correction for Safelight",
+      "stars": 1,
+      "createdAt": "2026-06-28T02:43:09Z",
+      "updatedAt": "2026-06-29T08:43:32Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -181,18 +181,34 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Graphite-Theme",
-      "description": "Neutral mid/dark grey theme",
+      "fullName": "anthonyreimche/Ivory-Theme",
+      "description": "Warm paper-white light theme with a terracotta accent",
       "stars": 1,
-      "createdAt": "2026-06-21T20:28:07Z",
-      "updatedAt": "2026-06-27T07:28:05Z",
+      "createdAt": "2026-06-12T22:40:36Z",
+      "updatedAt": "2026-06-27T07:28:24Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb",
+        "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Custom-Cursors",
+      "description": "Custom cursors for Safelight",
+      "stars": 1,
+      "createdAt": "2026-06-29T00:30:17Z",
+      "updatedAt": "2026-06-29T23:58:52Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
         "custom": true
       }
     },
@@ -229,34 +245,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Ivory-Theme",
-      "description": "Warm paper-white light theme with a terracotta accent",
+      "fullName": "anthonyreimche/Graphite-Theme",
+      "description": "Neutral mid/dark grey theme",
       "stars": 1,
-      "createdAt": "2026-06-12T22:40:36Z",
-      "updatedAt": "2026-06-27T07:28:24Z",
+      "createdAt": "2026-06-21T20:28:07Z",
+      "updatedAt": "2026-06-27T07:28:05Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Custom-Cursors",
-      "description": "Custom cursors for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-29T00:30:17Z",
-      "updatedAt": "2026-06-29T23:58:52Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
+        "url": "https://repository-images.githubusercontent.com/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb",
         "custom": true
       }
     },
@@ -389,6 +389,22 @@
       }
     },
     {
+      "fullName": "oatbiscuit/safelight-theme-catppuccin-frappe",
+      "description": "A Safelight Catppuccin Frappe Theme",
+      "stars": 0,
+      "createdAt": "2026-06-21T22:52:57Z",
+      "updatedAt": "2026-06-21T23:47:31Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f",
+        "custom": true
+      }
+    },
+    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-macchiato",
       "description": "A Safelight Catppuccin Macchiato Theme",
       "stars": 0,
@@ -418,22 +434,6 @@
       "thumbnail": {
         "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
         "custom": false
-      }
-    },
-    {
-      "fullName": "oatbiscuit/safelight-theme-catppuccin-frappe",
-      "description": "A Safelight Catppuccin Frappe Theme",
-      "stars": 0,
-      "createdAt": "2026-06-21T22:52:57Z",
-      "updatedAt": "2026-06-21T23:47:31Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f",
-        "custom": true
       }
     },
     {
@@ -468,22 +468,6 @@
       }
     },
     {
-      "fullName": "oatbiscuit/safelight-theme-adwaita",
-      "description": "A Safelight Adwaita Theme",
-      "stars": 0,
-      "createdAt": "2026-06-22T11:39:50Z",
-      "updatedAt": "2026-06-22T21:06:52Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276887895/2e1440a3-6325-4031-a00a-dad29ed2591e",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/JPG-Tone-Match",
       "description": "Match the decoded raw to your camera's JPG preview",
       "stars": 0,
@@ -496,6 +480,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1278877430/52b19dbf-7cf4-436a-901d-dc4a94750a6b",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "oatbiscuit/safelight-theme-adwaita",
+      "description": "A Safelight Adwaita Theme",
+      "stars": 0,
+      "createdAt": "2026-06-22T11:39:50Z",
+      "updatedAt": "2026-06-22T21:06:52Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276887895/2e1440a3-6325-4031-a00a-dad29ed2591e",
         "custom": true
       }
     },
