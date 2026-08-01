@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T19:37:30.444Z",
+  "generatedAt": "2026-08-01T03:13:56.284Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -16,23 +16,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=4079c3ebfdda00433c271d3da459375b06c5e1fb367e3e0ffdd373806762ce3e&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Contrast-Equalizer",
-      "description": "Contrast Equalizer panel for safelight",
-      "stars": 1,
-      "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-06-29T23:59:03Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=c8c5090e0646a9921fb2de344410b82792ae42a7cd53a9d695ef5e6bb4e9f65e&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=8addaa387d57b3e81cab9afc12dc594f438fbb7d61a91e33ab6a0ce63cbf12f0&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -48,7 +32,23 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=160c976f999d1cf6aa85a394ca5c0f7e1b2ea9842fde06750e17467a16e915b4&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=850c6086809844dc793bc58233ad5ed414b9788c30d213d819336555745d0b84&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Contrast-Equalizer",
+      "description": "Contrast Equalizer panel for safelight",
+      "stars": 1,
+      "createdAt": "2026-06-28T02:09:57Z",
+      "updatedAt": "2026-06-29T23:59:03Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=1b12e7ab74ed2603294575b3b9ae41271fe27fb45f41e500989aafb6fbfc8d32&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -64,7 +64,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=faf2afc6109ec3ac97aac9d27c18237827609f2618951618aee355247a3ba616&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=04404b09c6763b748dfee1639e1008c7b7e007c73511c21e7e52b5e963e578d9&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -80,7 +80,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=1fcc63620eb610722bbfd7ce463279f47217cd69ac52197ec4d54c5f135c6b13&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=a91edc3c60ff01e18423a28eda9e00e6cdb072db6ec3df7deac98490f3350aa7&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -96,23 +96,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=8f62053c82c8f65b99a9681f797e8bae5310f1aaf58aaa0416dc5527b0405ec3&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
-      "description": "Warm near-black theme with an amber safelight accent",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-06-24T00:53:46Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3793c179ba9d477d5ab3d57183aa74773dbeed94ef7789361c2f4adadf99acba&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=35dbd33eaa3e887f6f153f9801a6bd79ee96eedea09f16a0a08648671e91d6d6&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -128,7 +112,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=1869c02b263257e22fb616fd7bbba3c64f9503f44967de0be96b319ff7a9441e&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=86d6276e8d8bbf06c780d839adf6e82080b35f7b7bb56c70bb7be3a6a13e4480&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -144,7 +128,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=5155672a53c4ee2df7281a586e1cba63aeb264084d818c94830754ae6c75a553&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3799988c885f915991047194ef9c13a96b641c27d1866738a1d04b54d7a147ac&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -160,7 +144,23 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=2014f9d2b9a491762531296515a7ff210eee19a39c2498fc766520b0865f15ad&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=72c5802fd847912f815ed81e67b4003d15e0de9dc67b7a6ee5170dc3c74c89b8&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
+      "description": "Warm near-black theme with an amber safelight accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:38:06Z",
+      "updatedAt": "2026-06-24T00:53:46Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=b5bb139a1b74a766b2adedaaee152eca3bcff2845499f87b2088cf1b20657182&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -192,55 +192,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=c5e3bccf392a27cb47eede768a8dd64042c0884ac7bdd963f310def25efa27f6&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Spektrafilm-Support",
-      "description": "Spektrafilm support",
-      "stars": 1,
-      "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-07-01T05:04:05Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=92ad85a97a22082f1813e79c4e5aa69b1f8edfca5bfdf21abc92c3f831e2f071&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Panel-Toggle",
-      "description": "Panel click-to-toggle visibility buttons for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-29T01:14:50Z",
-      "updatedAt": "2026-06-29T23:59:26Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1283485819/d702b142-147f-45cc-b0a6-68d87f6d0f35?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=b2ab50a258f464e72fa5a8a5dded034c63b72d1990bf52ecbf2955a31df712f1&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Advanced-Denoise-Tools",
-      "description": "Wavelet, bilateral and more",
-      "stars": 1,
-      "createdAt": "2026-06-21T03:40:19Z",
-      "updatedAt": "2026-06-29T08:31:02Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275713107/87ca0571-e9f5-4e79-91c4-5d3289bf4bd9?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193728Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=23e7dd29589363d4e65d70d97e5c3f0b8a77498353426204c932ab841000b3d8&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OCwibmJmIjoxNzg1NTI2NjQ4LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.-3T6rrkGkbkqSxIuD71KK-PeAukLJQY2TEsBLPVS7tg",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=6b414ba589338bffb849f39bda9e2a20f9c327d298b99b8d614639dae6250d83&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -256,7 +208,55 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=a05f30a9347fccecba63cf9eae517d66f5a41ac374ca0766cba18cfc4c6a4025&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=29c4f1c1a99dc599463c0348e344606119315c17fc64e1f9cd4b7889d56780ab&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Spektrafilm-Support",
+      "description": "Spektrafilm support",
+      "stars": 1,
+      "createdAt": "2026-06-21T05:18:35Z",
+      "updatedAt": "2026-07-01T05:04:05Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=6250b8aeac641dce661f72d50824bc61d54124931ad6c63e484d591bfd72298a&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Panel-Toggle",
+      "description": "Panel click-to-toggle visibility buttons for Safelight",
+      "stars": 1,
+      "createdAt": "2026-06-29T01:14:50Z",
+      "updatedAt": "2026-06-29T23:59:26Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1283485819/d702b142-147f-45cc-b0a6-68d87f6d0f35?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bf492b5ea808bb192919f8380bb8caf62ad3850c97ba34f0e9cca850d6dc018d&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Denoise-Tools",
+      "description": "Wavelet, bilateral and more",
+      "stars": 1,
+      "createdAt": "2026-06-21T03:40:19Z",
+      "updatedAt": "2026-06-29T08:31:02Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275713107/87ca0571-e9f5-4e79-91c4-5d3289bf4bd9?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=fb24c30ac7ad0d2651714e2f3dee96bc554baa962c29937615dcc319c2fe519b&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -272,7 +272,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=95f2d0e8bd41d22cdefb438de401d828d9fc285015005c00b3b1ff5b67315221&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031354Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=65e930508b6a135c77b529cdfc9cdfc538d656f8712485f844eb0b6a4f945b11&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNCwibmJmIjoxNzg1NTU0MDM0LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.Ix7JjfEz3fQVIT_BkWshhZqyw2TWVcfNgJ4SrDXJEqc",
         "custom": true
       }
     },
@@ -288,7 +288,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1283462227/651a5373-fa40-4b02-9e78-493c0020d144?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=6dfff8d06a018ff18cafa2c171dad06689221a334943b9ae3ba6b10e7fef3ba4&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1283462227/651a5373-fa40-4b02-9e78-493c0020d144?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3b15f8b4f0eaeb9e655670cb6876b8e29a021f77806ac728d4328aa9bc4898d9&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -304,7 +304,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276378526/90e1b9d8-921c-44f0-99b3-730b3f588438?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=f930b52088d6331af629652c933be4774bb0caadabfd2f1b3a5e6120c6565b40&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276378526/90e1b9d8-921c-44f0-99b3-730b3f588438?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=faf086720d64fdb2167a8baf03c30ae4d5dc3e1be3479f18b94f974e9de0ffd7&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -320,7 +320,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275041829/80f0ff89-f9b1-4786-9f75-a37eee329888?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3efa39eb2bb44f3e2c973e84fc676f477e92c52bffe28d6635410e540d02346b&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1275041829/80f0ff89-f9b1-4786-9f75-a37eee329888?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=a0a3f2391da6276648f10122e7de6a333af5d6c74c36b010e4c115f542be2a86&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -336,7 +336,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1266709246/d81a7ca1-af66-4e70-9c4b-477d42fb07a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=3630b4d72124d0c3107d97e92db9c4fc0e25bf6dd0149a8987612e9eebd44a94&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1266709246/d81a7ca1-af66-4e70-9c4b-477d42fb07a2?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=6f64e56ac8b86ad45e78d336fda0437a7e2e6a3f4b05ebda595c44841b19736e&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -352,7 +352,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276751343/d4235677-b0c0-4e59-8a3d-7cd0c875de4e?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=953611674057ecf5607034619f752e602c6be3bf89191547d5e183039e57f55d&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276751343/d4235677-b0c0-4e59-8a3d-7cd0c875de4e?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=b5de7cfd420bef3f2030d46b98c0337e07121068589aa2d5b9db8a878351727c&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -368,7 +368,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267827697/f88f6362-6592-46aa-9c1f-9589fba882dd?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=fb18860e2ad4408c3585a8ccb7f06e635713a381500c3fd36913b727f84558ea&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1267827697/f88f6362-6592-46aa-9c1f-9589fba882dd?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=47caba816626d4c7659cc8a3e9ce6f9391226cf72d8370df22182a2347a9002a&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -384,7 +384,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276375172/f95e7b42-eda1-4735-9a0c-3b76414f5316?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=c62780a3bbfc693e485d395b30f2974a146a101880d3111d39eea7c5c3fbe7b8&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276375172/f95e7b42-eda1-4735-9a0c-3b76414f5316?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=26f3153e43cb0cb1c43e26307cc42ad6086ad7539c2b3f7f800d6d0fd930911d&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -400,7 +400,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193729Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=c057fc87cc55ab85de80e7ee953ab67723ed421214087d875439e75b20e26a37&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk0OSwibmJmIjoxNzg1NTI2NjQ5LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.WnQ0awUH_ZS0w0Z2uBDcyahY-Byy9SFDVOyDYxpAdMk",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276377554/75fb1c25-2820-4bf0-ac15-35d85eb0e92f?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=20f22d88f71140b032293f6b67bef72511f2a36cd59643076b6af1c0506bd9f5&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -432,23 +432,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193730Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=18e4b182534a67da94d77bb57adbdd785ff3420de7e5c736cf47b51d542d05a1&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk1MCwibmJmIjoxNzg1NTI2NjUwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.wF_93CRGTIurwmj4mG3P6TA45t6eloPrb9ZXoljXe4M",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "oatbiscuit/safelight-theme-catppuccin-latte",
-      "description": "A Safelight Catppuccin Latte Theme",
-      "stars": 0,
-      "createdAt": "2026-06-21T22:50:21Z",
-      "updatedAt": "2026-06-21T23:45:56Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276376581/9049f295-a9ad-47cf-81f8-fb0c35e39d58?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193730Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=fadf2e1b134d4124ab7122db717769eeb0608c2d9d9f3cda88688c41a8bd7df9&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk1MCwibmJmIjoxNzg1NTI2NjUwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.wF_93CRGTIurwmj4mG3P6TA45t6eloPrb9ZXoljXe4M",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=70137d6cfe42cfa7e60c1031d2c7099fa413b982013b443ed0260b1586e5d916&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -468,18 +452,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/JPG-Tone-Match",
-      "description": "Match the decoded raw to your camera's JPG preview",
+      "fullName": "oatbiscuit/safelight-theme-catppuccin-latte",
+      "description": "A Safelight Catppuccin Latte Theme",
       "stars": 0,
-      "createdAt": "2026-06-24T07:11:31Z",
-      "updatedAt": "2026-06-24T07:31:29Z",
+      "createdAt": "2026-06-21T22:50:21Z",
+      "updatedAt": "2026-06-21T23:45:56Z",
       "topics": [
-        "safelight-color",
-        "safelight-extension"
+        "safelight-extension",
+        "safelight-theme"
       ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1278877430/52b19dbf-7cf4-436a-901d-dc4a94750a6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193730Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=ac09cc23025103792dab6bc6660cbedfddeaa9f8ca1f7cb192f76fd3b039d595&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk1MCwibmJmIjoxNzg1NTI2NjUwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.wF_93CRGTIurwmj4mG3P6TA45t6eloPrb9ZXoljXe4M",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276376581/9049f295-a9ad-47cf-81f8-fb0c35e39d58?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=b83d6bed6bb0bb89646ed68408a3bc305520102a0c6ff97cb04be75286583437&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
         "custom": true
       }
     },
@@ -495,7 +479,23 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276887895/2e1440a3-6325-4031-a00a-dad29ed2591e?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193730Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=bcbeda5e95188fd4db53b28de8f0ab04ebdfb33c141121eeb840469119aaa130&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk1MCwibmJmIjoxNzg1NTI2NjUwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.wF_93CRGTIurwmj4mG3P6TA45t6eloPrb9ZXoljXe4M",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1276887895/2e1440a3-6325-4031-a00a-dad29ed2591e?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031355Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=0540f54b74b5516ee80468401ccc24661fbe97e5cfd3ae7469623a631f1bdc29&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNSwibmJmIjoxNzg1NTU0MDM1LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.jqk6YelsQThPF-BEDpqyHj_n-WXgzhW_CrZVcx6CLLA",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/JPG-Tone-Match",
+      "description": "Match the decoded raw to your camera's JPG preview",
+      "stars": 0,
+      "createdAt": "2026-06-24T07:11:31Z",
+      "updatedAt": "2026-06-24T07:31:29Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1278877430/52b19dbf-7cf4-436a-901d-dc4a94750a6b?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031356Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=a8e9ace45630d75b5ba6d4eb20363f5bb7e87aa588fabe7df8175066d086304e&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNiwibmJmIjoxNzg1NTU0MDM2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.UCjj8SctL3jKkFSS5pYdzgNY1CIK2sIQZW9gFrERdpM",
         "custom": true
       }
     },
@@ -511,7 +511,7 @@
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1279457337/8ada62e3-1c34-4e9a-8000-11e7e2dc364d?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260731%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260731T193730Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=a7a6e539919279445ba3beda1fd25c6b8572c10c4dd2acc1f16f2c3ce58b0937&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTUyNjk1MCwibmJmIjoxNzg1NTI2NjUwLCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.wF_93CRGTIurwmj4mG3P6TA45t6eloPrb9ZXoljXe4M",
+        "url": "https://repository-images.githubusercontent.com/github-production-repository-image-32fea6/1279457337/8ada62e3-1c34-4e9a-8000-11e7e2dc364d?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260801%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260801T031356Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=2c2466264bd566922ef87636f20ae51bf2010b9181f00228b4447fe50920994c&amp;X-Amz-SignedHeaders=host&amp;jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoiaHR0cHM6Ly9yZXBvc2l0b3J5LWltYWdlcy5naXRodWJ1c2VyY29udGVudC5jb20vIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NTU1NDMzNiwibmJmIjoxNzg1NTU0MDM2LCJwYXRoIjoicmVwb3NpdG9yeS1pbWFnZXMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIn0.UCjj8SctL3jKkFSS5pYdzgNY1CIK2sIQZW9gFrERdpM",
         "custom": true
       }
     },
