@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T06:59:48.394Z",
+  "generatedAt": "2026-08-09T12:55:33.201Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -149,6 +149,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Graphite-Theme",
+      "description": "Neutral mid/dark grey theme",
+      "stars": 1,
+      "createdAt": "2026-06-21T20:28:07Z",
+      "updatedAt": "2026-06-27T07:28:05Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
       "description": ".xmp and .lrtemplate preset import",
       "stars": 1,
@@ -177,22 +193,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Graphite-Theme",
-      "description": "Neutral mid/dark grey theme",
-      "stars": 1,
-      "createdAt": "2026-06-21T20:28:07Z",
-      "updatedAt": "2026-06-27T07:28:05Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb",
         "custom": true
       }
     },
@@ -229,22 +229,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Spektrafilm-Support",
-      "description": "Spektrafilm support",
-      "stars": 1,
-      "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-07-01T05:04:05Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Image-Comparison-Tools",
       "description": "See your edit against the untouched original",
       "stars": 1,
@@ -257,6 +241,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Spektrafilm-Support",
+      "description": "Spektrafilm support",
+      "stars": 1,
+      "createdAt": "2026-06-21T05:18:35Z",
+      "updatedAt": "2026-07-01T05:04:05Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275756699/3cfa1aa5-e2c3-44cf-b0de-87a501ebee36",
         "custom": true
       }
     },
