@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T13:13:34.778Z",
+  "generatedAt": "2026-08-10T19:00:15.579Z",
   "topic": "safelight-extension",
   "count": 33,
   "extensions": [
@@ -17,6 +17,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282626918/957d7f3d-3c8e-4eaf-97f5-34abbb8ab2be",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-claude-theme",
+      "description": null,
+      "stars": 1,
+      "createdAt": "2026-06-14T00:20:00Z",
+      "updatedAt": "2026-06-26T18:41:27Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
         "custom": true
       }
     },
@@ -53,22 +69,6 @@
       }
     },
     {
-      "fullName": "OPGERUIMD97/safelight-claude-theme",
-      "description": null,
-      "stars": 1,
-      "createdAt": "2026-06-14T00:20:00Z",
-      "updatedAt": "2026-06-26T18:41:27Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -81,6 +81,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Contrast-Equalizer",
+      "description": "Contrast Equalizer panel for safelight",
+      "stars": 1,
+      "createdAt": "2026-06-28T02:09:57Z",
+      "updatedAt": "2026-08-06T04:01:20Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
         "custom": true
       }
     },
@@ -113,22 +129,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Contrast-Equalizer",
-      "description": "Contrast Equalizer panel for safelight",
-      "stars": 1,
-      "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-08-06T04:01:20Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
         "custom": true
       }
     },
@@ -197,54 +197,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Ivory-Theme",
-      "description": "Warm paper-white light theme with a terracotta accent",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:40:36Z",
-      "updatedAt": "2026-06-27T07:28:24Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Custom-Cursors",
-      "description": "Custom cursors for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-29T00:30:17Z",
-      "updatedAt": "2026-06-29T23:58:52Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Image-Comparison-Tools",
-      "description": "See your edit against the untouched original",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-06-24T00:49:23Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Spektrafilm-Support",
       "description": "Spektrafilm support",
       "stars": 1,
@@ -289,6 +241,54 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1275713107/87ca0571-e9f5-4e79-91c4-5d3289bf4bd9",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Image-Comparison-Tools",
+      "description": "See your edit against the untouched original",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:59:59Z",
+      "updatedAt": "2026-06-24T00:49:23Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Ivory-Theme",
+      "description": "Warm paper-white light theme with a terracotta accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:40:36Z",
+      "updatedAt": "2026-06-27T07:28:24Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Custom-Cursors",
+      "description": "Custom cursors for Safelight",
+      "stars": 1,
+      "createdAt": "2026-06-29T00:30:17Z",
+      "updatedAt": "2026-06-29T23:58:52Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
         "custom": true
       }
     },
