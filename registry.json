@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T18:42:22.697Z",
+  "generatedAt": "2026-08-18T01:20:01.915Z",
   "topic": "safelight-extension",
   "count": 34,
   "extensions": [
@@ -85,22 +85,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Image-Comparison-Tools",
-      "description": "See your edit against the untouched original",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-06-24T00:49:23Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Advanced-Rendering",
       "description": "Custom render pipeline options",
       "stars": 1,
@@ -129,6 +113,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Image-Comparison-Tools",
+      "description": "See your edit against the untouched original",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:59:59Z",
+      "updatedAt": "2026-06-24T00:49:23Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
         "custom": true
       }
     },
@@ -373,22 +373,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Web-Tools",
-      "description": "Web gallery and publish services for safelight",
-      "stars": 0,
-      "createdAt": "2026-06-28T01:31:15Z",
-      "updatedAt": "2026-06-30T07:29:19Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
-        "custom": true
-      }
-    },
-    {
       "fullName": "oatbiscuit/safelight-theme-catppuccin-macchiato",
       "description": "A Safelight Catppuccin Macchiato Theme",
       "stars": 0,
@@ -401,6 +385,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276375172/f95e7b42-eda1-4735-9a0c-3b76414f5316",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Web-Tools",
+      "description": "Web gallery and publish services for safelight",
+      "stars": 0,
+      "createdAt": "2026-06-28T01:31:15Z",
+      "updatedAt": "2026-06-30T07:29:19Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
         "custom": true
       }
     },
