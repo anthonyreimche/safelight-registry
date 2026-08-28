@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T10:14:49.667Z",
+  "generatedAt": "2026-08-28T21:51:23.250Z",
   "topic": "safelight-extension",
   "count": 36,
   "extensions": [
@@ -101,38 +101,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Advanced-Library-Sort",
-      "description": "Find any shot in seconds",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:46:18Z",
-      "updatedAt": "2026-06-29T08:31:57Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Red-Eye-Correction",
-      "description": "Auto and Manual red eye correction",
-      "stars": 1,
-      "createdAt": "2026-06-12T20:01:18Z",
-      "updatedAt": "2026-06-29T08:38:34Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Advanced-Rendering",
       "description": "Custom render pipeline options",
       "stars": 1,
@@ -181,18 +149,34 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
-      "description": "Warm near-black theme with an amber safelight accent",
+      "fullName": "anthonyreimche/Advanced-Library-Sort",
+      "description": "Find any shot in seconds",
       "stars": 1,
-      "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-06-24T00:53:46Z",
+      "createdAt": "2026-06-20T07:46:18Z",
+      "updatedAt": "2026-06-29T08:31:57Z",
       "topics": [
         "safelight-extension",
-        "safelight-theme"
+        "safelight-panel"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
+        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Red-Eye-Correction",
+      "description": "Auto and Manual red eye correction",
+      "stars": 1,
+      "createdAt": "2026-06-12T20:01:18Z",
+      "updatedAt": "2026-06-29T08:38:34Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
         "custom": true
       }
     },
@@ -209,6 +193,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1285832662/6d3e1ca4-896d-444f-a7ed-2d3ca0226dcf",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
+      "description": "Warm near-black theme with an amber safelight accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:38:06Z",
+      "updatedAt": "2026-06-24T00:53:46Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
         "custom": true
       }
     },
@@ -261,22 +261,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Filmstrip",
-      "description": "Vertical/horizontal filmstrip for Safelight",
-      "stars": 1,
-      "createdAt": "2026-08-12T04:09:41Z",
-      "updatedAt": "2026-08-21T04:24:24Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1331596119/c2167190-677c-4d56-a349-3bc5abfc4c37",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Ivory-Theme",
       "description": "Warm paper-white light theme with a terracotta accent",
       "stars": 1,
@@ -305,6 +289,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Filmstrip",
+      "description": "Vertical/horizontal filmstrip for Safelight",
+      "stars": 1,
+      "createdAt": "2026-08-12T04:09:41Z",
+      "updatedAt": "2026-08-21T04:24:24Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1331596119/c2167190-677c-4d56-a349-3bc5abfc4c37",
         "custom": true
       }
     },
@@ -357,6 +357,38 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Batch-Tools",
+      "description": "Adds batch editing support",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:34:09Z",
+      "updatedAt": "2026-06-29T23:36:20Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267827697/f88f6362-6592-46aa-9c1f-9589fba882dd",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Image-Warp",
+      "description": "Push, bloat, twist, and more",
+      "stars": 1,
+      "createdAt": "2026-06-22T09:02:11Z",
+      "updatedAt": "2026-06-29T08:36:30Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276751343/d4235677-b0c0-4e59-8a3d-7cd0c875de4e",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Solarized-Theme",
       "description": "A Solarized light/dark interface for Safelight.",
       "stars": 1,
@@ -401,38 +433,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276378526/90e1b9d8-921c-44f0-99b3-730b3f588438",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Batch-Tools",
-      "description": "Adds batch editing support",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:34:09Z",
-      "updatedAt": "2026-06-29T23:36:20Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267827697/f88f6362-6592-46aa-9c1f-9589fba882dd",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Image-Warp",
-      "description": "Push, bloat, twist, and more",
-      "stars": 1,
-      "createdAt": "2026-06-22T09:02:11Z",
-      "updatedAt": "2026-06-29T08:36:30Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276751343/d4235677-b0c0-4e59-8a3d-7cd0c875de4e",
         "custom": true
       }
     },
