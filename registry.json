@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T21:57:31.293Z",
+  "generatedAt": "2026-08-28T10:14:49.667Z",
   "topic": "safelight-extension",
   "count": 36,
   "extensions": [
@@ -37,22 +37,6 @@
       }
     },
     {
-      "fullName": "OPGERUIMD97/safelight-claude-theme",
-      "description": null,
-      "stars": 1,
-      "createdAt": "2026-06-14T00:20:00Z",
-      "updatedAt": "2026-06-26T18:41:27Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Slate-Theme",
       "description": "Cool blue-gray dark theme",
       "stars": 1,
@@ -65,6 +49,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-claude-theme",
+      "description": null,
+      "stars": 1,
+      "createdAt": "2026-06-14T00:20:00Z",
+      "updatedAt": "2026-06-26T18:41:27Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1268798065/ec8351d7-855b-4e9a-9059-fd6dc5bfff28",
         "custom": true
       }
     },
@@ -101,38 +101,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Advanced-Rendering",
-      "description": "Custom render pipeline options",
-      "stars": 1,
-      "createdAt": "2026-06-13T04:50:40Z",
-      "updatedAt": "2026-07-02T16:23:42Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
-      "description": ".xmp and .lrtemplate preset import",
-      "stars": 1,
-      "createdAt": "2026-06-21T07:37:06Z",
-      "updatedAt": "2026-06-27T07:27:09Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-preset"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Advanced-Library-Sort",
       "description": "Find any shot in seconds",
       "stars": 1,
@@ -165,18 +133,34 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Advanced-Exif-Tools",
-      "description": "Advanced Exif tools in Safelight",
+      "fullName": "anthonyreimche/Advanced-Rendering",
+      "description": "Custom render pipeline options",
       "stars": 1,
-      "createdAt": "2026-07-01T07:27:02Z",
-      "updatedAt": "2026-08-25T02:11:42Z",
+      "createdAt": "2026-06-13T04:50:40Z",
+      "updatedAt": "2026-07-02T16:23:42Z",
       "topics": [
-        "safelight-extension",
-        "safelight-panel"
+        "safelight-color",
+        "safelight-extension"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1285832662/6d3e1ca4-896d-444f-a7ed-2d3ca0226dcf",
+        "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
+      "description": ".xmp and .lrtemplate preset import",
+      "stars": 1,
+      "createdAt": "2026-06-21T07:37:06Z",
+      "updatedAt": "2026-06-27T07:27:09Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-preset"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
         "custom": true
       }
     },
@@ -209,6 +193,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Exif-Tools",
+      "description": "Advanced Exif tools in Safelight",
+      "stars": 1,
+      "createdAt": "2026-07-01T07:27:02Z",
+      "updatedAt": "2026-08-25T02:11:42Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1285832662/6d3e1ca4-896d-444f-a7ed-2d3ca0226dcf",
         "custom": true
       }
     },
@@ -261,6 +261,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Filmstrip",
+      "description": "Vertical/horizontal filmstrip for Safelight",
+      "stars": 1,
+      "createdAt": "2026-08-12T04:09:41Z",
+      "updatedAt": "2026-08-21T04:24:24Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1331596119/c2167190-677c-4d56-a349-3bc5abfc4c37",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Ivory-Theme",
       "description": "Warm paper-white light theme with a terracotta accent",
       "stars": 1,
@@ -289,22 +305,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1283462227/651a5373-fa40-4b02-9e78-493c0020d144",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Filmstrip",
-      "description": "Vertical/horizontal filmstrip for Safelight",
-      "stars": 1,
-      "createdAt": "2026-08-12T04:09:41Z",
-      "updatedAt": "2026-08-21T04:24:24Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1331596119/c2167190-677c-4d56-a349-3bc5abfc4c37",
         "custom": true
       }
     },
