@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T20:37:23.175Z",
+  "generatedAt": "2026-08-30T04:22:42.569Z",
   "topic": "safelight-extension",
   "count": 36,
   "extensions": [
@@ -117,6 +117,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Advanced-Exif-Tools",
+      "description": "Advanced Exif tools in Safelight",
+      "stars": 1,
+      "createdAt": "2026-07-01T07:27:02Z",
+      "updatedAt": "2026-08-25T02:11:42Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1285832662/6d3e1ca4-896d-444f-a7ed-2d3ca0226dcf",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Advanced-Library-Sort",
       "description": "Find any shot in seconds",
       "stars": 1,
@@ -145,22 +161,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Advanced-Exif-Tools",
-      "description": "Advanced Exif tools in Safelight",
-      "stars": 1,
-      "createdAt": "2026-07-01T07:27:02Z",
-      "updatedAt": "2026-08-25T02:11:42Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1285832662/6d3e1ca4-896d-444f-a7ed-2d3ca0226dcf",
         "custom": true
       }
     },
