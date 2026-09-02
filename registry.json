@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-02T03:33:01.086Z",
+  "generatedAt": "2026-09-02T10:53:02.349Z",
   "topic": "safelight-extension",
   "count": 36,
   "extensions": [
@@ -69,6 +69,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
+      "description": "Warm near-black theme with an amber safelight accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:38:06Z",
+      "updatedAt": "2026-06-24T00:53:46Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Graphite-Theme",
       "description": "Neutral mid/dark grey theme",
       "stars": 1,
@@ -101,38 +117,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
-      "description": "Warm near-black theme with an amber safelight accent",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-06-24T00:53:46Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Image-Comparison-Tools",
-      "description": "See your edit against the untouched original",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-06-24T00:49:23Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Collections",
       "description": "Collections and smart collections for Safelight",
       "stars": 1,
@@ -149,50 +133,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Hierarchical-Keywording",
-      "description": "Hierarchical keywording for Safelight",
+      "fullName": "anthonyreimche/Image-Comparison-Tools",
+      "description": "See your edit against the untouched original",
       "stars": 1,
-      "createdAt": "2026-08-19T02:19:09Z",
-      "updatedAt": "2026-08-21T04:24:24Z",
+      "createdAt": "2026-06-20T07:59:59Z",
+      "updatedAt": "2026-06-24T00:49:23Z",
       "topics": [
         "safelight-extension",
         "safelight-panel"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1339010989/2f8f5f6f-98a0-4f4f-986c-3b1008acf0c6",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Advanced-Rendering",
-      "description": "Custom render pipeline options",
-      "stars": 1,
-      "createdAt": "2026-06-13T04:50:40Z",
-      "updatedAt": "2026-07-02T16:23:42Z",
-      "topics": [
-        "safelight-color",
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
-      "description": ".xmp and .lrtemplate preset import",
-      "stars": 1,
-      "createdAt": "2026-06-21T07:37:06Z",
-      "updatedAt": "2026-06-27T07:27:09Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-preset"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
+        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
         "custom": true
       }
     },
@@ -229,6 +181,38 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Advanced-Rendering",
+      "description": "Custom render pipeline options",
+      "stars": 1,
+      "createdAt": "2026-06-13T04:50:40Z",
+      "updatedAt": "2026-07-02T16:23:42Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1268042287/64ff870b-f44b-4b40-8200-ec6cb4135c5d",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
+      "description": ".xmp and .lrtemplate preset import",
+      "stars": 1,
+      "createdAt": "2026-06-21T07:37:06Z",
+      "updatedAt": "2026-06-27T07:27:09Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-preset"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275835604/f6eba0d3-8af3-473a-bf4f-ddf3ce7b7c01",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Contrast-Equalizer",
       "description": "Contrast Equalizer panel for safelight",
       "stars": 1,
@@ -257,6 +241,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1285832662/6d3e1ca4-896d-444f-a7ed-2d3ca0226dcf",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Hierarchical-Keywording",
+      "description": "Hierarchical keywording for Safelight",
+      "stars": 1,
+      "createdAt": "2026-08-19T02:19:09Z",
+      "updatedAt": "2026-08-21T04:24:24Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1339010989/2f8f5f6f-98a0-4f4f-986c-3b1008acf0c6",
         "custom": true
       }
     },
@@ -453,6 +453,22 @@
       }
     },
     {
+      "fullName": "oatbiscuit/safelight-theme-catppuccin-latte",
+      "description": "A Safelight Catppuccin Latte Theme",
+      "stars": 0,
+      "createdAt": "2026-06-21T22:50:21Z",
+      "updatedAt": "2026-06-21T23:45:56Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276376581/9049f295-a9ad-47cf-81f8-fb0c35e39d58",
+        "custom": true
+      }
+    },
+    {
       "fullName": "oatbiscuit/safelight-theme-adwaita",
       "description": "A Safelight Adwaita Theme",
       "stars": 0,
@@ -481,22 +497,6 @@
       "thumbnail": {
         "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
         "custom": false
-      }
-    },
-    {
-      "fullName": "oatbiscuit/safelight-theme-catppuccin-latte",
-      "description": "A Safelight Catppuccin Latte Theme",
-      "stars": 0,
-      "createdAt": "2026-06-21T22:50:21Z",
-      "updatedAt": "2026-06-21T23:45:56Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276376581/9049f295-a9ad-47cf-81f8-fb0c35e39d58",
-        "custom": true
       }
     },
     {
