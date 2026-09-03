@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-03T10:52:28.666Z",
+  "generatedAt": "2026-09-03T16:00:59.027Z",
   "topic": "safelight-extension",
   "count": 36,
   "extensions": [
@@ -69,6 +69,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Image-Comparison-Tools",
+      "description": "See your edit against the untouched original",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:59:59Z",
+      "updatedAt": "2026-06-24T00:49:23Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -97,54 +113,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1339098496/65765d86-0302-42a4-aa1b-49f82196db35",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Image-Comparison-Tools",
-      "description": "See your edit against the untouched original",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-06-24T00:49:23Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275070263/ede506fa-5df6-40e0-959d-4412ffd640a0",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Advanced-Library-Sort",
-      "description": "Find any shot in seconds",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:46:18Z",
-      "updatedAt": "2026-06-29T08:31:57Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Red-Eye-Correction",
-      "description": "Auto and Manual red eye correction",
-      "stars": 1,
-      "createdAt": "2026-06-12T20:01:18Z",
-      "updatedAt": "2026-06-29T08:38:34Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
         "custom": true
       }
     },
@@ -197,18 +165,34 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Hierarchical-Keywording",
-      "description": "Hierarchical keywording for Safelight",
+      "fullName": "anthonyreimche/Advanced-Library-Sort",
+      "description": "Find any shot in seconds",
       "stars": 1,
-      "createdAt": "2026-08-19T02:19:09Z",
-      "updatedAt": "2026-08-21T04:24:24Z",
+      "createdAt": "2026-06-20T07:46:18Z",
+      "updatedAt": "2026-06-29T08:31:57Z",
       "topics": [
         "safelight-extension",
         "safelight-panel"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1339010989/2f8f5f6f-98a0-4f4f-986c-3b1008acf0c6",
+        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Red-Eye-Correction",
+      "description": "Auto and Manual red eye correction",
+      "stars": 1,
+      "createdAt": "2026-06-12T20:01:18Z",
+      "updatedAt": "2026-06-29T08:38:34Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
         "custom": true
       }
     },
@@ -257,6 +241,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Hierarchical-Keywording",
+      "description": "Hierarchical keywording for Safelight",
+      "stars": 1,
+      "createdAt": "2026-08-19T02:19:09Z",
+      "updatedAt": "2026-08-21T04:24:24Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1339010989/2f8f5f6f-98a0-4f4f-986c-3b1008acf0c6",
         "custom": true
       }
     },
@@ -484,22 +484,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Web-Tools",
-      "description": "Web gallery and publish services for safelight",
-      "stars": 0,
-      "createdAt": "2026-06-28T01:31:15Z",
-      "updatedAt": "2026-06-30T07:29:19Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
-        "custom": true
-      }
-    },
-    {
       "fullName": "oatbiscuit/safelight-theme-adwaita",
       "description": "A Safelight Adwaita Theme",
       "stars": 0,
@@ -512,6 +496,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276887895/2e1440a3-6325-4031-a00a-dad29ed2591e",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Web-Tools",
+      "description": "Web gallery and publish services for safelight",
+      "stars": 0,
+      "createdAt": "2026-06-28T01:31:15Z",
+      "updatedAt": "2026-06-30T07:29:19Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282596907/917d6d71-f50f-4441-817b-0ebfd95c6654",
         "custom": true
       }
     },
