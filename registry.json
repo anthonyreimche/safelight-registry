@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-13T15:49:07.467Z",
+  "generatedAt": "2026-09-13T20:29:58.150Z",
   "topic": "safelight-extension",
   "count": 37,
   "extensions": [
@@ -133,22 +133,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Contrast-Equalizer",
-      "description": "Contrast Equalizer panel for safelight",
-      "stars": 1,
-      "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-09-09T04:23:54Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Graphite-Theme",
       "description": "Neutral mid/dark grey theme",
       "stars": 1,
@@ -161,6 +145,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1276314585/ce42221a-5fb0-468c-b893-3fd52c0463cb",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Contrast-Equalizer",
+      "description": "Contrast Equalizer panel for safelight",
+      "stars": 1,
+      "createdAt": "2026-06-28T02:09:57Z",
+      "updatedAt": "2026-09-09T04:23:54Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
         "custom": true
       }
     },
@@ -261,6 +261,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Hierarchical-Keywording",
+      "description": "Hierarchical keywording for Safelight",
+      "stars": 1,
+      "createdAt": "2026-08-19T02:19:09Z",
+      "updatedAt": "2026-09-07T17:57:32Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1339010989/2f8f5f6f-98a0-4f4f-986c-3b1008acf0c6",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Custom-Cursors",
       "description": "Custom cursors for Safelight",
       "stars": 1,
@@ -289,22 +305,6 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1267831749/98e24355-e73f-4d73-b1bc-f125422bd4e8",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Hierarchical-Keywording",
-      "description": "Hierarchical keywording for Safelight",
-      "stars": 1,
-      "createdAt": "2026-08-19T02:19:09Z",
-      "updatedAt": "2026-09-07T17:57:32Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1339010989/2f8f5f6f-98a0-4f4f-986c-3b1008acf0c6",
         "custom": true
       }
     },
