@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-19T15:35:20.987Z",
+  "generatedAt": "2026-09-19T20:13:54.773Z",
   "topic": "safelight-extension",
   "count": 38,
   "extensions": [
@@ -37,18 +37,18 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Collections",
-      "description": "Collections and smart collections for Safelight",
+      "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
+      "description": "Continuous 2D color editor for Safelight",
       "stars": 1,
-      "createdAt": "2026-08-19T04:42:51Z",
-      "updatedAt": "2026-09-07T17:58:22Z",
+      "createdAt": "2026-06-29T01:56:29Z",
+      "updatedAt": "2026-09-07T17:55:56Z",
       "topics": [
         "safelight-extension",
-        "safelight-panel"
+        "safelight-pipeline"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1339098496/65765d86-0302-42a4-aa1b-49f82196db35",
+        "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
         "custom": true
       }
     },
@@ -69,22 +69,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
-      "description": "Continuous 2D color editor for Safelight",
-      "stars": 1,
-      "createdAt": "2026-06-29T01:56:29Z",
-      "updatedAt": "2026-09-07T17:55:56Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -97,6 +81,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1282609597/19fd905c-ffc7-451a-aa6a-925073e8e8a0",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Collections",
+      "description": "Collections and smart collections for Safelight",
+      "stars": 1,
+      "createdAt": "2026-08-19T04:42:51Z",
+      "updatedAt": "2026-09-07T17:58:22Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1339098496/65765d86-0302-42a4-aa1b-49f82196db35",
         "custom": true
       }
     },
