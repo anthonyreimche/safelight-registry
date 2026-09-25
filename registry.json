@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T16:49:10.615Z",
+  "generatedAt": "2026-09-25T21:14:51.695Z",
   "topic": "safelight-extension",
   "count": 43,
   "extensions": [
@@ -276,54 +276,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Red-Eye-Correction",
-      "description": "Auto and Manual red eye correction",
-      "stars": 1,
-      "createdAt": "2026-06-12T20:01:18Z",
-      "updatedAt": "2026-09-07T17:55:02Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Advanced-Library-Sort",
-      "description": "Find any shot in seconds",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:46:18Z",
-      "updatedAt": "2026-09-07T17:56:04Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Moire-Reduction",
-      "description": "Moire Reduction for Safelight",
-      "stars": 1,
-      "createdAt": "2026-09-18T03:42:27Z",
-      "updatedAt": "2026-09-20T21:57:13Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
-        "custom": false
-      }
-    },
-    {
       "fullName": "anthonyreimche/Spektrafilm-Support",
       "description": "Spektrafilm support",
       "stars": 1,
@@ -377,6 +329,54 @@
       "stars": 1,
       "createdAt": "2026-09-18T04:59:43Z",
       "updatedAt": "2026-09-24T02:04:12Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Red-Eye-Correction",
+      "description": "Auto and Manual red eye correction",
+      "stars": 1,
+      "createdAt": "2026-06-12T20:01:18Z",
+      "updatedAt": "2026-09-07T17:55:02Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267722822/407a29d1-3cb6-4efa-bc6e-4924dcdef415",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Advanced-Library-Sort",
+      "description": "Find any shot in seconds",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:46:18Z",
+      "updatedAt": "2026-09-07T17:56:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275061919/d1013887-2cdc-4b08-b578-ba29b4e5cfbd",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Moire-Reduction",
+      "description": "Moire Reduction for Safelight",
+      "stars": 1,
+      "createdAt": "2026-09-18T03:42:27Z",
+      "updatedAt": "2026-09-20T21:57:13Z",
       "topics": [
         "safelight-extension",
         "safelight-pipeline"
