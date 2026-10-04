@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T11:58:59.888Z",
+  "generatedAt": "2026-10-04T16:46:21.060Z",
   "topic": "safelight-extension",
   "count": 47,
   "extensions": [
@@ -149,6 +149,22 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
+      "description": "Warm near-black theme with an amber safelight accent",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:38:06Z",
+      "updatedAt": "2026-09-07T17:58:15Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
+        "custom": true
+      }
+    },
+    {
       "fullName": "anthonyreimche/Duplicate-Photo-Detector",
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
@@ -180,19 +196,19 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Darkroom-Amber-Theme",
-      "description": "Warm near-black theme with an amber safelight accent",
+      "fullName": "anthonyreimche/Colour-Equaliser",
+      "description": "Ansel-style colour equaliser for Safelight",
       "stars": 1,
-      "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-09-07T17:58:15Z",
+      "createdAt": "2026-09-20T05:25:39Z",
+      "updatedAt": "2026-09-20T21:57:07Z",
       "topics": [
         "safelight-extension",
-        "safelight-theme"
+        "safelight-pipeline"
       ],
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267830236/f30b4ff4-55e3-4185-b566-470aba67cf58",
-        "custom": true
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
       }
     },
     {
@@ -209,22 +225,6 @@
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1331596119/c2167190-677c-4d56-a349-3bc5abfc4c37",
         "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/Colour-Equaliser",
-      "description": "Ansel-style colour equaliser for Safelight",
-      "stars": 1,
-      "createdAt": "2026-09-20T05:25:39Z",
-      "updatedAt": "2026-09-20T21:57:07Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-pipeline"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
-        "custom": false
       }
     },
     {
