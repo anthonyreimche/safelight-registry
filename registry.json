@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T22:52:25.064Z",
+  "generatedAt": "2026-10-08T05:09:03.721Z",
   "topic": "safelight-extension",
   "count": 47,
   "extensions": [
@@ -85,22 +85,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Slate-Theme",
-      "description": "Cool blue-gray dark theme",
-      "stars": 1,
-      "createdAt": "2026-06-12T22:53:08Z",
-      "updatedAt": "2026-09-07T17:58:09Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Collections",
       "description": "Collections and smart collections for Safelight",
       "stars": 1,
@@ -113,6 +97,22 @@
       "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
       "thumbnail": {
         "url": "https://repository-images.githubusercontent.com/1339098496/65765d86-0302-42a4-aa1b-49f82196db35",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Slate-Theme",
+      "description": "Cool blue-gray dark theme",
+      "stars": 1,
+      "createdAt": "2026-06-12T22:53:08Z",
+      "updatedAt": "2026-09-07T17:58:09Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1267838992/29ed87c4-7c9a-424b-8d1c-98ae69055719",
         "custom": true
       }
     },
@@ -356,54 +356,6 @@
       }
     },
     {
-      "fullName": "anthonyreimche/Solarized-Theme",
-      "description": "A Solarized light/dark interface for Safelight.",
-      "stars": 1,
-      "createdAt": "2026-06-11T22:05:22Z",
-      "updatedAt": "2026-09-07T17:56:10Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1266709246/d81a7ca1-af66-4e70-9c4b-477d42fb07a2",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "anthonyreimche/XMP-Tools",
-      "description": "XMP Read/Write Support",
-      "stars": 1,
-      "createdAt": "2026-06-20T07:11:36Z",
-      "updatedAt": "2026-09-07T17:57:16Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-preset"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1275041829/80f0ff89-f9b1-4786-9f75-a37eee329888",
-        "custom": true
-      }
-    },
-    {
-      "fullName": "oatbiscuit/safelight-theme-catppuccin-mocha",
-      "description": "A Safelight Catppuccin Mocha Theme",
-      "stars": 1,
-      "createdAt": "2026-06-21T22:55:32Z",
-      "updatedAt": "2026-06-21T23:54:20Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1276378526/90e1b9d8-921c-44f0-99b3-730b3f588438",
-        "custom": true
-      }
-    },
-    {
       "fullName": "anthonyreimche/Custom-Cursors",
       "description": "Custom cursors for Safelight",
       "stars": 1,
@@ -449,6 +401,54 @@
       "thumbnail": {
         "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
         "custom": false
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Solarized-Theme",
+      "description": "A Solarized light/dark interface for Safelight.",
+      "stars": 1,
+      "createdAt": "2026-06-11T22:05:22Z",
+      "updatedAt": "2026-09-07T17:56:10Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1266709246/d81a7ca1-af66-4e70-9c4b-477d42fb07a2",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "anthonyreimche/XMP-Tools",
+      "description": "XMP Read/Write Support",
+      "stars": 1,
+      "createdAt": "2026-06-20T07:11:36Z",
+      "updatedAt": "2026-09-07T17:57:16Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-preset"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1275041829/80f0ff89-f9b1-4786-9f75-a37eee329888",
+        "custom": true
+      }
+    },
+    {
+      "fullName": "oatbiscuit/safelight-theme-catppuccin-mocha",
+      "description": "A Safelight Catppuccin Mocha Theme",
+      "stars": 1,
+      "createdAt": "2026-06-21T22:55:32Z",
+      "updatedAt": "2026-06-21T23:54:20Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291506465?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1276378526/90e1b9d8-921c-44f0-99b3-730b3f588438",
+        "custom": true
       }
     },
     {
@@ -675,11 +675,11 @@
       }
     },
     {
-      "fullName": "OPGERUIMD97/safelight-print-mat",
-      "description": "Safelight Print Mat Extension",
+      "fullName": "OPGERUIMD97/safelight-image-info",
+      "description": null,
       "stars": 0,
-      "createdAt": "2026-06-24T10:00:38Z",
-      "updatedAt": "2026-10-02T14:38:33Z",
+      "createdAt": "2026-06-16T08:20:13Z",
+      "updatedAt": "2026-10-02T14:42:10Z",
       "topics": [
         "safelight-extension",
         "safelight-panel"
@@ -691,11 +691,11 @@
       }
     },
     {
-      "fullName": "OPGERUIMD97/safelight-image-info",
-      "description": null,
+      "fullName": "OPGERUIMD97/safelight-print-mat",
+      "description": "Safelight Print Mat Extension",
       "stars": 0,
-      "createdAt": "2026-06-16T08:20:13Z",
-      "updatedAt": "2026-10-02T14:42:10Z",
+      "createdAt": "2026-06-24T10:00:38Z",
+      "updatedAt": "2026-10-02T14:38:33Z",
       "topics": [
         "safelight-extension",
         "safelight-panel"
