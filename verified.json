@@ -40,6 +40,7 @@
     { "repo": "OPGERUIMD97/safelight-exif-plus", "version": "1.0.0", "commit": "fc0c4c027e29a3b8df7f21c4f9f0ab8193d88667" },
     { "repo": "OPGERUIMD97/safelight-image-info", "version": "1.0.0", "commit": "aa3218dcae88d53f3d4364cf1e09cf2655f484d8" },
     { "repo": "OPGERUIMD97/safelight-print-mat", "version": "1.0.0", "commit": "2fe29494f08aa5967401553b5d984af69e97d264" },
+    { "repo": "OPGERUIMD97/safelight-border", "version": "1.0.0", "commit": "625bb885631e4ba8e92f4dc0ed9a62b9d45884a4" },
     "oatbiscuit/safelight-theme-catppuccin-mocha",
     "oatbiscuit/safelight-theme-catppuccin-macchiato",
     "oatbiscuit/safelight-theme-catppuccin-frappe",
