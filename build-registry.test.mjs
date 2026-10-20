@@ -2,14 +2,22 @@
 
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { mkdtempSync, rmSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import {
   UNREADABLE,
   branchFields,
   branchOrPrevious,
+  catalogPayload,
   compareSemver,
   eligibleReleases,
+  entryStoreFields,
   fetchHeadManifest,
   iconFromManifest,
+  loadStoreConfig,
+  loadVerified,
   pickVersionFields,
   releaseFields,
   sameCatalog,
@@ -187,4 +195,214 @@ test("a readable HEAD manifest gives the branch record", async () => {
 
 test("an unreadable manifest gives the store thumbnail no icon", () => {
   assert.equal(iconFromManifest(REPO, UNREADABLE), null);
+});
+
+// ── Store fields: categories, type, keywords, screenshots, Works with ──
+
+const file = (name) => fileURLToPath(new URL(`./${name}`, import.meta.url));
+
+/** Writes JSON bodies (or raw strings) into a fresh temp dir; `put` returns each path. */
+function tempFiles() {
+  const dir = mkdtempSync(path.join(tmpdir(), "build-registry-"));
+  const put = (name, body) => {
+    const p = path.join(dir, name);
+    writeFileSync(p, typeof body === "string" ? body : JSON.stringify(body));
+    return p;
+  };
+  return { dir, put, cleanup: () => rmSync(dir, { recursive: true, force: true }) };
+}
+
+// A small vocabulary of the tests' own, so the committed files can change freely.
+const FIXTURE_CATEGORIES = {
+  schema: 1,
+  categories: [
+    { slug: "detail", label: "Detail and repair", description: "Noise, lens faults and other repairs." },
+    { slug: "tone", label: "Tone", description: "Shape brightness and contrast." },
+    { slug: "export", label: "Export and sharing", description: "Export formats and galleries." },
+    { slug: "look", label: "Looks", description: "Film simulation and renderings." },
+  ],
+  types: [
+    { slug: "module", label: "Module" },
+    { slug: "pipeline", label: "Processing" },
+    { slug: "panel", label: "Panel" },
+  ],
+};
+const FIXTURE_OVERRIDES = { schema: 1, repos: { "acme/watermark": ["export"] } };
+
+const store = await (async () => {
+  const tmp = tempFiles();
+  try {
+    return await loadStoreConfig(tmp.put("categories.json", FIXTURE_CATEGORIES), tmp.put("overrides.json", FIXTURE_OVERRIDES));
+  } finally {
+    tmp.cleanup();
+  }
+})();
+
+test("the committed categories.json and category-overrides.json load", async () => {
+  const committed = await loadStoreConfig(file("categories.json"), file("category-overrides.json"));
+  assert.ok(committed.vocabulary.categories.length > 0);
+});
+
+test("a readable manifest gives every store field", () => {
+  const manifest = {
+    categories: ["Develop", "Detail"],
+    keywords: ["Liquify", "warp"],
+    screenshots: ["docs/one.png"],
+    worksWith: ["acme/other"],
+  };
+  assert.deepEqual(entryStoreFields("acme/warp", ["safelight-pipeline", "safelight-tone"], manifest, undefined, store), {
+    fields: {
+      categories: ["detail"],
+      type: "pipeline",
+      keywords: ["liquify", "warp"],
+      screenshots: ["https://cdn.jsdelivr.net/gh/acme/warp/docs/one.png"],
+    },
+    declared: ["acme/other"],
+    ignored: ["Develop"],
+  });
+});
+
+test("a missing manifest falls back to topics, then the registry's override", () => {
+  assert.deepEqual(entryStoreFields("acme/warp", ["safelight-tone"], null, undefined, store).fields.categories, ["tone"]);
+  assert.deepEqual(
+    entryStoreFields("Acme/Watermark", ["safelight-panel"], null, undefined, store).fields,
+    { categories: ["export"], type: "panel", keywords: [], screenshots: [] },
+  );
+});
+
+test("an unreadable manifest keeps the previous build's manifest fields; the type is recomputed", () => {
+  const previous = {
+    fullName: "acme/warp",
+    categories: ["detail", "retired"],
+    type: "panel",
+    keywords: ["warp"],
+    screenshots: ["https://e.com/a.png"],
+    worksWith: ["acme/other"],
+  };
+  assert.deepEqual(entryStoreFields("acme/warp", ["safelight-module"], UNREADABLE, previous, store), {
+    fields: { categories: ["detail"], type: "module", keywords: ["warp"], screenshots: ["https://e.com/a.png"] },
+    declared: ["acme/other"],
+    ignored: [],
+  });
+});
+
+test("an unreadable manifest with no previous build reads as no manifest", () => {
+  assert.deepEqual(entryStoreFields("acme/warp", ["safelight-tone"], UNREADABLE, undefined, store).fields, {
+    categories: ["tone"],
+    type: null,
+    keywords: [],
+    screenshots: [],
+  });
+});
+
+test("an unreadable manifest with an old-format previous entry reads as no manifest", () => {
+  const old = { fullName: "acme/warp", stars: 1 };
+  assert.deepEqual(entryStoreFields("acme/warp", ["safelight-tone"], UNREADABLE, old, store), {
+    fields: { categories: ["tone"], type: null, keywords: [], screenshots: [] },
+    declared: [],
+    ignored: [],
+  });
+  assert.deepEqual(entryStoreFields("acme/watermark", [], UNREADABLE, old, store).fields.categories, ["export"]);
+});
+
+test("an unreadable manifest keeps a previous entry whose categories are empty", () => {
+  const previous = { fullName: "acme/warp", categories: [], keywords: ["warp"], screenshots: [] };
+  assert.deepEqual(entryStoreFields("acme/warp", ["safelight-tone"], UNREADABLE, previous, store).fields, {
+    categories: [],
+    type: null,
+    keywords: ["warp"],
+    screenshots: [],
+  });
+});
+
+test("the payload carries the public vocabulary and two-way links", () => {
+  const entry = (fullName) => ({ fullName, thumbnail: null, categories: [], type: null, keywords: [], screenshots: [], worksWith: [], stars: 0 });
+  const payload = catalogPayload({
+    extensions: [entry("anthonyreimche/Map"), entry("anthonyreimche/GPS-Track")],
+    declared: new Map([["anthonyreimche/gps-track", ["anthonyreimche/map"]]]),
+    vocabulary: store.vocabulary,
+    isVerified: (r) => r === "anthonyreimche/gps-track",
+    isBanned: () => false,
+    topic: "safelight-extension",
+    generatedAt: "2026-10-19T00:00:00Z",
+  });
+  assert.equal(payload.schemaVersion, 1);
+  assert.equal(payload.count, 2);
+  assert.equal(payload.categories.length, 4);
+  assert.deepEqual(Object.keys(payload.categories[3]), ["slug", "label", "description"]);
+  assert.deepEqual(payload.types.map((t) => t.slug), ["module", "pipeline", "panel"]);
+  assert.deepEqual(payload.extensions[0].worksWith, ["anthonyreimche/GPS-Track"]);
+  assert.deepEqual(payload.extensions[1].worksWith, ["anthonyreimche/Map"]);
+  assert.deepEqual(Object.keys(payload).slice(-3), ["categories", "types", "extensions"]);
+});
+
+test("loadStoreConfig refuses a broken vocabulary or overrides, and allows no overrides file", async () => {
+  const tmp = tempFiles();
+  try {
+    const categories = tmp.put("categories.json", FIXTURE_CATEGORIES);
+    const overrides = tmp.put("overrides.json", FIXTURE_OVERRIDES);
+    const badCategories = tmp.put("bad-categories.json", { schema: 1, categories: [] });
+    await assert.rejects(loadStoreConfig(badCategories, overrides), /categories must be a non-empty array/);
+    const badOverrides = tmp.put("bad-overrides.json", { schema: 1, repos: { "acme/one": ["nope"] } });
+    await assert.rejects(loadStoreConfig(categories, badOverrides), /unknown category "nope"/);
+    const none = await loadStoreConfig(categories, path.join(tmp.dir, "absent.json"));
+    assert.equal(none.overrides.size, 0);
+    await assert.rejects(loadStoreConfig(path.join(tmp.dir, "absent.json"), overrides));
+  } finally {
+    tmp.cleanup();
+  }
+});
+
+// ── The verified list, which only feeds reverse Works with links ──
+
+test("loadVerified lowercases both string and { repo } entries", async () => {
+  const tmp = tempFiles();
+  try {
+    const verified = tmp.put("verified.json", {
+      verified: ["Acme/Map", { repo: "Acme/GPS-Track", version: "1.0.0", commit: "abc123" }, 7, { version: "1" }],
+    });
+    const set = await loadVerified(verified);
+    assert.ok(set.has("acme/map"));
+    assert.ok(set.has("acme/gps-track"));
+    assert.equal(set.has("Acme/Map"), false);
+  } finally {
+    tmp.cleanup();
+  }
+});
+
+test("loadVerified treats a missing file as nobody verified, without a log line", async () => {
+  const tmp = tempFiles();
+  const logged = [];
+  const realError = console.error;
+  console.error = (...args) => logged.push(args.join(" "));
+  try {
+    const set = await loadVerified(path.join(tmp.dir, "absent.json"));
+    assert.equal(set.size, 0);
+    assert.deepEqual(logged, []);
+  } finally {
+    console.error = realError;
+    tmp.cleanup();
+  }
+});
+
+test("loadVerified logs one line naming a broken file and returns the empty set", async () => {
+  const tmp = tempFiles();
+  const logged = [];
+  const realError = console.error;
+  console.error = (...args) => logged.push(args.join(" "));
+  try {
+    const bad = tmp.put("verified.json", "{ not json");
+    const set = await loadVerified(bad);
+    assert.equal(set.size, 0);
+    assert.equal(logged.length, 1);
+    assert.ok(logged[0].includes(bad));
+  } finally {
+    console.error = realError;
+    tmp.cleanup();
+  }
+});
+
+test("the store icon refuses non-https schemes", () => {
+  assert.equal(iconFromManifest(REPO, { icon: "http://example.com/i.png" }), null);
+  assert.equal(iconFromManifest(REPO, { icon: "icon.png" }), `https://cdn.jsdelivr.net/gh/${REPO}/icon.png`);
 });

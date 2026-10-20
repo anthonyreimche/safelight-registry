@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "categories": [
+    { "slug": "library", "label": "Library", "description": "Collections, sorting, duplicates and other ways to organise and find photos." },
+    { "slug": "metadata", "label": "Metadata", "description": "Keywords, EXIF and XMP tools, and where your photos were taken." },
+    { "slug": "tone", "label": "Tone", "description": "Levels, local contrast and HDR: shape brightness and contrast." },
+    { "slug": "color", "label": "Colour", "description": "Colour editors, grading tools and scopes to check the result." },
+    { "slug": "look", "label": "Looks", "description": "Film simulation, alternative renderings and camera-matched looks." },
+    { "slug": "detail", "label": "Detail and repair", "description": "Noise, lens faults, moiré, red eye, warping and other repairs." },
+    { "slug": "workflow", "label": "Workflow", "description": "Faster culling and editing, batch work, comparisons and navigation." },
+    { "slug": "export", "label": "Export and sharing", "description": "Export formats, web galleries, print layouts and watermarks." },
+    { "slug": "preset", "label": "Presets", "description": "Import and manage presets, including Lightroom .xmp and .lrtemplate files." },
+    { "slug": "theme", "label": "Themes and interface", "description": "Themes, cursors, control styles and other changes to how Safelight looks.", "aliases": ["Themes", "Interface"] }
+  ],
+  "types": [
+    { "slug": "module", "label": "Module" },
+    { "slug": "pipeline", "label": "Processing" },
+    { "slug": "panel", "label": "Panel" }
+  ]
+}

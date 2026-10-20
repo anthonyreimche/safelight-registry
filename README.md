@@ -18,6 +18,8 @@ It is a community safety aid, **not a guarantee**. See [Scope & disclaimer](#sco
 | [`verified.json`](verified.json) | Repos a maintainer has code-reviewed at a point in time. Shown with a **✓ Verified** badge in the Extensions store and installed without the unverified-risk prompt. |
 | [`banned.json`](banned.json) | Repos / accounts assessed as malicious: refused at install **and** disabled at load, even if already installed. The kill-switch. |
 | `registry.json` | The store's **browse catalog** — auto-generated, do not hand-edit. See [Registry index](#registry-index-registryjson). |
+| [`categories.json`](categories.json) | The Extensions store's categories: slug, label, description, aliases, and the type badges. Hand-edited. See [Store categories](#store-categories-categoriesjson). |
+| [`category-overrides.json`](category-overrides.json) | Categories for repos whose authors haven't tagged one. Used only when the repo has no purpose topic and no matching manifest categories. |
 
 The app reads these from `raw.githubusercontent.com/anthonyreimche/safelight-registry/main/`,
 caches them for ~6 hours, and falls back to the last-known-good copy if a fetch fails
@@ -26,9 +28,10 @@ caches them for ~6 hours, and falls back to the last-known-good copy if a fetch 
 ## Registry index (`registry.json`)
 
 The Extensions store's **Browse** tab loads a single prebuilt catalog of every
-published extension — name, description, stars, dates, topics and a resolved
-thumbnail — instead of running a live GitHub search and scraping each repo's
-preview image on every machine. That makes the store open in one CDN request, show
+published extension — name, description, stars, dates, topics, a resolved
+thumbnail, and the store's own grouping (categories, type badge, keywords,
+screenshots and Works with links) — instead of running a live GitHub search and
+scraping each repo's preview image on every machine. That makes the store open in one CDN request, show
 the *complete* list (not the search API's first 25), and power the New / Popular /
 Recently-updated / Featured shelves.
 
@@ -36,7 +39,8 @@ That catalog is `registry.json`, built by [`build-registry.mjs`](build-registry.
 and committed automatically by the
 [Build registry index](.github/workflows/build-registry.yml) workflow. It runs on a
 schedule (hourly), on demand (the **Run workflow** button), and whenever
-`verified.json`, `banned.json` or the generator change. Banned repos/owners are
+`verified.json`, `banned.json`, `categories.json`, `category-overrides.json`,
+`store-fields.mjs` or the generator change. Banned repos/owners are
 excluded at build time as well as enforced live.
 
 **Setup (one time):** in the repo's **Settings ▸ Actions ▸ General ▸ Workflow
@@ -199,3 +203,58 @@ Rules (checked by `validate-kits.mjs` in CI, and again by the app):
 
 Run `node --test validate-kits.test.mjs && node validate-kits.mjs` before
 pushing a change.
+
+## Store categories (`categories.json`)
+
+The Extensions store groups extensions by what they are for. Each category has
+a topic, `safelight-<slug>`:
+
+| Topic | Category |
+|---|---|
+| `safelight-library` | Library |
+| `safelight-metadata` | Metadata |
+| `safelight-tone` | Tone |
+| `safelight-color` | Colour |
+| `safelight-look` | Looks |
+| `safelight-detail` | Detail and repair |
+| `safelight-workflow` | Workflow |
+| `safelight-export` | Export and sharing |
+| `safelight-preset` | Presets |
+| `safelight-theme` | Themes and interface |
+
+An extension gets at most three, decided in this order:
+
+1. **`categories` in its `safelight.json`**, when any value names a category by
+   slug, label or alias (any case): `"categories": ["Detail", "Tone"]`. Values
+   that name none (for example "Develop") are ignored and listed in the build
+   log.
+2. **Its `safelight-<slug>` topics**, in the order of the table above.
+3. **`category-overrides.json`**, which a maintainer fills in for repos that
+   have neither. An author's own topics or manifest always win.
+
+With none of these it shows under **Other**.
+
+`safelight-module`, `safelight-pipeline` and `safelight-panel` are not
+categories: the store shows the first one present as a badge (Module,
+Processing, Panel).
+
+The builder also copies, from the default branch's `safelight.json`:
+
+- `keywords`: searched by the store (at most 20, each up to 40 characters);
+- `screenshots`: https URLs or repo-relative paths of at most 2048 characters,
+  shown on the detail page (at most 6). The manifest `icon` follows the same
+  rules. jsDelivr serves repo-relative screenshots from the default branch
+  and caches them for up to a week, so give a changed screenshot a new file name;
+- `worksWith`: `"owner/repo"` extensions it pairs well with (at most 6). The
+  link shows on this extension's page, and on the other extension's page too
+  when this one is verified.
+
+Rules for `categories.json` (checked by `validate-categories.mjs` in CI and by
+the builder): slugs match `^[a-z][a-z0-9-]{0,23}$`, are unique, and aren't
+`home` or `other` (the store uses those); labels are
+1–24 characters, descriptions 1–140; no slug, label or alias may stand for two
+categories; type slugs differ from category slugs; at most 16 categories.
+Overrides name `owner/repo` once each, with 1–3 known slugs, none repeated.
+
+Run `node --test store-fields.test.mjs validate-categories.test.mjs build-registry.test.mjs && node validate-categories.mjs`
+before opening a pull request.

@@ -16,21 +16,43 @@
 //
 // Output shape (consumed by SafeLight electron/main.cjs → normalizeRegistryEntry
 // and electron/plugin-releases.cjs → parseRegistryVersions):
-//   { schemaVersion, generatedAt, topic, count, extensions: [
+//   { schemaVersion, generatedAt, topic, count,
+//     categories: [{ slug, label, description }], types: [{ slug, label }],
+//     extensions: [
 //       { fullName, description, stars, createdAt, updatedAt, topics,
 //         avatarUrl, thumbnail: { url, custom },
+//         categories: [slug], type: slug | null, keywords: [string],
+//         screenshots: [url], worksWith: ["owner/repo"],
 //         latest?: { version, from: "release", tag, zips, minAppVersion? }
 //                | { version, from: "branch", minAppVersion? },
 //         prerelease?: { version, from: "release", tag, zips, minAppVersion? },
 //         releaseError?: string }, … ] }
+//
+// The store fields come from categories.json, category-overrides.json and
+// each repo's HEAD safelight.json; see store-fields.mjs.
 
 import { writeFile, readFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
+import {
+  cleanKeywords,
+  cleanScreenshots,
+  declaredWorksWith,
+  linkWorksWith,
+  parseCategories,
+  parseOverrides,
+  publicVocabulary,
+  resolveAssetUrl,
+  resolveCategories,
+  resolveType,
+} from "./store-fields.mjs";
 
 const TOPIC = process.env.SAFELIGHT_TOPIC || "safelight-extension";
 const TOKEN = process.env.GITHUB_TOKEN || "";
 const OUT = process.env.REGISTRY_OUT || "registry.json";
 const BANNED_FILE = process.env.BANNED_FILE || "banned.json";
+const VERIFIED_FILE = process.env.VERIFIED_FILE || "verified.json";
+const CATEGORIES_FILE = process.env.CATEGORIES_FILE || "categories.json";
+const OVERRIDES_FILE = process.env.OVERRIDES_FILE || "category-overrides.json";
 const MAX_PAGES = 10; // 10 × 100 = up to 1000 extensions; raise if ever needed
 const CONCURRENCY = 8; // parallel thumbnail resolutions
 
@@ -71,6 +93,92 @@ async function loadBanned() {
 function isBanned(fullName, banned) {
   const lc = fullName.toLowerCase();
   return banned.repos.has(lc) || banned.owners.has(lc.split("/")[0]);
+}
+
+// ── Store grouping ────────────────────────────────────────────────────────────
+// The vocabulary must parse: a build that can't read it stops here rather
+// than publish an index without categories. No overrides file is no overrides.
+export async function loadStoreConfig(categoriesFile = CATEGORIES_FILE, overridesFile = OVERRIDES_FILE) {
+  const { vocabulary, errors } = parseCategories(JSON.parse(await readFile(categoriesFile, "utf8")));
+  if (!vocabulary) throw new Error(`${categoriesFile}: ${errors.join("; ")}`);
+  let overridesDoc;
+  try {
+    overridesDoc = JSON.parse(await readFile(overridesFile, "utf8"));
+  } catch (e) {
+    if (e?.code === "ENOENT") return { vocabulary, overrides: new Map() };
+    throw e;
+  }
+  const { overrides, errors: overrideErrors } = parseOverrides(overridesDoc, vocabulary);
+  if (overrideErrors.length) throw new Error(`${overridesFile}: ${overrideErrors.join("; ")}`);
+  return { vocabulary, overrides };
+}
+
+// Reverse Works with links need the verified list; missing means none verified.
+// A file that exists but can't be read costs those links, not the build.
+export async function loadVerified(file = VERIFIED_FILE) {
+  try {
+    const raw = JSON.parse(await readFile(file, "utf8"));
+    return new Set(
+      (raw?.verified ?? []).map((e) => String(typeof e === "string" ? e : e?.repo ?? "").trim().toLowerCase()),
+    );
+  } catch (e) {
+    if (e?.code !== "ENOENT") console.error(`${file}: could not be read, no reverse Works with links: ${e?.message || e}`);
+    return new Set();
+  }
+}
+
+const list = (v) => (Array.isArray(v) ? v : []);
+
+/** One repo's store fields. When GitHub couldn't give us the manifest, the
+ *  previous build's manifest-derived fields stand in until a readable build;
+ *  the type comes from topics, so it is always current. A previous entry from
+ *  before these fields existed has nothing to keep, so it reads as no manifest. */
+export function entryStoreFields(fullName, topics, manifest, previous, { vocabulary, overrides }) {
+  const type = resolveType(topics, vocabulary);
+  if (manifest === UNREADABLE && Array.isArray(previous?.categories)) {
+    const known = new Set(vocabulary.categories.map((c) => c.slug));
+    return {
+      fields: {
+        categories: list(previous.categories).filter((s) => known.has(s)),
+        type,
+        keywords: list(previous.keywords),
+        screenshots: list(previous.screenshots),
+      },
+      declared: list(previous.worksWith),
+      ignored: [],
+    };
+  }
+  const readable = manifest === UNREADABLE ? null : manifest;
+  const { categories, ignored } = resolveCategories({
+    manifest: readable,
+    topics,
+    override: overrides.get(fullName.toLowerCase()),
+    vocabulary,
+  });
+  return {
+    fields: {
+      categories,
+      type,
+      keywords: cleanKeywords(readable),
+      screenshots: cleanScreenshots(fullName, readable),
+    },
+    declared: declaredWorksWith(fullName, readable),
+    ignored,
+  };
+}
+
+/** The published catalog: the public vocabulary, then every entry with its
+ *  Works with links made two-way across the whole list. */
+export function catalogPayload({ extensions, declared, vocabulary, isVerified, isBanned, topic, generatedAt }) {
+  const links = linkWorksWith(extensions, declared, { isVerified, isBanned });
+  return {
+    schemaVersion: 1,
+    generatedAt,
+    topic,
+    count: extensions.length,
+    ...publicVocabulary(vocabulary),
+    extensions: extensions.map((e) => ({ ...e, worksWith: links.get(e.fullName.toLowerCase()) ?? [] })),
+  };
 }
 
 // ── Discovery ─────────────────────────────────────────────────────────────────
@@ -141,13 +249,7 @@ export async function fetchHeadManifest(repo, ms = 6000) {
 
 // The extension's manifest-declared store icon, resolved to a CDN URL, or null.
 export function iconFromManifest(repo, manifest) {
-  const icon = typeof manifest?.icon === "string" ? manifest.icon.trim() : "";
-  if (/^https:\/\//i.test(icon)) return icon;
-  // Relative path → resolve against the same jsDelivr tree; reject absolute
-  // paths and `..` so a manifest can't point outside its own repo.
-  if (icon && !icon.startsWith("/") && !icon.includes(".."))
-    return `https://cdn.jsdelivr.net/gh/${repo}/${icon.replace(/^\.?\//, "")}`;
-  return null;
+  return resolveAssetUrl(repo, manifest?.icon);
 }
 
 // The repo's custom uploaded social preview (og:image), or null when GitHub only
@@ -400,6 +502,9 @@ async function main() {
     (previous?.extensions ?? []).map((e) => [String(e.fullName).toLowerCase(), e]),
   );
   const banned = await loadBanned();
+  const storeConfig = await loadStoreConfig();
+  const verified = await loadVerified();
+  const declared = new Map();
   const repos = (await searchAll()).filter(
     (r) => r.full_name && !isBanned(r.full_name, banned),
   );
@@ -409,16 +514,24 @@ async function main() {
     const avatarUrl = r.owner?.avatar_url ?? null;
     const manifest = await fetchHeadManifest(r.full_name);
     const thumbnail = await resolveThumbnail(r.full_name, avatarUrl, manifest);
+    const topics = Array.isArray(r.topics) ? r.topics : [];
+    const previous = before.get(r.full_name.toLowerCase());
+    const own = entryStoreFields(r.full_name, topics, manifest, previous, storeConfig);
+    if (own.ignored.length)
+      console.error(`${r.full_name}: manifest categories not in categories.json: ${own.ignored.join(", ")}`);
+    declared.set(r.full_name.toLowerCase(), own.declared);
     return {
       fullName: r.full_name,
       description: r.description ?? null,
       stars: r.stargazers_count ?? 0,
       createdAt: r.created_at ?? null,
       updatedAt: r.updated_at ?? null,
-      topics: Array.isArray(r.topics) ? r.topics : [],
+      topics,
       avatarUrl,
       thumbnail,
-      ...(await versionFields(r.full_name, manifest, before.get(r.full_name.toLowerCase()))),
+      ...own.fields,
+      worksWith: [],
+      ...(await versionFields(r.full_name, manifest, previous)),
     };
   });
 
@@ -426,13 +539,20 @@ async function main() {
   // don't reorder between builds (the app re-sorts per shelf anyway).
   extensions.sort((a, b) => b.stars - a.stars || a.fullName.localeCompare(b.fullName));
 
-  const payload = {
-    schemaVersion: 1,
-    generatedAt: new Date().toISOString(),
-    topic: TOPIC,
-    count: extensions.length,
+  const listed = new Set(extensions.map((e) => e.fullName.toLowerCase()));
+  for (const [from, targets] of declared)
+    for (const t of targets)
+      if (!listed.has(t.toLowerCase())) console.error(`${from}: worksWith ${t} is not in the catalog`);
+
+  const payload = catalogPayload({
     extensions,
-  };
+    declared,
+    vocabulary: storeConfig.vocabulary,
+    isVerified: (repo) => verified.has(repo),
+    isBanned: (repo) => isBanned(repo, banned),
+    topic: TOPIC,
+    generatedAt: new Date().toISOString(),
+  });
   if (sameCatalog(previous, payload)) {
     console.error(`${OUT} unchanged (${extensions.length} extensions)`);
     return;

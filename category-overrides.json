@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "repos": {
+    "OPGERUIMD97/safelight-exif-plus": ["metadata"],
+    "OPGERUIMD97/safelight-image-info": ["metadata"],
+    "OPGERUIMD97/safelight-print-mat": ["export"],
+    "OPGERUIMD97/safelight-watermark": ["export"]
+  }
+}

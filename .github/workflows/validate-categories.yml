@@ -1,0 +1,46 @@
+# Validates categories.json (the Extensions store's category vocabulary) and
+# category-overrides.json with the parser build-registry.mjs uses, so a bad
+# edit fails on its pull request instead of in the hourly registry build.
+
+name: Validate store categories
+
+on:
+  workflow_dispatch: {}
+  pull_request:
+    paths:
+      - categories.json
+      - category-overrides.json
+      - store-fields.mjs
+      - store-fields.test.mjs
+      - validate-categories.mjs
+      - validate-categories.test.mjs
+      - build-registry.mjs
+      - build-registry.test.mjs
+      - .github/workflows/validate-categories.yml
+  push:
+    branches: [main]
+    paths:
+      - categories.json
+      - category-overrides.json
+      - store-fields.mjs
+      - store-fields.test.mjs
+      - validate-categories.mjs
+      - validate-categories.test.mjs
+      - build-registry.mjs
+      - build-registry.test.mjs
+      - .github/workflows/validate-categories.yml
+
+# Read-only: the job only checks files out and runs the validator.
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node --test store-fields.test.mjs validate-categories.test.mjs build-registry.test.mjs
+      - run: node validate-categories.mjs

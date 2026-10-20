@@ -13,7 +13,10 @@ on:
     paths:
       - verified.json
       - banned.json
+      - categories.json
+      - category-overrides.json
       - build-registry.mjs
+      - store-fields.mjs
       - .github/workflows/build-registry.yml
 
 # Allow the job to commit the regenerated registry.json back to the repo.
