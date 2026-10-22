@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T15:14:27.514Z",
+  "generatedAt": "2026-10-22T06:42:27.502Z",
   "topic": "safelight-extension",
-  "count": 52,
+  "count": 53,
   "categories": [
     {
       "slug": "library",
@@ -75,7 +75,7 @@
       "description": "Advanced Lens Correction for Safelight",
       "stars": 2,
       "createdAt": "2026-06-28T02:43:09Z",
-      "updatedAt": "2026-10-20T04:11:40Z",
+      "updatedAt": "2026-10-22T03:51:45Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -87,7 +87,7 @@
         "custom": true
       },
       "categories": [
-        "color"
+        "detail"
       ],
       "type": "panel",
       "keywords": [
@@ -103,7 +103,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
+        "version": "1.0.2",
         "from": "branch",
         "minAppVersion": "2.4.3"
       }
@@ -208,7 +208,7 @@
       "description": "Advanced Exif tools in Safelight",
       "stars": 1,
       "createdAt": "2026-07-01T07:27:02Z",
-      "updatedAt": "2026-10-20T04:01:19Z",
+      "updatedAt": "2026-10-22T03:51:58Z",
       "topics": [
         "safelight-extension",
         "safelight-metadata",
@@ -221,8 +221,8 @@
         "custom": true
       },
       "categories": [
-        "workflow",
-        "library"
+        "metadata",
+        "workflow"
       ],
       "type": "panel",
       "keywords": [
@@ -287,7 +287,7 @@
       "description": "Custom render pipeline options",
       "stars": 1,
       "createdAt": "2026-06-13T04:50:40Z",
-      "updatedAt": "2026-10-20T04:03:22Z",
+      "updatedAt": "2026-10-22T03:52:31Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -299,7 +299,6 @@
         "custom": true
       },
       "categories": [
-        "color",
         "look"
       ],
       "type": null,
@@ -317,7 +316,7 @@
       "description": "Adds batch editing support",
       "stars": 1,
       "createdAt": "2026-06-12T22:34:09Z",
-      "updatedAt": "2026-10-20T04:04:43Z",
+      "updatedAt": "2026-10-22T03:52:40Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -330,7 +329,8 @@
         "custom": true
       },
       "categories": [
-        "library"
+        "color",
+        "look"
       ],
       "type": "panel",
       "keywords": [],
@@ -347,7 +347,7 @@
       "description": "Black and white editing tools",
       "stars": 1,
       "createdAt": "2026-10-18T06:19:38Z",
-      "updatedAt": "2026-10-20T04:03:57Z",
+      "updatedAt": "2026-10-22T03:53:08Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -360,7 +360,8 @@
         "custom": false
       },
       "categories": [
-        "color"
+        "color",
+        "look"
       ],
       "type": "panel",
       "keywords": [
@@ -377,7 +378,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "from": "branch",
         "minAppVersion": "2.5.5"
       }
@@ -429,7 +430,7 @@
       "description": "Darktable Colour Correction for Safelight",
       "stars": 1,
       "createdAt": "2026-09-18T04:59:43Z",
-      "updatedAt": "2026-10-20T04:05:57Z",
+      "updatedAt": "2026-10-22T03:53:30Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -457,7 +458,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "from": "branch",
         "minAppVersion": "2.5.0"
       }
@@ -550,7 +551,7 @@
       "description": "Continuous 2D color editor for Safelight",
       "stars": 1,
       "createdAt": "2026-06-29T01:56:29Z",
-      "updatedAt": "2026-10-20T04:07:22Z",
+      "updatedAt": "2026-10-22T03:53:56Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -578,7 +579,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.2",
+        "version": "1.0.3",
         "from": "branch",
         "minAppVersion": "2.4.3"
       }
@@ -588,7 +589,7 @@
       "description": "Contrast Equalizer panel for safelight",
       "stars": 1,
       "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-10-15T04:56:15Z",
+      "updatedAt": "2026-10-22T03:54:05Z",
       "topics": [
         "safelight-extension",
         "safelight-pipeline"
@@ -598,10 +599,7 @@
         "url": "https://repository-images.githubusercontent.com/1282612118/70630772-089e-4a94-94c6-ea7ca09f4332",
         "custom": true
       },
-      "categories": [
-        "detail",
-        "color"
-      ],
+      "categories": [],
       "type": "pipeline",
       "keywords": [
         "darktable",
@@ -842,7 +840,7 @@
       "description": "HDR Editing tools for Safelight",
       "stars": 1,
       "createdAt": "2026-10-18T06:23:26Z",
-      "updatedAt": "2026-10-20T04:09:08Z",
+      "updatedAt": "2026-10-22T03:54:15Z",
       "topics": [
         "safelight-export",
         "safelight-extension",
@@ -855,6 +853,7 @@
         "custom": false
       },
       "categories": [
+        "tone",
         "export"
       ],
       "type": "panel",
@@ -882,7 +881,7 @@
       "description": "Hierarchical keywording for Safelight",
       "stars": 1,
       "createdAt": "2026-08-19T02:19:09Z",
-      "updatedAt": "2026-10-20T04:09:46Z",
+      "updatedAt": "2026-10-22T03:54:25Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -895,8 +894,8 @@
         "custom": true
       },
       "categories": [
-        "library",
-        "workflow"
+        "metadata",
+        "library"
       ],
       "type": "panel",
       "keywords": [
@@ -1105,7 +1104,7 @@
       "description": "Auto and Manual red eye correction",
       "stars": 1,
       "createdAt": "2026-06-12T20:01:18Z",
-      "updatedAt": "2026-10-20T04:14:17Z",
+      "updatedAt": "2026-10-22T03:56:12Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1124,7 +1123,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.2.1",
+        "version": "2.2.2",
         "from": "branch",
         "minAppVersion": "2.4.3"
       }
@@ -1203,7 +1202,7 @@
       "description": "A Solarized light/dark interface for Safelight.",
       "stars": 1,
       "createdAt": "2026-06-11T22:05:22Z",
-      "updatedAt": "2026-10-15T05:02:24Z",
+      "updatedAt": "2026-10-22T03:56:31Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -1219,7 +1218,12 @@
       "type": null,
       "keywords": [],
       "screenshots": [],
-      "worksWith": []
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "from": "branch",
+        "minAppVersion": "2.4.3"
+      }
     },
     {
       "fullName": "anthonyreimche/Speed-Edit",
@@ -1266,7 +1270,7 @@
       "description": "Spektrafilm support",
       "stars": 1,
       "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-10-20T04:15:13Z",
+      "updatedAt": "2026-10-22T03:57:09Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1278,7 +1282,7 @@
         "custom": true
       },
       "categories": [
-        "color"
+        "look"
       ],
       "type": null,
       "keywords": [
@@ -1292,7 +1296,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.2.1",
+        "version": "2.3.0",
         "from": "branch",
         "minAppVersion": "2.5.0"
       }
@@ -1375,7 +1379,7 @@
       "description": "XMP Read/Write Support",
       "stars": 1,
       "createdAt": "2026-06-20T07:11:36Z",
-      "updatedAt": "2026-10-20T04:16:54Z",
+      "updatedAt": "2026-10-22T03:57:36Z",
       "topics": [
         "safelight-extension",
         "safelight-metadata",
@@ -1387,6 +1391,7 @@
         "custom": true
       },
       "categories": [
+        "metadata",
         "preset"
       ],
       "type": null,
@@ -1432,11 +1437,48 @@
       }
     },
     {
+      "fullName": "anthonyreimche/GPS-Track",
+      "description": "GPS-Track for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-22T03:58:45Z",
+      "updatedAt": "2026-10-22T04:12:41Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "categories": [
+        "library"
+      ],
+      "type": "panel",
+      "keywords": [
+        "gps",
+        "gpx",
+        "geotag",
+        "track",
+        "location"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Map"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/JPG-Tone-Match",
       "description": "Match the decoded raw to your camera's JPG preview",
       "stars": 0,
       "createdAt": "2026-06-24T07:11:31Z",
-      "updatedAt": "2026-10-20T04:11:12Z",
+      "updatedAt": "2026-10-22T03:54:49Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1448,7 +1490,7 @@
         "custom": true
       },
       "categories": [
-        "color"
+        "look"
       ],
       "type": null,
       "keywords": [
@@ -1462,7 +1504,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
+        "version": "1.1.1",
         "from": "branch"
       }
     },
@@ -1471,7 +1513,7 @@
       "description": "Map module for Safelight",
       "stars": 0,
       "createdAt": "2026-09-30T20:39:16Z",
-      "updatedAt": "2026-10-20T04:12:06Z",
+      "updatedAt": "2026-10-22T03:58:07Z",
       "topics": [
         "safelight-extension",
         "safelight-metadata",
@@ -1491,16 +1533,15 @@
         "gps",
         "geotag",
         "geolocation",
-        "gpx",
         "location",
         "module"
       ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "2.0.0",
         "from": "branch",
-        "minAppVersion": "2.6.0"
+        "minAppVersion": "3.2.0"
       }
     },
     {
@@ -1508,7 +1549,7 @@
       "description": "Pyramid Local Contrast for Safelight",
       "stars": 0,
       "createdAt": "2026-09-24T02:39:50Z",
-      "updatedAt": "2026-10-20T04:13:45Z",
+      "updatedAt": "2026-10-22T03:55:45Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1521,6 +1562,7 @@
         "custom": false
       },
       "categories": [
+        "tone",
         "detail"
       ],
       "type": "panel",
@@ -1589,7 +1631,7 @@
       "description": "Tone levels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-20T03:41:30Z",
-      "updatedAt": "2026-10-20T04:17:37Z",
+      "updatedAt": "2026-10-22T03:57:21Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1603,6 +1645,7 @@
         "custom": false
       },
       "categories": [
+        "tone",
         "color"
       ],
       "type": "pipeline",
