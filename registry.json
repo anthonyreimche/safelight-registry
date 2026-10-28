@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T18:25:07.615Z",
+  "generatedAt": "2026-10-28T07:35:28.425Z",
   "topic": "safelight-extension",
   "count": 57,
   "categories": [
@@ -75,7 +75,7 @@
       "description": "Advanced Lens Correction for Safelight",
       "stars": 2,
       "createdAt": "2026-06-28T02:43:09Z",
-      "updatedAt": "2026-10-22T03:51:45Z",
+      "updatedAt": "2026-10-28T03:05:14Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -103,9 +103,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.2",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "2.4.3"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -316,7 +316,7 @@
       "description": "Adds batch editing support",
       "stars": 1,
       "createdAt": "2026-06-12T22:34:09Z",
-      "updatedAt": "2026-10-22T03:52:40Z",
+      "updatedAt": "2026-10-28T03:03:39Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -337,7 +337,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.3.2",
+        "version": "1.4.0",
         "from": "branch",
         "minAppVersion": "2.4.3"
       }
@@ -347,7 +347,7 @@
       "description": "Black and white editing tools",
       "stars": 1,
       "createdAt": "2026-10-18T06:19:38Z",
-      "updatedAt": "2026-10-22T03:53:08Z",
+      "updatedAt": "2026-10-28T03:03:52Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -378,9 +378,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "2.5.5"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -430,7 +430,7 @@
       "description": "Darktable Colour Correction for Safelight",
       "stars": 1,
       "createdAt": "2026-09-18T04:59:43Z",
-      "updatedAt": "2026-10-22T03:53:30Z",
+      "updatedAt": "2026-10-28T03:04:06Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -458,9 +458,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "2.5.0"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -468,7 +468,7 @@
       "description": "Ansel-style colour equaliser for Safelight",
       "stars": 1,
       "createdAt": "2026-09-20T05:25:39Z",
-      "updatedAt": "2026-10-20T04:06:32Z",
+      "updatedAt": "2026-10-28T03:04:23Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -500,9 +500,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "2.5.5"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -510,7 +510,7 @@
       "description": "Darktable-style Colour Harmonizer for Safelight",
       "stars": 1,
       "createdAt": "2026-09-19T03:13:24Z",
-      "updatedAt": "2026-10-20T04:07:00Z",
+      "updatedAt": "2026-10-28T03:04:38Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -541,9 +541,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "2.5.4"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -589,7 +589,7 @@
       "description": "Contrast Equalizer panel for safelight",
       "stars": 1,
       "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-10-22T03:54:05Z",
+      "updatedAt": "2026-10-28T03:04:59Z",
       "topics": [
         "safelight-extension",
         "safelight-pipeline"
@@ -615,9 +615,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.1.0",
+        "version": "2.2.0",
         "from": "branch",
-        "minAppVersion": "2.5.4"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -1270,7 +1270,7 @@
       "description": "Spektrafilm support",
       "stars": 1,
       "createdAt": "2026-06-21T05:18:35Z",
-      "updatedAt": "2026-10-22T03:57:09Z",
+      "updatedAt": "2026-10-28T03:05:48Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1296,9 +1296,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.3.0",
+        "version": "2.4.0",
         "from": "branch",
-        "minAppVersion": "2.5.0"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -1665,7 +1665,7 @@
       "description": "Pyramid Local Contrast for Safelight",
       "stars": 0,
       "createdAt": "2026-09-24T02:39:50Z",
-      "updatedAt": "2026-10-22T03:55:45Z",
+      "updatedAt": "2026-10-28T03:05:29Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1696,9 +1696,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "2.5.5"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -1706,7 +1706,7 @@
       "description": "Tone Equalizer for Safelight",
       "stars": 0,
       "createdAt": "2026-10-20T15:12:06Z",
-      "updatedAt": "2026-10-22T14:40:29Z",
+      "updatedAt": "2026-10-28T03:06:05Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1737,9 +1737,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "3.0.1"
+        "minAppVersion": "3.1.0"
       }
     },
     {
@@ -1747,7 +1747,7 @@
       "description": "Tone levels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-20T03:41:30Z",
-      "updatedAt": "2026-10-22T03:57:21Z",
+      "updatedAt": "2026-10-28T03:06:17Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1779,9 +1779,9 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.1.0",
         "from": "branch",
-        "minAppVersion": "3.0.0"
+        "minAppVersion": "3.1.0"
       }
     },
     {
