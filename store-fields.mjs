@@ -10,6 +10,7 @@ export const SLUG = /^[a-z][a-z0-9-]{0,23}$/;
 export const RESERVED = ["home", "other"];
 export const REPO = /^[\w.-]+\/[\w.-]+$/;
 export const LIMITS = {
+  name: 60,
   categories: 16,
   perRepo: 3,
   label: 24,
@@ -189,6 +190,13 @@ export function resolveCategories({ manifest, topics, override, vocabulary }) {
 export function resolveType(topics, vocabulary) {
   const tagged = topicSet(topics);
   return vocabulary.types.find((t) => tagged.has(`safelight-${t.slug}`))?.slug ?? null;
+}
+
+/** The manifest's name, which the store shows in place of the repo name, or
+ *  null when it is missing, blank or longer than LIMITS.name. */
+export function cleanName(manifest) {
+  const name = isObject(manifest) && typeof manifest.name === "string" ? manifest.name.trim() : "";
+  return name && name.length <= LIMITS.name ? name : null;
 }
 
 export function cleanKeywords(manifest) {

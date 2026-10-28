@@ -3,7 +3,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { LIMITS, cleanKeywords, cleanScreenshots, declaredWorksWith, linkWorksWith, parseCategories, parseOverrides, publicVocabulary, resolveAssetUrl, resolveCategories, resolveType } from "./store-fields.mjs";
+import { LIMITS, cleanKeywords, cleanName, cleanScreenshots, declaredWorksWith, linkWorksWith, parseCategories, parseOverrides, publicVocabulary, resolveAssetUrl, resolveCategories, resolveType } from "./store-fields.mjs";
 
 const committed = (name) => JSON.parse(readFileSync(new URL(`./${name}`, import.meta.url), "utf8"));
 
@@ -198,6 +198,15 @@ test("the type follows the vocabulary's precedence", () => {
   assert.equal(resolveType(["safelight-panel"], VOCAB), "panel");
   assert.equal(resolveType(["safelight-theme"], VOCAB), null);
   assert.equal(resolveType(undefined, VOCAB), null);
+});
+
+test("the name is the manifest's, trimmed; blank, non-string or over-long is none", () => {
+  assert.equal(cleanName({ name: "  Colour Harmony " }), "Colour Harmony");
+  assert.equal(cleanName({ name: "x".repeat(LIMITS.name) }), "x".repeat(LIMITS.name));
+  assert.equal(cleanName({ name: "x".repeat(LIMITS.name + 1) }), null);
+  assert.equal(cleanName({ name: "   " }), null);
+  assert.equal(cleanName({ name: 7 }), null);
+  assert.equal(cleanName(null), null);
 });
 
 test("keywords are trimmed, lowercased, deduped and capped", () => {

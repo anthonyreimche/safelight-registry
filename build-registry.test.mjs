@@ -245,6 +245,7 @@ test("the committed categories.json and category-overrides.json load", async () 
 
 test("a readable manifest gives every store field", () => {
   const manifest = {
+    name: "Image Warp",
     categories: ["Develop", "Detail"],
     keywords: ["Liquify", "warp"],
     screenshots: ["docs/one.png"],
@@ -252,6 +253,7 @@ test("a readable manifest gives every store field", () => {
   };
   assert.deepEqual(entryStoreFields("acme/warp", ["safelight-pipeline", "safelight-tone"], manifest, undefined, store), {
     fields: {
+      name: "Image Warp",
       categories: ["detail"],
       type: "pipeline",
       keywords: ["liquify", "warp"],
@@ -273,6 +275,7 @@ test("a missing manifest falls back to topics, then the registry's override", ()
 test("an unreadable manifest keeps the previous build's manifest fields; the type is recomputed", () => {
   const previous = {
     fullName: "acme/warp",
+    name: "Image Warp",
     categories: ["detail", "retired"],
     type: "panel",
     keywords: ["warp"],
@@ -280,7 +283,13 @@ test("an unreadable manifest keeps the previous build's manifest fields; the typ
     worksWith: ["acme/other"],
   };
   assert.deepEqual(entryStoreFields("acme/warp", ["safelight-module"], UNREADABLE, previous, store), {
-    fields: { categories: ["detail"], type: "module", keywords: ["warp"], screenshots: ["https://e.com/a.png"] },
+    fields: {
+      name: "Image Warp",
+      categories: ["detail"],
+      type: "module",
+      keywords: ["warp"],
+      screenshots: ["https://e.com/a.png"],
+    },
     declared: ["acme/other"],
     ignored: [],
   });

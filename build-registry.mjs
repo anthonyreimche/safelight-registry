@@ -20,7 +20,7 @@
 //     categories: [{ slug, label, description }], types: [{ slug, label }],
 //     extensions: [
 //       { fullName, description, stars, createdAt, updatedAt, topics,
-//         avatarUrl, thumbnail: { url, custom },
+//         avatarUrl, thumbnail: { url, custom }, name?,
 //         categories: [slug], type: slug | null, keywords: [string],
 //         screenshots: [url], worksWith: ["owner/repo"],
 //         latest?: { version, from: "release", tag, zips, minAppVersion? }
@@ -35,6 +35,7 @@ import { writeFile, readFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import {
   cleanKeywords,
+  cleanName,
   cleanScreenshots,
   declaredWorksWith,
   linkWorksWith,
@@ -139,6 +140,7 @@ export function entryStoreFields(fullName, topics, manifest, previous, { vocabul
     const known = new Set(vocabulary.categories.map((c) => c.slug));
     return {
       fields: {
+        ...(typeof previous.name === "string" ? { name: previous.name } : {}),
         categories: list(previous.categories).filter((s) => known.has(s)),
         type,
         keywords: list(previous.keywords),
@@ -155,8 +157,10 @@ export function entryStoreFields(fullName, topics, manifest, previous, { vocabul
     override: overrides.get(fullName.toLowerCase()),
     vocabulary,
   });
+  const name = cleanName(readable);
   return {
     fields: {
+      ...(name ? { name } : {}),
       categories,
       type,
       keywords: cleanKeywords(readable),
