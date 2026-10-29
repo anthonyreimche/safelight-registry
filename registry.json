@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T16:25:09.030Z",
+  "generatedAt": "2026-10-29T09:26:35.227Z",
   "topic": "safelight-extension",
   "count": 57,
   "categories": [
@@ -1793,7 +1793,7 @@
       "description": "Tone levels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-20T03:41:30Z",
-      "updatedAt": "2026-10-28T03:06:17Z",
+      "updatedAt": "2026-10-29T03:13:18Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1826,7 +1826,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
+        "version": "1.1.1",
         "from": "branch",
         "minAppVersion": "3.1.0"
       }
