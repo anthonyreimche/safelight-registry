@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-31T08:59:33.430Z",
+  "generatedAt": "2026-10-31T19:36:34.557Z",
   "topic": "safelight-extension",
-  "count": 57,
+  "count": 71,
   "categories": [
     {
       "slug": "library",
@@ -1475,6 +1475,80 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Accessibility",
+      "description": "Accessibility tools for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:12:54Z",
+      "updatedAt": "2026-10-31T17:13:35Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Accessibility",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "accessibility",
+        "a11y",
+        "high contrast",
+        "colour blind",
+        "larger text",
+        "reduced motion",
+        "keyboard"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Color-Grading",
+      "description": "Color Grading Wheels for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:14:33Z",
+      "updatedAt": "2026-10-31T17:32:41Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Color Grading",
+      "categories": [
+        "color"
+      ],
+      "type": "panel",
+      "keywords": [
+        "color grading",
+        "color wheels",
+        "split toning",
+        "tint",
+        "toning"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Colorise",
       "description": "Colorise for Safelight",
       "stars": 0,
@@ -1513,6 +1587,197 @@
         "version": "1.0.0",
         "from": "branch",
         "minAppVersion": "3.1.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Develop",
+      "description": "Develop module for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:16:21Z",
+      "updatedAt": "2026-10-31T17:38:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-module",
+        "safelight-pipeline",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Develop",
+      "categories": [
+        "workflow"
+      ],
+      "type": "module",
+      "keywords": [
+        "develop",
+        "edit",
+        "canvas",
+        "zoom",
+        "proof"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Developer-Tools",
+      "description": "Developer Tools for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:18:01Z",
+      "updatedAt": "2026-10-31T17:18:38Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Developer Tools",
+      "categories": [
+        "workflow"
+      ],
+      "type": null,
+      "keywords": [
+        "developer",
+        "devtools",
+        "console",
+        "debug",
+        "pipeline",
+        "variables"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Edit-History",
+      "description": "Edit history for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:19:41Z",
+      "updatedAt": "2026-10-31T17:20:14Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Edit",
+      "categories": [
+        "workflow"
+      ],
+      "type": "panel",
+      "keywords": [
+        "undo",
+        "redo",
+        "reset",
+        "history",
+        "edit"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Effects",
+      "description": "Vignette and grain for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:22:14Z",
+      "updatedAt": "2026-10-31T17:24:20Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-look",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Effects",
+      "categories": [
+        "look"
+      ],
+      "type": "panel",
+      "keywords": [
+        "vignette",
+        "grain",
+        "film grain",
+        "effects"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Export",
+      "description": "Export tools for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:25:08Z",
+      "updatedAt": "2026-10-31T17:25:40Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Export",
+      "categories": [
+        "export"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "export",
+        "jpeg",
+        "png",
+        "tiff",
+        "webp",
+        "zip",
+        "resize",
+        "sharpening",
+        "preset"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Library"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
       }
     },
     {
@@ -1594,6 +1859,125 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Histogram",
+      "description": "Histogram for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:31:33Z",
+      "updatedAt": "2026-10-31T17:32:08Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Histogram",
+      "categories": [
+        "tone"
+      ],
+      "type": "panel",
+      "keywords": [
+        "histogram",
+        "clipping",
+        "exposure",
+        "levels",
+        "tonal"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/HSL",
+      "description": "HSL sliders for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:34:01Z",
+      "updatedAt": "2026-10-31T17:34:28Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-look",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "HSL",
+      "categories": [
+        "color"
+      ],
+      "type": "panel",
+      "keywords": [
+        "hsl",
+        "color mixer",
+        "hue",
+        "saturation",
+        "luminance",
+        "target tool"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Info",
+      "description": "Image info for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:35:34Z",
+      "updatedAt": "2026-10-31T17:36:00Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Info",
+      "categories": [
+        "metadata"
+      ],
+      "type": "panel",
+      "keywords": [
+        "info",
+        "metadata",
+        "exif",
+        "histogram",
+        "keywords",
+        "rating"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Library"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/JPG-Tone-Match",
       "description": "Match the decoded raw to your camera's JPG preview",
       "stars": 0,
@@ -1627,6 +2011,125 @@
       "latest": {
         "version": "1.1.1",
         "from": "branch"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Keywords",
+      "description": "Keyword management for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:39:38Z",
+      "updatedAt": "2026-10-31T17:40:14Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Keywords",
+      "categories": [
+        "library",
+        "metadata"
+      ],
+      "type": null,
+      "keywords": [
+        "keywords",
+        "tags",
+        "filter",
+        "library",
+        "metadata"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Library"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Library",
+      "description": "Library module for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:37:08Z",
+      "updatedAt": "2026-10-31T17:37:46Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-module",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Library",
+      "categories": [
+        "library"
+      ],
+      "type": "module",
+      "keywords": [
+        "library",
+        "grid",
+        "culling",
+        "rating",
+        "sort"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Library-Filters",
+      "description": "Library filters for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:41:40Z",
+      "updatedAt": "2026-10-31T17:42:13Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Library Filters",
+      "categories": [
+        "library"
+      ],
+      "type": "panel",
+      "keywords": [
+        "filter",
+        "filters",
+        "rating",
+        "stars",
+        "flag",
+        "picks",
+        "rejects",
+        "colour label",
+        "keyword"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Library"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
       }
     },
     {
@@ -1702,6 +2205,45 @@
         "version": "1.0.0",
         "from": "branch",
         "minAppVersion": "3.1.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Presets",
+      "description": "Presets for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:43:06Z",
+      "updatedAt": "2026-10-31T17:43:42Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-look",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Presets",
+      "categories": [
+        "preset"
+      ],
+      "type": "panel",
+      "keywords": [
+        "presets",
+        "looks",
+        "import",
+        "export",
+        "develop"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
       }
     },
     {
