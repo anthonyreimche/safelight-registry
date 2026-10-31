@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 
 export const LIMITS = {
   kits: 8,
-  extensionsPerKit: 12,
+  extensionsPerKit: 24,
   kitName: 40,
   kitDescription: 160,
   extensionName: 48,
@@ -68,6 +68,8 @@ export function validateKits(doc, { verified, registry, banned: bannedList }) {
     checkText(errors, `${at}.description`, kit.description ?? "", 0, LIMITS.kitDescription);
     if (kit.icon !== undefined && !ICONS.includes(kit.icon))
       errors.push(`${at}.icon must be one of ${ICONS.join(", ")}`);
+    if (kit.default !== undefined && typeof kit.default !== "boolean")
+      errors.push(`${at}.default must be true or false`);
     if (!Array.isArray(kit.extensions) || kit.extensions.length === 0) {
       errors.push(`${at}.extensions must be a non-empty array`);
       return;

@@ -52,8 +52,16 @@ test("rejects an unknown icon", () => {
 test("rejects too many kits and too many extensions", () => {
   const kits = Array.from({ length: LIMITS.kits + 1 }, (_, i) => kit({ id: `k${i}` }));
   assert.match(errors(doc(kits)), /at most 8 kits/);
+  assert.equal(LIMITS.extensionsPerKit, 24);
   const many = Array.from({ length: LIMITS.extensionsPerKit + 1 }, () => ext("acme/one"));
-  assert.match(errors(doc([kit({ extensions: many })])), /at most 12 extensions/);
+  assert.match(errors(doc([kit({ extensions: many })])), /at most 24 extensions/);
+});
+
+test("accepts a boolean default and rejects anything else", () => {
+  assert.deepEqual(validateKits(doc([kit({ default: true })]), ctx), []);
+  assert.deepEqual(validateKits(doc([kit({ default: false })]), ctx), []);
+  for (const value of ["yes", 1, null])
+    assert.match(errors(doc([kit({ default: value })])), /kits\[0\]\.default must be true or false/);
 });
 
 test("rejects an empty kit", () => {

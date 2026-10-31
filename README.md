@@ -196,7 +196,8 @@ Rules (checked by `validate-kits.mjs` in CI, and again by the app):
   `style`.
 - Every `repo` must be in `verified.json`, present in `registry.json`, and not
   banned; listed once per kit. Kits may share repos.
-- At most 8 kits and 12 extensions per kit.
+- At most 8 kits and 24 extensions per kit.
+- `default` (optional, `true` or `false`): a first run starts with the kit picked.
 - `minAppVersion` (optional, `x.y.z`) hides the extension in older app builds.
 - Only `"schema": 1` is read. A breaking format change must ship as a new file
   name so released apps keep reading this one.
