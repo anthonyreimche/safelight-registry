@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-29T09:26:35.227Z",
+  "generatedAt": "2026-10-31T08:59:33.430Z",
   "topic": "safelight-extension",
   "count": 57,
   "categories": [
@@ -75,7 +75,7 @@
       "description": "Advanced Lens Correction for Safelight",
       "stars": 2,
       "createdAt": "2026-06-28T02:43:09Z",
-      "updatedAt": "2026-10-28T03:05:14Z",
+      "updatedAt": "2026-10-31T04:37:55Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -104,7 +104,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
+        "version": "1.2.0",
         "from": "branch",
         "minAppVersion": "3.1.0"
       }
