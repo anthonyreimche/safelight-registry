@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T03:24:31.271Z",
+  "generatedAt": "2026-11-01T08:15:33.066Z",
   "topic": "safelight-extension",
-  "count": 72,
+  "count": 74,
   "categories": [
     {
       "slug": "library",
@@ -2346,6 +2346,45 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Tone-Curve",
+      "description": "Tone curve for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-01T03:54:00Z",
+      "updatedAt": "2026-11-01T03:54:28Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline",
+        "safelight-tone"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Tone Curve",
+      "categories": [
+        "tone"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "tone curve",
+        "curves",
+        "contrast",
+        "rgb curve",
+        "channel curve"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Tone-Equalizer",
       "description": "Tone Equalizer for Safelight",
       "stars": 0,
@@ -2428,6 +2467,46 @@
         "version": "1.1.1",
         "from": "branch",
         "minAppVersion": "3.1.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/White-Balance",
+      "description": "White Balance for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-01T03:51:08Z",
+      "updatedAt": "2026-11-01T03:52:38Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "White Balance",
+      "categories": [
+        "color"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "white balance",
+        "temperature",
+        "tint",
+        "eyedropper",
+        "auto white balance",
+        "kelvin"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
       }
     },
     {
