@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-01T08:15:33.066Z",
+  "generatedAt": "2026-11-01T19:55:35.705Z",
   "topic": "safelight-extension",
-  "count": 74,
+  "count": 76,
   "categories": [
     {
       "slug": "library",
@@ -1911,6 +1911,45 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Heal",
+      "description": "Heal and clone tools for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-01T16:41:40Z",
+      "updatedAt": "2026-11-01T16:42:52Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Heal",
+      "categories": [
+        "detail"
+      ],
+      "type": "panel",
+      "keywords": [
+        "heal",
+        "clone",
+        "spot removal",
+        "dust",
+        "blemish",
+        "retouch"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Histogram",
       "description": "Histogram for Safelight",
       "stars": 0,
@@ -2224,6 +2263,47 @@
         "version": "2.0.0",
         "from": "branch",
         "minAppVersion": "3.0.1"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Masking",
+      "description": "Masking tools for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-01T16:39:58Z",
+      "updatedAt": "2026-11-01T16:40:33Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Masking",
+      "categories": [
+        "tone"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "masks",
+        "masking",
+        "local adjustments",
+        "brush",
+        "gradient",
+        "radial",
+        "luminance range",
+        "colour range"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
       }
     },
     {
