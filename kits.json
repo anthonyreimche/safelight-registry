@@ -12,6 +12,7 @@
         { "repo": "anthonyreimche/Edit-History", "name": "Edit History", "summary": "Undo, redo and reset for the current edit.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Histogram", "name": "Histogram", "summary": "Live RGB histogram of the rendered image.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/White-Balance", "name": "White Balance", "summary": "Temperature and tint, with an eyedropper and Auto.", "minAppVersion": "3.2.0" },
+        { "repo": "anthonyreimche/Basic-Adjustments", "name": "Basic", "summary": "Exposure, contrast, highlights, shadows, whites, blacks, presence and Auto Tone.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Tone-Curve", "name": "Tone Curve", "summary": "Point tone curves for the image and each channel.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Color-Grading", "name": "Color Grading", "summary": "Shadow, midtone and highlight color wheels.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Effects", "name": "Effects", "summary": "Vignette and grain.", "minAppVersion": "3.2.0" },
