@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T03:53:54.348Z",
+  "generatedAt": "2026-11-03T04:03:12.201Z",
   "topic": "safelight-extension",
-  "count": 78,
+  "count": 80,
   "categories": [
     {
       "slug": "library",
@@ -1675,6 +1675,48 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Detail",
+      "description": "Basic detail tools for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-01T03:13:50Z",
+      "updatedAt": "2026-11-03T03:57:56Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Detail",
+      "categories": [
+        "detail"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "sharpening",
+        "sharpen",
+        "noise reduction",
+        "denoise",
+        "luminance noise",
+        "colour noise",
+        "texture",
+        "clarity"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Develop"
+      ],
+      "latest": {
+        "version": "3.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Develop",
       "description": "Develop module for Safelight",
       "stars": 0,
@@ -1708,9 +1750,9 @@
         "anthonyreimche/Basic",
         "anthonyreimche/Color-Grading",
         "anthonyreimche/Crop",
+        "anthonyreimche/Detail",
         "anthonyreimche/Edit-History",
-        "anthonyreimche/Effects",
-        "anthonyreimche/Heal"
+        "anthonyreimche/Effects"
       ],
       "latest": {
         "version": "1.0.0",
@@ -1861,6 +1903,46 @@
         "resize",
         "sharpening",
         "preset"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Library"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch",
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Folders",
+      "description": "Folder management for Safelight",
+      "stars": 0,
+      "createdAt": "2026-10-31T17:26:49Z",
+      "updatedAt": "2026-11-03T03:59:09Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Folders",
+      "categories": [
+        "library"
+      ],
+      "type": "panel",
+      "keywords": [
+        "folders",
+        "folder tree",
+        "project",
+        "organise",
+        "move",
+        "rename"
       ],
       "screenshots": [],
       "worksWith": [
@@ -2215,6 +2297,7 @@
       "screenshots": [],
       "worksWith": [
         "anthonyreimche/Export",
+        "anthonyreimche/Folders",
         "anthonyreimche/Info",
         "anthonyreimche/Keywords",
         "anthonyreimche/Library-Filters"
