@@ -12,7 +12,7 @@
         { "repo": "anthonyreimche/Edit-History", "name": "Edit History", "summary": "Undo, redo and reset for the current edit.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Histogram", "name": "Histogram", "summary": "Live RGB histogram of the rendered image.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Transform", "name": "Transform", "summary": "Perspective, stretch and Upright, with guided lines.", "minAppVersion": "3.2.0" },
-        { "repo": "anthonyreimche/Crop-And-Straighten", "name": "Crop & Straighten", "summary": "Crop with aspect presets and composition guides, straighten and level.", "minAppVersion": "3.2.0" },
+        { "repo": "anthonyreimche/Crop", "name": "Crop & Straighten", "summary": "Crop with aspect presets and composition guides, straighten and level.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Heal", "name": "Heal", "summary": "Heal and clone away spots and blemishes.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Masking", "name": "Masking", "summary": "Local adjustments with brush, linear, radial and range masks.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/White-Balance", "name": "White Balance", "summary": "Temperature and tint, with an eyedropper and Auto.", "minAppVersion": "3.2.0" },
