@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T20:31:58.692Z",
+  "generatedAt": "2026-11-03T03:53:54.348Z",
   "topic": "safelight-extension",
   "count": 78,
   "categories": [
@@ -1707,10 +1707,10 @@
       "worksWith": [
         "anthonyreimche/Basic",
         "anthonyreimche/Color-Grading",
+        "anthonyreimche/Crop",
         "anthonyreimche/Edit-History",
         "anthonyreimche/Effects",
-        "anthonyreimche/Histogram",
-        "anthonyreimche/HSL"
+        "anthonyreimche/Heal"
       ],
       "latest": {
         "version": "1.0.0",
