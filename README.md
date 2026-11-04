@@ -17,7 +17,7 @@ It is a community safety aid, **not a guarantee**. See [Scope & disclaimer](#sco
 |------|---------|
 | [`verified.json`](verified.json) | Repos a maintainer has code-reviewed at a point in time. Shown with a **✓ Verified** badge in the Extensions store and installed without the unverified-risk prompt. |
 | [`banned.json`](banned.json) | Repos / accounts assessed as malicious: refused at install **and** disabled at load, even if already installed. The kill-switch. |
-| `registry.json` | The store's **browse catalog** — auto-generated, do not hand-edit. See [Registry index](#registry-index-registryjson). |
+| `registry.json` | The store's **browse catalogue** — auto-generated, do not hand-edit. See [Registry index](#registry-index-registryjson). |
 | [`categories.json`](categories.json) | The Extensions store's categories: slug, label, description, aliases, and the type badges. Hand-edited. See [Store categories](#store-categories-categoriesjson). |
 | [`category-overrides.json`](category-overrides.json) | Categories for repos whose authors haven't tagged one. Used only when the repo has no purpose topic and no matching manifest categories. |
 
@@ -27,7 +27,7 @@ caches them for ~6 hours, and falls back to the last-known-good copy if a fetch 
 
 ## Registry index (`registry.json`)
 
-The Extensions store's **Browse** tab loads a single prebuilt catalog of every
+The Extensions store's **Browse** tab loads a single prebuilt catalogue of every
 published extension — name, description, stars, dates, topics, a resolved
 thumbnail, and the store's own grouping (categories, type badge, keywords,
 screenshots and Works with links) — instead of running a live GitHub search and
@@ -35,7 +35,7 @@ scraping each repo's preview image on every machine. That makes the store open i
 the *complete* list (not the search API's first 25), and power the New / Popular /
 Recently-updated / Featured shelves.
 
-That catalog is `registry.json`, built by [`build-registry.mjs`](build-registry.mjs)
+That catalogue is `registry.json`, built by [`build-registry.mjs`](build-registry.mjs)
 and committed automatically by the
 [Build registry index](.github/workflows/build-registry.yml) workflow. It runs on a
 schedule (hourly), on demand (the **Run workflow** button), and whenever
@@ -75,7 +75,7 @@ sign-in):
 
 A repo with only pre-releases gets none of these, and the app asks GitHub
 itself. If GitHub can't be read for a repo during a build, its fields from the
-previous build are kept. The build commits only when the catalog's content
+previous build are kept. The build commits only when the catalogue's content
 changed, not on every run just because `generatedAt` moved.
 
 ## What "verified" means — and doesn't

@@ -18,7 +18,7 @@
         { "repo": "anthonyreimche/White-Balance", "name": "White Balance", "summary": "Temperature and tint, with an eyedropper and Auto.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Basic", "name": "Basic", "summary": "Exposure, contrast, highlights, shadows, whites, blacks, presence and Auto Tone.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Tone-Curve", "name": "Tone Curve", "summary": "Point tone curves for the image and each channel.", "minAppVersion": "3.2.0" },
-        { "repo": "anthonyreimche/Color-Grading", "name": "Color Grading", "summary": "Shadow, midtone and highlight color wheels.", "minAppVersion": "3.2.0" },
+        { "repo": "anthonyreimche/Color-Grading", "name": "Colour Grading", "summary": "Shadow, midtone and highlight color wheels.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Detail", "name": "Detail", "summary": "Sharpening, with the noise-reduction sliders and their previews.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/Effects", "name": "Effects", "summary": "Vignette and grain.", "minAppVersion": "3.2.0" },
         { "repo": "anthonyreimche/HSL", "name": "HSL", "summary": "Per-color hue, saturation and luminance mixer.", "minAppVersion": "3.2.0" },
@@ -48,7 +48,7 @@
       "description": "Precise colour editing, darktable-style colour tools, and scopes to check the result.",
       "icon": "palette",
       "extensions": [
-        { "repo": "anthonyreimche/Continuous-2D-Color-Editor", "name": "Continuous 2D Color Editor", "summary": "Pull hues and saturations around a 2D colour plane." },
+        { "repo": "anthonyreimche/Continuous-2D-Color-Editor", "name": "Continuous 2D Colour Editor", "summary": "Pull hues and saturations around a 2D colour plane." },
         { "repo": "anthonyreimche/Colour-Equaliser", "name": "Colour Equaliser", "summary": "Ansel-style hue, saturation and brightness rings." },
         { "repo": "anthonyreimche/Colour-Harmonizer", "name": "Colour Harmony", "summary": "Nudge colours toward a harmony rule." },
         { "repo": "anthonyreimche/Colour-Correction", "name": "Colour Correction", "summary": "Split-tone shadows and highlights on a colour plane." },

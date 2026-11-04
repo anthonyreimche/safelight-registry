@@ -270,7 +270,7 @@ const link = (declared, banned = new Set()) =>
     isBanned: (r) => banned.has(r),
   });
 
-test("a verified declarer links both ways, in catalog casing", () => {
+test("a verified declarer links both ways, in catalogue casing", () => {
   const links = link({ "acme/gps": ["acme/map"] });
   assert.deepEqual(links.get("acme/gps"), ["Acme/Map"]);
   assert.deepEqual(links.get("acme/map"), ["acme/gps"]);
@@ -283,13 +283,13 @@ test("an unverified declarer links only from its own page", () => {
   assert.deepEqual(links.get("acme/map"), []);
 });
 
-test("targets outside the catalog, banned repos and self are dropped", () => {
+test("targets outside the catalogue, banned repos and self are dropped", () => {
   const links = link({ "acme/gps": ["acme/missing", "acme/scopes", "acme/gps"] }, new Set(["acme/scopes"]));
   assert.deepEqual(links.get("acme/gps"), []);
   assert.deepEqual(link({ "acme/gps": ["acme/map"] }, new Set(["acme/gps"])).get("acme/map"), []);
 });
 
-test("declared links come first, then reverse links, each in catalog order, at most six", () => {
+test("declared links come first, then reverse links, each in catalogue order, at most six", () => {
   const links = link({ "acme/map": ["other/tool", "acme/scopes"], "acme/gps": ["acme/map"] });
   assert.deepEqual(links.get("acme/map"), ["acme/scopes", "other/tool", "acme/gps"]);
   const big = Array.from({ length: 10 }, (_, i) => ({ fullName: `acme/r${i}` }));

@@ -240,7 +240,7 @@ export function declaredWorksWith(fullName, manifest) {
   return out.slice(0, LIMITS.worksWith);
 }
 
-/** Two-way Works with links over the finished catalog. A link shows on the
+/** Two-way Works with links over the finished catalogue. A link shows on the
  *  declarer's page when the target is listed, and on the target's page only
  *  when the declarer is verified, so nobody can attach themselves to a
  *  popular extension by declaring it. */

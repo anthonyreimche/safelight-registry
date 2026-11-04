@@ -120,7 +120,7 @@ test("a failed lookup keeps the previous build's version fields", () => {
   assert.deepEqual(pickVersionFields(undefined), {});
 });
 
-test("catalogs that differ only in generatedAt are the same", () => {
+test("catalogues that differ only in generatedAt are the same", () => {
   const a = { schemaVersion: 1, generatedAt: "2026-10-08T10:00:00Z", extensions: [{ fullName: REPO }] };
   assert.equal(sameCatalog(a, { ...a, generatedAt: "2026-10-08T11:00:00Z" }), true);
   assert.equal(sameCatalog(a, { ...a, extensions: [] }), false);

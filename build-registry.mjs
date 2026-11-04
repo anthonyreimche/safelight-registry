@@ -1,16 +1,16 @@
 #!/usr/bin/env node
-// Build registry.json — the static catalog the SafeLight Extensions store loads.
+// Build registry.json — the static catalogue the SafeLight Extensions store loads.
 //
 // This does, ONCE and server-side (in CI), exactly what the app used to do on
 // every machine on every store open: discover every published extension, gather
 // its metadata, and resolve its store thumbnail (manifest icon → custom social
 // preview → owner avatar). The app then fetches the committed registry.json from
-// jsDelivr — one CDN request, no GitHub API rate limit, the COMPLETE catalog with
+// jsDelivr — one CDN request, no GitHub API rate limit, the COMPLETE catalogue with
 // thumbnails already baked. That is what makes the store load fast.
 //
 // No dependencies: Node 20+ global fetch only. Auth via GITHUB_TOKEN (the Actions
 // token) lifts the search/REST budget to 5000/hr so a full rebuild is comfortable
-// even as the catalog grows. Run locally with a PAT in GITHUB_TOKEN to preview.
+// even as the catalogue grows. Run locally with a PAT in GITHUB_TOKEN to preview.
 //
 // registry.json is generated — DO NOT edit it by hand; edit this script instead.
 //
@@ -75,7 +75,7 @@ async function fetchWithTimeout(url, opts, ms = 8000) {
 }
 
 // ── Banned kill-switch ────────────────────────────────────────────────────────
-// Exclude banned repos/owners from the catalog at build time (defence in depth —
+// Exclude banned repos/owners from the catalogue at build time (defence in depth —
 // the app still enforces the live banned.json independently). Missing file = no
 // bans, which is fine. Matches banned.json's { repos, owners } shape.
 async function loadBanned() {
@@ -171,7 +171,7 @@ export function entryStoreFields(fullName, topics, manifest, previous, { vocabul
   };
 }
 
-/** The published catalog: the public vocabulary, then every entry with its
+/** The published catalogue: the public vocabulary, then every entry with its
  *  Works with links made two-way across the whole list. */
 export function catalogPayload({ extensions, declared, vocabulary, isVerified, isBanned, topic, generatedAt }) {
   const links = linkWorksWith(extensions, declared, { isVerified, isBanned });
@@ -187,7 +187,7 @@ export function catalogPayload({ extensions, declared, vocabulary, isVerified, i
 
 // ── Discovery ─────────────────────────────────────────────────────────────────
 // Page through the GitHub Search API for `topic:<TOPIC>` until exhausted. Unlike
-// the old in-app single page of 25, this collects the whole catalog.
+// the old in-app single page of 25, this collects the whole catalogue.
 async function searchAll() {
   const out = [];
   for (let page = 1; page <= MAX_PAGES; page++) {
@@ -434,7 +434,7 @@ export function pickVersionFields(entry) {
   return out;
 }
 
-/** True when two catalogs differ only in generatedAt. */
+/** True when two catalogues differ only in generatedAt. */
 export function sameCatalog(a, b) {
   if (!a || !b) return false;
   const body = (p) => JSON.stringify({ ...p, generatedAt: null });
@@ -546,7 +546,7 @@ async function main() {
   const listed = new Set(extensions.map((e) => e.fullName.toLowerCase()));
   for (const [from, targets] of declared)
     for (const t of targets)
-      if (!listed.has(t.toLowerCase())) console.error(`${from}: worksWith ${t} is not in the catalog`);
+      if (!listed.has(t.toLowerCase())) console.error(`${from}: worksWith ${t} is not in the catalogue`);
 
   const payload = catalogPayload({
     extensions,
