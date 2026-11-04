@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T11:38:54.660Z",
+  "generatedAt": "2026-11-04T23:59:19.963Z",
   "topic": "safelight-extension",
   "count": 80,
   "categories": [
@@ -262,7 +262,7 @@
       "description": "Find any shot in seconds",
       "stars": 1,
       "createdAt": "2026-06-20T07:46:18Z",
-      "updatedAt": "2026-11-03T04:13:54Z",
+      "updatedAt": "2026-11-04T19:40:55Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -291,8 +291,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.1",
-        "from": "branch",
+        "version": "1.1.2",
+        "tag": "v1.1.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Advanced-Library-Sort/releases/download/v1.1.2/Advanced-Library-Sort-1.1.2.zip"
+        ],
         "minAppVersion": "2.4.3"
       }
     },
@@ -301,7 +305,7 @@
       "description": "Custom render pipeline options",
       "stars": 1,
       "createdAt": "2026-06-13T04:50:40Z",
-      "updatedAt": "2026-11-03T04:14:11Z",
+      "updatedAt": "2026-11-04T19:41:49Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -321,8 +325,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.2.0",
-        "from": "branch",
+        "version": "1.2.1",
+        "tag": "v1.2.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Advanced-Rendering/releases/download/v1.2.1/Advanced-Rendering-1.2.1.zip"
+        ],
         "minAppVersion": "2.5.0"
       }
     },
@@ -331,7 +339,7 @@
       "description": "Adds batch editing support",
       "stars": 1,
       "createdAt": "2026-06-12T22:34:09Z",
-      "updatedAt": "2026-11-03T04:14:38Z",
+      "updatedAt": "2026-11-04T19:42:39Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -353,8 +361,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.4.0",
-        "from": "branch",
+        "version": "1.4.1",
+        "tag": "v1.4.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Batch-Tools/releases/download/v1.4.1/Batch-Tools-1.4.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -363,7 +375,7 @@
       "description": "Black and white editing tools",
       "stars": 1,
       "createdAt": "2026-10-18T06:19:38Z",
-      "updatedAt": "2026-11-03T04:14:54Z",
+      "updatedAt": "2026-11-04T19:44:02Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -395,8 +407,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "from": "branch",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/BW-Tools/releases/download/v1.1.1/BW-Tools-1.1.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -405,7 +421,7 @@
       "description": "Collections and smart collections for Safelight",
       "stars": 1,
       "createdAt": "2026-08-19T04:42:51Z",
-      "updatedAt": "2026-11-03T04:15:16Z",
+      "updatedAt": "2026-11-04T19:45:07Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -437,8 +453,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Collections/releases/download/v1.0.1/Collections-1.0.1.zip"
+        ],
         "minAppVersion": "2.5.1"
       }
     },
@@ -447,7 +467,7 @@
       "description": "Darktable Colour Correction for Safelight",
       "stars": 1,
       "createdAt": "2026-09-18T04:59:43Z",
-      "updatedAt": "2026-11-03T04:16:05Z",
+      "updatedAt": "2026-11-04T19:48:50Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -476,8 +496,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "from": "branch",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Colour-Correction/releases/download/v1.1.1/Colour-Correction-1.1.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -486,7 +510,7 @@
       "description": "Ansel-style colour equaliser for Safelight",
       "stars": 1,
       "createdAt": "2026-09-20T05:25:39Z",
-      "updatedAt": "2026-11-03T04:16:20Z",
+      "updatedAt": "2026-11-04T19:50:12Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -519,8 +543,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "from": "branch",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Colour-Equaliser/releases/download/v1.1.1/Colour-Equaliser-1.1.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -529,7 +557,7 @@
       "description": "Darktable-style Colour Harmonizer for Safelight",
       "stars": 1,
       "createdAt": "2026-09-19T03:13:24Z",
-      "updatedAt": "2026-11-03T04:16:37Z",
+      "updatedAt": "2026-11-04T19:51:18Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -561,8 +589,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "from": "branch",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Colour-Harmonizer/releases/download/v1.1.1/Colour-Harmonizer-1.1.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -571,7 +603,7 @@
       "description": "Continuous 2D color editor for Safelight",
       "stars": 1,
       "createdAt": "2026-06-29T01:56:29Z",
-      "updatedAt": "2026-11-03T04:16:58Z",
+      "updatedAt": "2026-11-04T19:52:04Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -582,7 +614,7 @@
         "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
         "custom": true
       },
-      "name": "Continuous 2D Color Editor",
+      "name": "Continuous 2D Colour Editor",
       "categories": [
         "color"
       ],
@@ -590,6 +622,7 @@
       "keywords": [
         "color",
         "colour",
+        "color editor",
         "hue",
         "saturation",
         "luminance",
@@ -600,8 +633,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.3",
-        "from": "branch",
+        "version": "1.0.4",
+        "tag": "v1.0.4",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Continuous-2D-Color-Editor/releases/download/v1.0.4/Continuous-2D-Color-Editor-1.0.4.zip"
+        ],
         "minAppVersion": "2.4.3"
       }
     },
@@ -610,7 +647,7 @@
       "description": "Contrast Equalizer panel for safelight",
       "stars": 1,
       "createdAt": "2026-06-28T02:09:57Z",
-      "updatedAt": "2026-11-03T04:17:10Z",
+      "updatedAt": "2026-11-04T19:52:48Z",
       "topics": [
         "safelight-extension",
         "safelight-pipeline"
@@ -637,8 +674,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.2.0",
-        "from": "branch",
+        "version": "2.2.1",
+        "tag": "v2.2.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Contrast-Equalizer/releases/download/v2.2.1/Contrast-Equalizer-2.2.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -647,7 +688,7 @@
       "description": "Custom cursors for Safelight",
       "stars": 1,
       "createdAt": "2026-06-29T00:30:17Z",
-      "updatedAt": "2026-11-03T04:17:34Z",
+      "updatedAt": "2026-11-04T19:56:41Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -675,8 +716,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "from": "branch",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Custom-Cursors/releases/download/v1.0.2/Custom-Cursors-1.0.2.zip"
+        ],
         "minAppVersion": "2.4.3"
       }
     },
@@ -685,7 +730,7 @@
       "description": "Custom input styling for Safelight",
       "stars": 1,
       "createdAt": "2026-09-09T03:55:09Z",
-      "updatedAt": "2026-11-03T04:17:46Z",
+      "updatedAt": "2026-11-04T19:57:32Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -720,8 +765,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Custom-Input-Styling/releases/download/v1.0.1/Custom-Input-Styling-1.0.1.zip"
+        ],
         "minAppVersion": "2.5.4"
       }
     },
@@ -730,7 +779,7 @@
       "description": "Warm near-black theme with an amber safelight accent",
       "stars": 1,
       "createdAt": "2026-06-12T22:38:06Z",
-      "updatedAt": "2026-11-03T04:18:02Z",
+      "updatedAt": "2026-11-04T19:58:12Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -749,8 +798,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "from": "branch",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Darkroom-Amber-Theme/releases/download/v1.0.2/Darkroom-Amber-Theme-1.0.2.zip"
+        ],
         "minAppVersion": "2.4.3"
       }
     },
@@ -759,7 +812,7 @@
       "description": "Duplicate photo detection for Safelight",
       "stars": 1,
       "createdAt": "2026-06-28T02:03:27Z",
-      "updatedAt": "2026-11-03T04:18:53Z",
+      "updatedAt": "2026-11-04T20:01:18Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -790,8 +843,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "from": "branch",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Duplicate-Photo-Detector/releases/download/v1.0.2/Duplicate-Photo-Detector-1.0.2.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1570,7 +1627,7 @@
       "description": "Color Grading Wheels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:14:33Z",
-      "updatedAt": "2026-11-03T04:15:36Z",
+      "updatedAt": "2026-11-04T19:45:55Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1581,13 +1638,14 @@
         "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
         "custom": false
       },
-      "name": "Color Grading",
+      "name": "Colour Grading",
       "categories": [
         "color"
       ],
       "type": "panel",
       "keywords": [
         "colour grading",
+        "color grading",
         "colour wheels",
         "split toning",
         "tint",
@@ -1598,8 +1656,12 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.0",
-        "from": "branch",
+        "version": "3.0.1",
+        "tag": "v3.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Color-Grading/releases/download/v3.0.1/Color-Grading-3.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1608,7 +1670,7 @@
       "description": "Colorise for Safelight",
       "stars": 0,
       "createdAt": "2026-10-24T22:19:10Z",
-      "updatedAt": "2026-11-03T04:15:54Z",
+      "updatedAt": "2026-11-04T19:47:39Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1639,8 +1701,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Colorise/releases/download/v1.0.1/Colorise-1.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1649,7 +1715,7 @@
       "description": "Crop for Safelight",
       "stars": 0,
       "createdAt": "2026-11-02T14:32:27Z",
-      "updatedAt": "2026-11-03T04:17:22Z",
+      "updatedAt": "2026-11-04T19:56:07Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1679,8 +1745,12 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.0",
-        "from": "branch",
+        "version": "3.0.1",
+        "tag": "v3.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Crop/releases/download/v3.0.1/Crop-3.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1689,7 +1759,7 @@
       "description": "Basic detail tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:13:50Z",
-      "updatedAt": "2026-11-03T04:18:17Z",
+      "updatedAt": "2026-11-04T19:59:21Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1721,8 +1791,12 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.0",
-        "from": "branch",
+        "version": "3.0.1",
+        "tag": "v3.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Detail/releases/download/v3.0.1/Detail-3.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1731,7 +1805,7 @@
       "description": "Develop module for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:16:21Z",
-      "updatedAt": "2026-11-03T04:18:28Z",
+      "updatedAt": "2026-11-04T20:00:03Z",
       "topics": [
         "safelight-extension",
         "safelight-module",
@@ -1765,8 +1839,12 @@
         "anthonyreimche/Effects"
       ],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Develop/releases/download/v1.0.1/Develop-1.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1775,7 +1853,7 @@
       "description": "Developer Tools for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:18:01Z",
-      "updatedAt": "2026-11-03T04:18:36Z",
+      "updatedAt": "2026-11-04T20:00:54Z",
       "topics": [
         "safelight-extension",
         "safelight-workflow"
@@ -1801,8 +1879,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.0.1/Developer-Tools-1.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1811,7 +1893,7 @@
       "description": "Edit history for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:19:41Z",
-      "updatedAt": "2026-11-03T04:19:06Z",
+      "updatedAt": "2026-11-04T20:01:51Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1839,8 +1921,12 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Edit-History/releases/download/v1.0.1/Edit-History-1.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1849,7 +1935,7 @@
       "description": "Vignette and grain for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:22:14Z",
-      "updatedAt": "2026-11-03T04:19:16Z",
+      "updatedAt": "2026-11-04T20:02:34Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -1876,8 +1962,12 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.0",
-        "from": "branch",
+        "version": "3.0.1",
+        "tag": "v3.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Effects/releases/download/v3.0.1/Effects-3.0.1.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1886,7 +1976,7 @@
       "description": "Export tools for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:25:08Z",
-      "updatedAt": "2026-11-04T04:03:53Z",
+      "updatedAt": "2026-11-04T20:29:12Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1919,7 +2009,7 @@
         "anthonyreimche/Library"
       ],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.0.2",
         "from": "branch",
         "minAppVersion": "3.2.0"
       }
