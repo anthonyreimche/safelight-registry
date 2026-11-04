@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-03T10:10:44.086Z",
+  "generatedAt": "2026-11-04T04:04:41.755Z",
   "topic": "safelight-extension",
   "count": 80,
   "categories": [
@@ -574,7 +574,7 @@
         "url": "https://repository-images.githubusercontent.com/1283510269/dc696547-d7ed-4401-bfc6-8bee00cf6321",
         "custom": true
       },
-      "name": "Continuous 2D Colour Editor",
+      "name": "Continuous 2D Color Editor",
       "categories": [
         "color"
       ],
@@ -1569,7 +1569,7 @@
         "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
         "custom": false
       },
-      "name": "Colour Grading",
+      "name": "Color Grading",
       "categories": [
         "color"
       ],
@@ -1874,7 +1874,7 @@
       "description": "Export tools for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:25:08Z",
-      "updatedAt": "2026-11-03T04:31:13Z",
+      "updatedAt": "2026-11-04T04:03:53Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
