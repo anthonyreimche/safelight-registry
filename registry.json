@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T04:04:41.755Z",
+  "generatedAt": "2026-11-04T11:38:54.660Z",
   "topic": "safelight-extension",
   "count": 80,
   "categories": [
@@ -142,7 +142,7 @@
       "description": ".xmp and .lrtemplate preset import",
       "stars": 1,
       "createdAt": "2026-06-21T07:37:06Z",
-      "updatedAt": "2026-11-03T04:12:59Z",
+      "updatedAt": "2026-11-04T04:25:34Z",
       "topics": [
         "safelight-extension",
         "safelight-preset"
@@ -167,7 +167,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
+        "version": "1.1.1",
         "from": "branch"
       }
     },
@@ -176,7 +176,7 @@
       "description": "Wavelet, bilateral and more",
       "stars": 1,
       "createdAt": "2026-06-21T03:40:19Z",
-      "updatedAt": "2026-11-03T04:13:27Z",
+      "updatedAt": "2026-11-04T04:43:12Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -202,8 +202,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.2",
-        "from": "branch",
+        "version": "1.1.3",
+        "tag": "v1.1.3",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Advanced-Denoise-Tools/releases/download/v1.1.3/Advanced-Denoise-Tools-1.1.3.zip"
+        ],
         "minAppVersion": "2.4.3"
       }
     },
@@ -212,7 +216,7 @@
       "description": "Advanced Exif tools in Safelight",
       "stars": 1,
       "createdAt": "2026-07-01T07:27:02Z",
-      "updatedAt": "2026-11-03T04:13:43Z",
+      "updatedAt": "2026-11-04T04:51:13Z",
       "topics": [
         "safelight-extension",
         "safelight-metadata",
@@ -244,8 +248,12 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.2.0",
-        "from": "branch",
+        "version": "1.2.1",
+        "tag": "v1.2.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Advanced-Exif-Tools/releases/download/v1.2.1/Advanced-Exif-Tools-1.2.1.zip"
+        ],
         "minAppVersion": "2.5.0"
       }
     },
@@ -1477,7 +1485,7 @@
       "description": "Accessibility tools for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:12:54Z",
-      "updatedAt": "2026-11-03T04:13:15Z",
+      "updatedAt": "2026-11-04T04:41:15Z",
       "topics": [
         "safelight-extension"
       ],
@@ -1503,8 +1511,10 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "from": "branch",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1513,7 +1523,7 @@
       "description": "Basic tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T02:28:22Z",
-      "updatedAt": "2026-11-03T04:14:26Z",
+      "updatedAt": "2026-11-04T04:22:45Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1548,8 +1558,10 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.0",
-        "from": "branch",
+        "version": "3.0.1",
+        "tag": "v3.0.1",
+        "from": "release",
+        "zips": [],
         "minAppVersion": "3.2.0"
       }
     },
