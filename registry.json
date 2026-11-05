@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T05:04:16.533Z",
+  "generatedAt": "2026-11-05T13:33:35.102Z",
   "topic": "safelight-extension",
   "count": 80,
   "categories": [
@@ -383,7 +383,7 @@
       "description": "Black and white editing tools",
       "stars": 1,
       "createdAt": "2026-10-18T06:19:38Z",
-      "updatedAt": "2026-11-04T19:44:02Z",
+      "updatedAt": "2026-11-05T05:07:33Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -475,7 +475,7 @@
       "description": "Darktable Colour Correction for Safelight",
       "stars": 1,
       "createdAt": "2026-09-18T04:59:43Z",
-      "updatedAt": "2026-11-04T19:48:50Z",
+      "updatedAt": "2026-11-05T05:09:10Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -518,7 +518,7 @@
       "description": "Ansel-style colour equaliser for Safelight",
       "stars": 1,
       "createdAt": "2026-09-20T05:25:39Z",
-      "updatedAt": "2026-11-04T19:50:12Z",
+      "updatedAt": "2026-11-05T05:09:58Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -565,7 +565,7 @@
       "description": "Darktable-style Colour Harmonizer for Safelight",
       "stars": 1,
       "createdAt": "2026-09-19T03:13:24Z",
-      "updatedAt": "2026-11-04T19:51:18Z",
+      "updatedAt": "2026-11-05T05:10:17Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -738,7 +738,7 @@
       "description": "Custom input styling for Safelight",
       "stars": 1,
       "createdAt": "2026-09-09T03:55:09Z",
-      "updatedAt": "2026-11-04T19:57:32Z",
+      "updatedAt": "2026-11-05T05:11:31Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -941,7 +941,7 @@
       "description": "HDR Editing tools for Safelight",
       "stars": 1,
       "createdAt": "2026-10-18T06:23:26Z",
-      "updatedAt": "2026-11-05T03:20:59Z",
+      "updatedAt": "2026-11-05T05:19:20Z",
       "topics": [
         "safelight-export",
         "safelight-extension",
@@ -1152,7 +1152,7 @@
       "description": "Moire Reduction for Safelight",
       "stars": 1,
       "createdAt": "2026-09-18T03:42:27Z",
-      "updatedAt": "2026-11-05T04:06:02Z",
+      "updatedAt": "2026-11-05T05:24:17Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1275,7 +1275,7 @@
       "description": "Vectorscope and more for Safelight",
       "stars": 1,
       "createdAt": "2026-09-20T21:42:15Z",
-      "updatedAt": "2026-11-05T04:20:51Z",
+      "updatedAt": "2026-11-05T05:26:30Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1663,7 +1663,7 @@
       "description": "Basic tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T02:28:22Z",
-      "updatedAt": "2026-11-04T04:22:45Z",
+      "updatedAt": "2026-11-05T05:05:54Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1698,10 +1698,12 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
+        "version": "3.0.2",
+        "tag": "v3.0.2",
         "from": "release",
-        "zips": [],
+        "zips": [
+          "https://github.com/anthonyreimche/Basic/releases/download/v3.0.2/Basic-3.0.2.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -1710,7 +1712,7 @@
       "description": "Color Grading Wheels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:14:33Z",
-      "updatedAt": "2026-11-04T19:45:55Z",
+      "updatedAt": "2026-11-05T05:08:16Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1753,7 +1755,7 @@
       "description": "Colorise for Safelight",
       "stars": 0,
       "createdAt": "2026-10-24T22:19:10Z",
-      "updatedAt": "2026-11-04T19:47:39Z",
+      "updatedAt": "2026-11-05T05:08:43Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1798,7 +1800,7 @@
       "description": "Crop for Safelight",
       "stars": 0,
       "createdAt": "2026-11-02T14:32:27Z",
-      "updatedAt": "2026-11-04T19:56:07Z",
+      "updatedAt": "2026-11-05T05:11:01Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1842,7 +1844,7 @@
       "description": "Basic detail tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:13:50Z",
-      "updatedAt": "2026-11-04T19:59:21Z",
+      "updatedAt": "2026-11-05T05:12:10Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1888,7 +1890,7 @@
       "description": "Develop module for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:16:21Z",
-      "updatedAt": "2026-11-04T20:00:03Z",
+      "updatedAt": "2026-11-05T05:12:26Z",
       "topics": [
         "safelight-extension",
         "safelight-module",
@@ -1936,7 +1938,7 @@
       "description": "Developer Tools for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:18:01Z",
-      "updatedAt": "2026-11-04T20:00:54Z",
+      "updatedAt": "2026-11-05T05:12:59Z",
       "topics": [
         "safelight-extension",
         "safelight-workflow"
@@ -1976,7 +1978,7 @@
       "description": "Edit history for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:19:41Z",
-      "updatedAt": "2026-11-04T20:01:51Z",
+      "updatedAt": "2026-11-05T05:13:37Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2018,7 +2020,7 @@
       "description": "Vignette and grain for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:22:14Z",
-      "updatedAt": "2026-11-04T20:02:34Z",
+      "updatedAt": "2026-11-05T05:13:51Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -2059,7 +2061,7 @@
       "description": "Export tools for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:25:08Z",
-      "updatedAt": "2026-11-04T20:29:12Z",
+      "updatedAt": "2026-11-05T05:16:33Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2092,8 +2094,12 @@
         "anthonyreimche/Library"
       ],
       "latest": {
-        "version": "1.0.2",
-        "from": "branch",
+        "version": "1.0.3",
+        "tag": "v1.0.3",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Export/releases/download/v1.0.3/Export-1.0.3.zip"
+        ],
         "minAppVersion": "3.2.0"
       }
     },
@@ -2102,7 +2108,7 @@
       "description": "Folder management for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:26:49Z",
-      "updatedAt": "2026-11-05T03:18:10Z",
+      "updatedAt": "2026-11-05T05:18:05Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -2146,7 +2152,7 @@
       "description": "Glow for Safelight",
       "stars": 0,
       "createdAt": "2026-10-24T22:23:17Z",
-      "updatedAt": "2026-11-05T03:19:01Z",
+      "updatedAt": "2026-11-05T05:18:25Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -2190,7 +2196,7 @@
       "description": "GPS-Track for Safelight",
       "stars": 0,
       "createdAt": "2026-10-22T03:58:45Z",
-      "updatedAt": "2026-11-05T03:19:44Z",
+      "updatedAt": "2026-11-05T05:18:41Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -2232,7 +2238,7 @@
       "description": "Heal and clone tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T16:41:40Z",
-      "updatedAt": "2026-11-05T03:21:43Z",
+      "updatedAt": "2026-11-05T05:19:38Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -2275,7 +2281,7 @@
       "description": "Histogram for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:31:33Z",
-      "updatedAt": "2026-11-05T03:23:12Z",
+      "updatedAt": "2026-11-05T05:20:19Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -2318,7 +2324,7 @@
       "description": "HSL sliders for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:34:01Z",
-      "updatedAt": "2026-11-05T03:23:57Z",
+      "updatedAt": "2026-11-05T05:20:35Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -2362,7 +2368,7 @@
       "description": "Image info for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:35:34Z",
-      "updatedAt": "2026-11-05T03:26:08Z",
+      "updatedAt": "2026-11-05T05:21:21Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -2447,7 +2453,7 @@
       "description": "Keyword management for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:39:38Z",
-      "updatedAt": "2026-11-05T03:31:36Z",
+      "updatedAt": "2026-11-05T05:22:08Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -2490,7 +2496,7 @@
       "description": "Library module for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:37:08Z",
-      "updatedAt": "2026-11-05T04:02:56Z",
+      "updatedAt": "2026-11-05T05:22:52Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -2537,7 +2543,7 @@
       "description": "Library filters for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:41:40Z",
-      "updatedAt": "2026-11-05T04:03:30Z",
+      "updatedAt": "2026-11-05T05:23:06Z",
       "topics": [
         "safelight-extension",
         "safelight-library",
@@ -2584,7 +2590,7 @@
       "description": "Map module for Safelight",
       "stars": 0,
       "createdAt": "2026-09-30T20:39:16Z",
-      "updatedAt": "2026-11-05T04:04:20Z",
+      "updatedAt": "2026-11-05T05:23:36Z",
       "topics": [
         "safelight-extension",
         "safelight-metadata",
@@ -2625,7 +2631,7 @@
       "description": "Masking tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T16:39:58Z",
-      "updatedAt": "2026-11-05T04:05:09Z",
+      "updatedAt": "2026-11-05T05:24:01Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2670,7 +2676,7 @@
       "description": "Parametric Tone Mappers for Safelight",
       "stars": 0,
       "createdAt": "2026-10-26T02:24:38Z",
-      "updatedAt": "2026-11-05T04:17:43Z",
+      "updatedAt": "2026-11-05T05:24:51Z",
       "topics": [
         "safelight-extension",
         "safelight-pipeline",
@@ -2712,7 +2718,7 @@
       "description": "Presets for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:43:06Z",
-      "updatedAt": "2026-11-05T04:18:55Z",
+      "updatedAt": "2026-11-05T05:25:17Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -2755,7 +2761,7 @@
       "description": "Pyramid Local Contrast for Safelight",
       "stars": 0,
       "createdAt": "2026-09-24T02:39:50Z",
-      "updatedAt": "2026-11-05T04:19:27Z",
+      "updatedAt": "2026-11-05T05:25:38Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -2800,7 +2806,7 @@
       "description": "Tone curve for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:54:00Z",
-      "updatedAt": "2026-11-05T04:24:26Z",
+      "updatedAt": "2026-11-05T05:27:38Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2843,7 +2849,7 @@
       "description": "Tone Equalizer for Safelight",
       "stars": 0,
       "createdAt": "2026-10-20T15:12:06Z",
-      "updatedAt": "2026-11-05T04:24:57Z",
+      "updatedAt": "2026-11-05T05:27:52Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2887,7 +2893,7 @@
       "description": "Tone levels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-20T03:41:30Z",
-      "updatedAt": "2026-11-05T04:25:44Z",
+      "updatedAt": "2026-11-05T05:28:06Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -2933,7 +2939,7 @@
       "description": "Transform tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-02T14:30:56Z",
-      "updatedAt": "2026-11-05T04:26:34Z",
+      "updatedAt": "2026-11-05T05:28:21Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -2977,7 +2983,7 @@
       "description": "White Balance for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:51:08Z",
-      "updatedAt": "2026-11-05T04:28:17Z",
+      "updatedAt": "2026-11-05T05:29:09Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
