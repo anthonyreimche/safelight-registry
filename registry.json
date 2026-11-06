@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T13:33:35.102Z",
+  "generatedAt": "2026-11-06T08:37:34.243Z",
   "topic": "safelight-extension",
   "count": 80,
   "categories": [
@@ -1619,6 +1619,39 @@
       }
     },
     {
+      "fullName": "OPGERUIMD97/safelight-border",
+      "description": "Add a non-destructive border/matte to exported photos. Supports per-side width, custom color, and multiple saved templates.",
+      "stars": 1,
+      "createdAt": "2026-10-20T14:34:19Z",
+      "updatedAt": "2026-11-06T02:46:08Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Border",
+      "categories": [
+        "export"
+      ],
+      "type": "panel",
+      "keywords": [
+        "border",
+        "matte",
+        "export",
+        "frame"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "from": "branch"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Accessibility",
       "description": "Accessibility tools for Safelight",
       "stars": 0,
@@ -2020,7 +2053,7 @@
       "description": "Vignette and grain for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:22:14Z",
-      "updatedAt": "2026-11-05T05:13:51Z",
+      "updatedAt": "2026-11-06T02:41:24Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -2047,11 +2080,11 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
+        "version": "3.0.2",
+        "tag": "v3.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Effects/releases/download/v3.0.1/Effects-3.0.1.zip"
+          "https://github.com/anthonyreimche/Effects/releases/download/v3.0.2/Effects-3.0.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -3127,39 +3160,6 @@
       ],
       "type": null,
       "keywords": [],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.0",
-        "from": "branch"
-      }
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-border",
-      "description": "Add a non-destructive border/matte to exported photos. Supports per-side width, custom color, and multiple saved templates.",
-      "stars": 0,
-      "createdAt": "2026-10-20T14:34:19Z",
-      "updatedAt": "2026-10-22T07:32:29Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Border",
-      "categories": [
-        "export"
-      ],
-      "type": "panel",
-      "keywords": [
-        "border",
-        "matte",
-        "export",
-        "frame"
-      ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
