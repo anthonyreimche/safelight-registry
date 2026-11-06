@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T08:37:34.243Z",
+  "generatedAt": "2026-11-06T21:48:47.198Z",
   "topic": "safelight-extension",
-  "count": 80,
+  "count": 81,
   "categories": [
     {
       "slug": "library",
@@ -2832,6 +2832,48 @@
           "https://github.com/anthonyreimche/Pyramid-Local-Contrast/releases/download/v1.1.1/Pyramid-Local-Contrast-1.1.1.zip"
         ],
         "minAppVersion": "3.1.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/RAW-Denoise",
+      "description": "RAW Denoise for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-06T20:25:38Z",
+      "updatedAt": "2026-11-06T20:31:41Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "RAW Denoise",
+      "categories": [
+        "detail"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "safelight-extension",
+        "raw denoise",
+        "noise reduction",
+        "wavelet",
+        "raw",
+        "denoise"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/RAW-Denoise/releases/download/v1.0.0/RAW-Denoise-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.0"
       }
     },
     {
