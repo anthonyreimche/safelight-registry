@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T21:48:47.198Z",
+  "generatedAt": "2026-11-07T07:52:54.170Z",
   "topic": "safelight-extension",
-  "count": 81,
+  "count": 83,
   "categories": [
     {
       "slug": "library",
@@ -941,7 +941,7 @@
       "description": "HDR Editing tools for Safelight",
       "stars": 1,
       "createdAt": "2026-10-18T06:23:26Z",
-      "updatedAt": "2026-11-05T05:19:20Z",
+      "updatedAt": "2026-11-07T05:06:59Z",
       "topics": [
         "safelight-export",
         "safelight-extension",
@@ -973,11 +973,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/HDR-Editing/releases/download/v1.0.1/HDR-Editing-1.0.1.zip"
+          "https://github.com/anthonyreimche/HDR-Editing/releases/download/v1.0.2/HDR-Editing-1.0.2.zip"
         ],
         "minAppVersion": "3.0.0"
       }
@@ -1034,7 +1034,7 @@
       "description": "See your edit against the untouched original",
       "stars": 1,
       "createdAt": "2026-06-20T07:59:59Z",
-      "updatedAt": "2026-11-05T03:24:54Z",
+      "updatedAt": "2026-11-07T05:08:33Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1062,11 +1062,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.4",
-        "tag": "v1.0.4",
+        "version": "1.0.5",
+        "tag": "v1.0.5",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Image-Comparison-Tools/releases/download/v1.0.4/Image-Comparison-Tools-1.0.4.zip"
+          "https://github.com/anthonyreimche/Image-Comparison-Tools/releases/download/v1.0.5/Image-Comparison-Tools-1.0.5.zip"
         ],
         "minAppVersion": "2.4.3"
       }
@@ -1076,7 +1076,7 @@
       "description": "Push, bloat, twist, and more",
       "stars": 1,
       "createdAt": "2026-06-22T09:02:11Z",
-      "updatedAt": "2026-11-05T03:25:31Z",
+      "updatedAt": "2026-11-07T05:06:18Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1106,13 +1106,13 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.4",
-        "tag": "v1.0.4",
+        "version": "1.0.5",
+        "tag": "v1.0.5",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Image-Warp/releases/download/v1.0.4/Image-Warp-1.0.4.zip"
+          "https://github.com/anthonyreimche/Image-Warp/releases/download/v1.0.5/Image-Warp-1.0.5.zip"
         ],
-        "minAppVersion": "2.4.3"
+        "minAppVersion": "3.2.0"
       }
     },
     {
@@ -1152,7 +1152,7 @@
       "description": "Moire Reduction for Safelight",
       "stars": 1,
       "createdAt": "2026-09-18T03:42:27Z",
-      "updatedAt": "2026-11-05T05:24:17Z",
+      "updatedAt": "2026-11-07T05:07:51Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -1182,11 +1182,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Moire-Reduction/releases/download/v1.0.1/Moire-Reduction-1.0.1.zip"
+          "https://github.com/anthonyreimche/Moire-Reduction/releases/download/v1.0.2/Moire-Reduction-1.0.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -1741,6 +1741,50 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Channel-Mixer",
+      "description": "Channel Mixer for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-07T04:15:54Z",
+      "updatedAt": "2026-11-07T05:13:34Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Channel Mixer",
+      "categories": [
+        "color"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "channel mixer",
+        "rgb mixer",
+        "colour calibration",
+        "primaries",
+        "black and white",
+        "b&w",
+        "monochrome",
+        "ansel"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Channel-Mixer/releases/download/v1.0.0/Channel-Mixer-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Color-Grading",
       "description": "Color Grading Wheels for Safelight",
       "stars": 0,
@@ -1788,7 +1832,7 @@
       "description": "Colorise for Safelight",
       "stars": 0,
       "createdAt": "2026-10-24T22:19:10Z",
-      "updatedAt": "2026-11-05T05:08:43Z",
+      "updatedAt": "2026-11-07T05:03:42Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1819,11 +1863,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Colorise/releases/download/v1.0.1/Colorise-1.0.1.zip"
+          "https://github.com/anthonyreimche/Colorise/releases/download/v1.0.2/Colorise-1.0.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -1833,7 +1877,7 @@
       "description": "Crop for Safelight",
       "stars": 0,
       "createdAt": "2026-11-02T14:32:27Z",
-      "updatedAt": "2026-11-05T05:11:01Z",
+      "updatedAt": "2026-11-07T05:11:06Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1863,11 +1907,11 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
+        "version": "3.0.2",
+        "tag": "v3.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Crop/releases/download/v3.0.1/Crop-3.0.1.zip"
+          "https://github.com/anthonyreimche/Crop/releases/download/v3.0.2/Crop-3.0.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -2702,6 +2746,49 @@
           "https://github.com/anthonyreimche/Masking/releases/download/v3.0.1/Masking-3.0.1.zip"
         ],
         "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Paint-Layers",
+      "description": "Paint Layers for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-07T05:59:22Z",
+      "updatedAt": "2026-11-07T06:00:26Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Paint Layers",
+      "categories": [
+        "color"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "safelight-extension",
+        "paint",
+        "brush",
+        "layers",
+        "blend mode",
+        "dodge",
+        "burn",
+        "colour"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Paint-Layers/releases/download/v1.0.0/Paint-Layers-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.1"
       }
     },
     {
