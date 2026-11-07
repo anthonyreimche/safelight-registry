@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T07:52:54.170Z",
+  "generatedAt": "2026-11-07T23:09:07.729Z",
   "topic": "safelight-extension",
   "count": 83,
   "categories": [
@@ -118,7 +118,7 @@
       "description": null,
       "stars": 2,
       "createdAt": "2026-06-14T00:20:00Z",
-      "updatedAt": "2026-09-07T17:58:43Z",
+      "updatedAt": "2026-11-07T19:11:42Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -137,7 +137,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
+        "version": "1.2.0",
         "from": "branch"
       }
     },
