@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T16:24:11.082Z",
+  "generatedAt": "2026-11-08T20:49:55.714Z",
   "topic": "safelight-extension",
-  "count": 83,
+  "count": 84,
   "categories": [
     {
       "slug": "library",
@@ -1696,7 +1696,7 @@
       "description": "Basic tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T02:28:22Z",
-      "updatedAt": "2026-11-05T05:05:54Z",
+      "updatedAt": "2026-11-08T17:46:15Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1731,13 +1731,13 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.2",
-        "tag": "v3.0.2",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Basic/releases/download/v3.0.2/Basic-3.0.2.zip"
+          "https://github.com/anthonyreimche/Basic/releases/download/v3.1.0/Basic-3.1.0.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.1"
       }
     },
     {
@@ -1789,7 +1789,7 @@
       "description": "Color Grading Wheels for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:14:33Z",
-      "updatedAt": "2026-11-05T05:08:16Z",
+      "updatedAt": "2026-11-08T17:44:13Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1818,13 +1818,13 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Color-Grading/releases/download/v3.0.1/Color-Grading-3.0.1.zip"
+          "https://github.com/anthonyreimche/Color-Grading/releases/download/v3.1.0/Color-Grading-3.1.0.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.1"
       }
     },
     {
@@ -1832,7 +1832,7 @@
       "description": "Colorise for Safelight",
       "stars": 0,
       "createdAt": "2026-10-24T22:19:10Z",
-      "updatedAt": "2026-11-07T05:03:42Z",
+      "updatedAt": "2026-11-08T17:47:56Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -1863,11 +1863,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
+        "version": "1.0.3",
+        "tag": "v1.0.3",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Colorise/releases/download/v1.0.2/Colorise-1.0.2.zip"
+          "https://github.com/anthonyreimche/Colorise/releases/download/v1.0.3/Colorise-1.0.3.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -1877,7 +1877,7 @@
       "description": "Crop for Safelight",
       "stars": 0,
       "createdAt": "2026-11-02T14:32:27Z",
-      "updatedAt": "2026-11-07T05:11:06Z",
+      "updatedAt": "2026-11-08T17:48:31Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -1921,7 +1921,7 @@
       "description": "Basic detail tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:13:50Z",
-      "updatedAt": "2026-11-05T05:12:10Z",
+      "updatedAt": "2026-11-08T17:48:48Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -2097,7 +2097,7 @@
       "description": "Vignette and grain for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:22:14Z",
-      "updatedAt": "2026-11-06T02:41:24Z",
+      "updatedAt": "2026-11-08T17:45:02Z",
       "topics": [
         "safelight-extension",
         "safelight-look",
@@ -2124,13 +2124,13 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.2",
-        "tag": "v3.0.2",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Effects/releases/download/v3.0.2/Effects-3.0.2.zip"
+          "https://github.com/anthonyreimche/Effects/releases/download/v3.1.0/Effects-3.1.0.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.1"
       }
     },
     {
@@ -2315,7 +2315,7 @@
       "description": "Heal and clone tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T16:41:40Z",
-      "updatedAt": "2026-11-05T05:19:38Z",
+      "updatedAt": "2026-11-08T17:49:17Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -2401,7 +2401,7 @@
       "description": "HSL sliders for Safelight",
       "stars": 0,
       "createdAt": "2026-10-31T17:34:01Z",
-      "updatedAt": "2026-11-05T05:20:35Z",
+      "updatedAt": "2026-11-08T17:45:36Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
@@ -2431,13 +2431,13 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/HSL/releases/download/v3.0.1/HSL-3.0.1.zip"
+          "https://github.com/anthonyreimche/HSL/releases/download/v3.1.0/HSL-3.1.0.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.1"
       }
     },
     {
@@ -2708,7 +2708,7 @@
       "description": "Masking tools for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T16:39:58Z",
-      "updatedAt": "2026-11-05T05:24:01Z",
+      "updatedAt": "2026-11-08T17:49:35Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2964,11 +2964,56 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Saturation-Curve",
+      "description": "Saturation Curve for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-08T19:56:08Z",
+      "updatedAt": "2026-11-08T19:58:41Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Saturation Curve",
+      "categories": [
+        "color"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "darktable",
+        "color zones",
+        "colour zones",
+        "saturation",
+        "curve",
+        "lum vs sat",
+        "sat vs sat",
+        "hue vs sat",
+        "lab"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Saturation-Curve/releases/download/v1.0.1/Saturation-Curve-1.0.1.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Tone-Curve",
       "description": "Tone curve for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:54:00Z",
-      "updatedAt": "2026-11-05T05:27:38Z",
+      "updatedAt": "2026-11-08T17:50:27Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -2997,13 +3042,13 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Tone-Curve/releases/download/v3.0.1/Tone-Curve-3.0.1.zip"
+          "https://github.com/anthonyreimche/Tone-Curve/releases/download/v3.1.0/Tone-Curve-3.1.0.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.1"
       }
     },
     {
@@ -3145,7 +3190,7 @@
       "description": "White Balance for Safelight",
       "stars": 0,
       "createdAt": "2026-11-01T03:51:08Z",
-      "updatedAt": "2026-11-05T05:29:09Z",
+      "updatedAt": "2026-11-08T17:51:08Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
