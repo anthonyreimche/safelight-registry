@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T20:49:55.714Z",
+  "generatedAt": "2026-11-09T07:19:27.166Z",
   "topic": "safelight-extension",
-  "count": 84,
+  "count": 87,
   "categories": [
     {
       "slug": "library",
@@ -1873,6 +1873,50 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Contrast-and-Texture",
+      "description": "Contrast and Texture panel for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-09T04:16:06Z",
+      "updatedAt": "2026-11-09T05:27:48Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Contrast & Texture",
+      "categories": [
+        "detail"
+      ],
+      "type": "panel",
+      "keywords": [
+        "contrast",
+        "texture",
+        "clarity",
+        "local contrast",
+        "detail",
+        "shadows",
+        "highlights",
+        "scene-referred",
+        "darktable"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Contrast-and-Texture/releases/download/v1.0.2/Contrast-and-Texture-1.0.2.zip"
+        ],
+        "minAppVersion": "3.2.2"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Crop",
       "description": "Crop for Safelight",
       "stars": 0,
@@ -2181,6 +2225,49 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Exposure-Histogram",
+      "description": "Exposure Histogram for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-09T04:46:58Z",
+      "updatedAt": "2026-11-09T05:27:03Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Exposure Histogram",
+      "categories": [
+        "workflow"
+      ],
+      "type": "panel",
+      "keywords": [
+        "histogram",
+        "exposure",
+        "ev",
+        "stops",
+        "clipping",
+        "overexposure",
+        "underexposure",
+        "headroom"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Exposure-Histogram/releases/download/v1.0.0/Exposure-Histogram-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      }
+    },
+    {
       "fullName": "anthonyreimche/Folders",
       "description": "Folder management for Safelight",
       "stars": 0,
@@ -2222,6 +2309,39 @@
           "https://github.com/anthonyreimche/Folders/releases/download/v1.0.1/Folders-1.0.1.zip"
         ],
         "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Glass-Theme",
+      "description": "Glass Theme for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-09T05:25:31Z",
+      "updatedAt": "2026-11-09T05:26:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Glass",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.9.0",
+        "tag": "v1.9.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Glass-Theme/releases/download/v1.9.0/Glass-Theme-1.9.0.zip"
+        ],
+        "minAppVersion": "3.2.3"
       }
     },
     {
@@ -2968,7 +3088,7 @@
       "description": "Saturation Curve for Safelight",
       "stars": 0,
       "createdAt": "2026-11-08T19:56:08Z",
-      "updatedAt": "2026-11-08T19:58:41Z",
+      "updatedAt": "2026-11-09T05:28:07Z",
       "topics": [
         "safelight-color",
         "safelight-extension",
