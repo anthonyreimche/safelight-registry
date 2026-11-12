@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T13:21:54.675Z",
+  "generatedAt": "2026-11-12T21:10:38.586Z",
   "topic": "safelight-extension",
   "count": 92,
   "categories": [
@@ -3776,7 +3776,7 @@
       "description": "Safelight Print Mat Extension",
       "stars": 0,
       "createdAt": "2026-06-24T10:00:38Z",
-      "updatedAt": "2026-10-19T18:47:25Z",
+      "updatedAt": "2026-11-12T16:33:07Z",
       "topics": [
         "safelight-extension",
         "safelight-panel"
@@ -3795,7 +3795,7 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
+        "version": "1.2.2",
         "from": "branch"
       }
     },
