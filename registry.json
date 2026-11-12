@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T08:29:38.460Z",
+  "generatedAt": "2026-11-12T04:29:01.494Z",
   "topic": "safelight-extension",
   "count": 92,
   "categories": [
@@ -104,11 +104,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.2.1",
-        "tag": "v1.2.1",
+        "version": "1.2.2",
+        "tag": "v1.2.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Lens-Correction/releases/download/v1.2.1/Lens-Correction-1.2.1.zip"
+          "https://github.com/anthonyreimche/Lens-Correction/releases/download/v1.2.2/Lens-Correction-1.2.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -299,11 +299,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.2",
-        "tag": "v1.1.2",
+        "version": "1.1.3",
+        "tag": "v1.1.3",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Advanced-Library-Sort/releases/download/v1.1.2/Advanced-Library-Sort-1.1.2.zip"
+          "https://github.com/anthonyreimche/Advanced-Library-Sort/releases/download/v1.1.3/Advanced-Library-Sort-1.1.3.zip"
         ],
         "minAppVersion": "2.4.3"
       }
@@ -461,11 +461,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Collections/releases/download/v1.0.1/Collections-1.0.1.zip"
+          "https://github.com/anthonyreimche/Collections/releases/download/v1.0.2/Collections-1.0.2.zip"
         ],
         "minAppVersion": "2.5.1"
       }
@@ -1020,11 +1020,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Hierarchical-Keywording/releases/download/v1.0.1/Hierarchical-Keywording-1.0.1.zip"
+          "https://github.com/anthonyreimche/Hierarchical-Keywording/releases/download/v1.0.2/Hierarchical-Keywording-1.0.2.zip"
         ],
         "minAppVersion": "2.5.1"
       }
@@ -2347,11 +2347,11 @@
         "anthonyreimche/Library"
       ],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.1.0",
+        "tag": "v1.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Folders/releases/download/v1.0.1/Folders-1.0.1.zip"
+          "https://github.com/anthonyreimche/Folders/releases/download/v1.1.0/Folders-1.1.0.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -2947,11 +2947,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.0.1",
-        "tag": "v2.0.1",
+        "version": "2.0.2",
+        "tag": "v2.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Map/releases/download/v2.0.1/Map-2.0.1.zip"
+          "https://github.com/anthonyreimche/Map/releases/download/v2.0.2/Map-2.0.2.zip"
         ],
         "minAppVersion": "3.0.1"
       }
