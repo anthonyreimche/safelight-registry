@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T18:11:27.834Z",
+  "generatedAt": "2026-11-13T19:44:05.133Z",
   "topic": "safelight-extension",
-  "count": 99,
+  "count": 97,
   "categories": [
     {
       "slug": "library",
@@ -1611,39 +1611,6 @@
       ],
       "type": null,
       "keywords": [],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.0",
-        "from": "branch"
-      }
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-border",
-      "description": "Add a non-destructive border/matte to exported photos. Supports per-side width, custom color, and multiple saved templates.",
-      "stars": 1,
-      "createdAt": "2026-10-20T14:34:19Z",
-      "updatedAt": "2026-11-06T02:46:08Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Border",
-      "categories": [
-        "export"
-      ],
-      "type": "panel",
-      "keywords": [
-        "border",
-        "matte",
-        "export",
-        "frame"
-      ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
@@ -4013,10 +3980,10 @@
     },
     {
       "fullName": "OPGERUIMD97/safelight-mat-frame",
-      "description": "Safelight Mat/Frame module v2 — export-first passe-partout & frame (no Develop overlay)",
+      "description": "Safelight Framing / Border module — mat/frame toolkit + solid px border (replaces Print Mat & Border)",
       "stars": 0,
       "createdAt": "2026-11-12T19:07:08Z",
-      "updatedAt": "2026-11-13T14:20:16Z",
+      "updatedAt": "2026-11-13T19:07:56Z",
       "topics": [
         "safelight-extension",
         "safelight-module"
@@ -4026,7 +3993,7 @@
         "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
         "custom": false
       },
-      "name": "Mat/Frame",
+      "name": "Framing / Border",
       "categories": [
         "export"
       ],
@@ -4034,15 +4001,19 @@
       "keywords": [
         "mat",
         "frame",
+        "border",
         "passe-partout",
         "print",
-        "module"
+        "module",
+        "framing"
       ],
       "screenshots": [],
-      "worksWith": [],
+      "worksWith": [
+        "OPGERUIMD97/safelight-print"
+      ],
       "latest": {
-        "version": "2.0.1",
-        "tag": "v2.0.1",
+        "version": "2.1.0",
+        "tag": "v2.1.0",
         "from": "release",
         "zips": [],
         "minAppVersion": "2.6.0"
@@ -4075,41 +4046,13 @@
         "module"
       ],
       "screenshots": [],
-      "worksWith": [],
+      "worksWith": [
+        "OPGERUIMD97/safelight-mat-frame"
+      ],
       "latest": {
         "version": "1.1.1",
         "from": "branch",
         "minAppVersion": "2.6.0"
-      }
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-print-mat",
-      "description": "Safelight Print Mat Extension",
-      "stars": 0,
-      "createdAt": "2026-06-24T10:00:38Z",
-      "updatedAt": "2026-11-12T16:33:07Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Print Mat",
-      "categories": [
-        "export"
-      ],
-      "type": "panel",
-      "keywords": [],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.3.0",
-        "tag": "v1.3.0",
-        "from": "release",
-        "zips": []
       }
     },
     {
