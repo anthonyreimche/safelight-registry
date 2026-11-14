@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T19:44:05.133Z",
+  "generatedAt": "2026-11-14T04:30:43.696Z",
   "topic": "safelight-extension",
-  "count": 97,
+  "count": 99,
   "categories": [
     {
       "slug": "library",
@@ -2379,7 +2379,7 @@
       "description": "Focus Mask for Safelight",
       "stars": 0,
       "createdAt": "2026-11-13T04:50:14Z",
-      "updatedAt": "2026-11-13T04:51:22Z",
+      "updatedAt": "2026-11-14T02:25:31Z",
       "topics": [
         "safelight-detail",
         "safelight-extension",
@@ -3022,6 +3022,49 @@
       }
     },
     {
+      "fullName": "anthonyreimche/Local-Contrast",
+      "description": "Local Contrast for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-14T03:51:47Z",
+      "updatedAt": "2026-11-14T03:52:39Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline",
+        "safelight-tone"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Local Contrast",
+      "categories": [
+        "tone"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "local contrast",
+        "clarity",
+        "detail",
+        "local laplacian",
+        "bilateral",
+        "tone mapping",
+        "hdr"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Local-Contrast/releases/download/v1.0.0/Local-Contrast-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.3"
+      }
+    },
+    {
       "fullName": "anthonyreimche/LUT-Tools",
       "description": "LUT Tools for Safelight",
       "stars": 0,
@@ -3507,7 +3550,7 @@
       "description": "Frequency separation for Safelight",
       "stars": 0,
       "createdAt": "2026-11-13T04:59:47Z",
-      "updatedAt": "2026-11-13T05:00:50Z",
+      "updatedAt": "2026-11-14T02:25:05Z",
       "topics": [
         "safelight-extension",
         "safelight-panel",
@@ -3808,6 +3851,49 @@
           "https://github.com/anthonyreimche/White-Balance/releases/download/v3.0.1/White-Balance-3.0.1.zip"
         ],
         "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/Zones",
+      "description": "Zones for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-14T02:23:49Z",
+      "updatedAt": "2026-11-14T02:24:31Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline",
+        "safelight-tone"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Zones",
+      "categories": [
+        "tone"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "zones",
+        "zone system",
+        "lightness",
+        "tone",
+        "lab",
+        "dodge",
+        "burn"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Zones/releases/download/v1.0.0/Zones-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.1"
       }
     },
     {
