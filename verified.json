@@ -84,6 +84,7 @@
     { "repo": "anthonyreimche/Glow", "version": "1.0.1", "commit": "b77267da89fa5c52ba2c42cee70a7c2f43ec27d4" },
     { "repo": "anthonyreimche/GPS-Track", "version": "1.0.1", "commit": "b7a219dbaf668d330e8caf675c267dce68ef735f" },
     { "repo": "anthonyreimche/HDR-Editing", "version": "1.0.2", "commit": "bae248b8038beea76f158ffec12af3dc6df56d49" },
+    { "repo": "anthonyreimche/History", "version": "1.0.1", "commit": "eef871e44d74ad1a804c935f7af45526b7d4bc12" },
     { "repo": "anthonyreimche/Impulse-Noise-Reduction", "version": "1.0.0", "commit": "5342de5bf7ba0cd58719d86b844ff9e89190d7ee" },
     { "repo": "anthonyreimche/Input-Colour-Profiles", "version": "1.0.0", "commit": "e293b57b8dd1b16900b10042d64ac17278a8bf48" },
     { "repo": "anthonyreimche/LUT-Tools", "version": "1.0.0", "commit": "2492fba3bcab88cf6485e2b830a05c7c6a163bdf" },
