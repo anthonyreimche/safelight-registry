@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T04:48:31.363Z",
+  "generatedAt": "2026-11-20T13:40:21.744Z",
   "topic": "safelight-extension",
-  "count": 109,
+  "count": 111,
   "categories": [
     {
       "slug": "library",
@@ -1619,6 +1619,44 @@
       "latest": {
         "version": "1.0.0",
         "from": "branch"
+      }
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-border",
+      "description": "DISCONTINUED — use OPGERUIMD97/safelight-mat-frame (Framing / Border → Border mode)",
+      "stars": 1,
+      "createdAt": "2026-10-20T14:34:19Z",
+      "updatedAt": "2026-11-20T08:26:10Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Border",
+      "categories": [
+        "export"
+      ],
+      "type": null,
+      "keywords": [
+        "border",
+        "matte",
+        "export",
+        "frame"
+      ],
+      "screenshots": [],
+      "deprecated": {
+        "replacedBy": "OPGERUIMD97/safelight-mat-frame",
+        "message": "Solid borders are now in Framing / Border (Border mode). Use Import Border for your templates."
+      },
+      "worksWith": [],
+      "latest": {
+        "version": "1.1.0",
+        "tag": "v1.1.0",
+        "from": "release",
+        "zips": []
       }
     },
     {
@@ -4560,8 +4598,8 @@
         "OPGERUIMD97/safelight-print"
       ],
       "latest": {
-        "version": "2.1.0",
-        "tag": "v2.1.0",
+        "version": "2.1.1",
+        "tag": "v2.1.1",
         "from": "release",
         "zips": [],
         "minAppVersion": "2.6.0"
@@ -4601,6 +4639,39 @@
         "version": "1.1.1",
         "from": "branch",
         "minAppVersion": "2.6.0"
+      }
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-print-mat",
+      "description": "DISCONTINUED — use OPGERUIMD97/safelight-mat-frame (Framing / Border)",
+      "stars": 0,
+      "createdAt": "2026-06-24T10:00:38Z",
+      "updatedAt": "2026-11-20T08:26:11Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Print Mat",
+      "categories": [
+        "export"
+      ],
+      "type": null,
+      "keywords": [],
+      "screenshots": [],
+      "deprecated": {
+        "replacedBy": "OPGERUIMD97/safelight-mat-frame",
+        "message": "Mats and frames are now in Framing / Border. Use Import Print Mat for your templates."
+      },
+      "worksWith": [],
+      "latest": {
+        "version": "1.3.0",
+        "tag": "v1.3.0",
+        "from": "release",
+        "zips": []
       }
     },
     {
