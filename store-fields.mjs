@@ -20,6 +20,7 @@ export const LIMITS = {
   screenshots: 6,
   worksWith: 6,
   assetUrl: 2048,
+  deprecatedMessage: 140,
 };
 
 const lc = (s) => String(s ?? "").trim().toLowerCase();
@@ -267,4 +268,23 @@ export function linkWorksWith(extensions, declared, { isVerified, isBanned }) {
     links.set(key, list.slice(0, LIMITS.worksWith).map((k) => cased.get(k)));
   }
   return links;
+}
+
+// "owner/repo" with neither part "." or "..", as the app's validRepo checks.
+const plainRepo = (repo) => REPO.test(repo) && repo.split("/").every((part) => part !== "." && part !== "..");
+
+/** The manifest's `deprecated` mark, which the store shows as Discontinued:
+ *  `true`, or { replacedBy: "owner/repo", message }. A bad replacement (or the
+ *  repo itself) or message reads as null, never as unmarked. Null when the
+ *  manifest isn't marked. */
+export function cleanDeprecated(fullName, manifest) {
+  const d = isObject(manifest) ? manifest.deprecated : undefined;
+  if (d !== true && !isObject(d)) return null;
+  const mark = isObject(d) ? d : {};
+  const repo = typeof mark.replacedBy === "string" ? mark.replacedBy.trim() : "";
+  const message = typeof mark.message === "string" ? mark.message.trim() : "";
+  return {
+    replacedBy: plainRepo(repo) && lc(repo) !== lc(fullName) ? repo : null,
+    message: message && message.length <= LIMITS.deprecatedMessage ? message : null,
+  };
 }

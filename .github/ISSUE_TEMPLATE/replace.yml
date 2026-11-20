@@ -1,0 +1,41 @@
+# Rendered from FORMS in requests.mjs: edit it there, then run
+# node requests.mjs --write-templates
+name: "Replace an extension"
+description: "Point people from an old extension to the one that replaces it, such as a move to a new repository."
+title: "Replace: "
+labels: ["replace-request"]
+body:
+  - type: markdown
+    attributes:
+      value: "The old extension gets a Discontinued bar with **Install replacement** and Uninstall wherever it is installed, and Browse stops offering it.\n\nTo also turn the old extension off for people who install the new one, add `\"supersedes\": [\"<old extension id>\"]` to the new extension's safelight.json."
+  - type: input
+    id: repo
+    attributes:
+      label: "Old repository"
+      description: "owner/repo, or the repository's GitHub URL."
+      placeholder: "owner/repo"
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: "New repository"
+      description: "owner/repo, or the GitHub URL, of the extension that replaces it."
+      placeholder: "owner/new-repo"
+    validations:
+      required: true
+  - type: input
+    id: message
+    attributes:
+      label: "Message"
+      description: "Shown on the Discontinued bar, at most 140 characters. Leave it empty for \"No longer maintained.\""
+      placeholder: "Use Framing / Border instead"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "Ownership"
+      options:
+        - label: "I maintain this repository"
+          required: true

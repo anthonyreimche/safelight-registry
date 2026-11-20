@@ -1,0 +1,41 @@
+# Checks a pull request that adds registry requests: every change file must
+# apply cleanly, and the request scripts' tests pass. The issue forms must
+# match FORMS in requests.mjs (a test renders and compares them).
+
+name: Check registry requests
+
+on:
+  workflow_dispatch: {}
+  pull_request:
+    paths:
+      - changes/**
+      - requests.mjs
+      - requests.test.mjs
+      - apply-changes.mjs
+      - apply-changes.test.mjs
+      - deprecated.json
+      - .github/ISSUE_TEMPLATE/**
+      - .github/workflows/check-requests.yml
+  push:
+    branches: [main]
+    paths:
+      - requests.mjs
+      - requests.test.mjs
+      - apply-changes.mjs
+      - apply-changes.test.mjs
+      - .github/ISSUE_TEMPLATE/**
+      - .github/workflows/check-requests.yml
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node --test requests.test.mjs apply-changes.test.mjs
+      - run: node apply-changes.mjs --check

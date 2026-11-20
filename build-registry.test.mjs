@@ -17,6 +17,7 @@ import {
   fetchHeadManifest,
   iconFromManifest,
   loadStoreConfig,
+  withCuratedDeprecation,
   loadVerified,
   pickVersionFields,
   releaseFields,
@@ -322,6 +323,37 @@ test("an unreadable manifest keeps a previous entry whose categories are empty",
     keywords: ["warp"],
     screenshots: [],
   });
+});
+
+test("a deprecated manifest marks the entry; others carry no mark", () => {
+  const manifest = { deprecated: { replacedBy: "acme/next", message: "Use Next" } };
+  assert.deepEqual(entryStoreFields("acme/old", ["safelight-tone"], manifest, undefined, store).fields.deprecated, {
+    replacedBy: "acme/next",
+    message: "Use Next",
+  });
+  assert.equal("deprecated" in entryStoreFields("acme/old", ["safelight-tone"], {}, undefined, store).fields, false);
+});
+
+test("an unreadable manifest keeps the previous build's deprecated mark", () => {
+  const previous = {
+    fullName: "acme/old",
+    categories: ["tone"],
+    keywords: [],
+    screenshots: [],
+    deprecated: { replacedBy: "acme/next", message: null },
+  };
+  assert.deepEqual(entryStoreFields("acme/old", ["safelight-tone"], UNREADABLE, previous, store).fields.deprecated, {
+    replacedBy: "acme/next",
+    message: null,
+  });
+});
+
+test("the registry's own deprecated.json mark wins over the manifest's, and stands in for none", () => {
+  const marks = new Map([["acme/old", { replacedBy: "acme/next", message: "Moved" }]]);
+  const own = { categories: [], deprecated: { replacedBy: null, message: "From the manifest" } };
+  assert.deepEqual(withCuratedDeprecation(own, marks, "Acme/Old").deprecated, { replacedBy: "acme/next", message: "Moved" });
+  assert.deepEqual(withCuratedDeprecation({ categories: [] }, marks, "acme/old").deprecated, { replacedBy: "acme/next", message: "Moved" });
+  assert.deepEqual(withCuratedDeprecation(own, marks, "acme/other"), own);
 });
 
 test("the payload carries the public vocabulary and two-way links", () => {

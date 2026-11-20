@@ -1,0 +1,26 @@
+# Rendered from FORMS in requests.mjs: edit it there, then run
+# node requests.mjs --write-templates
+name: "Set an extension's category"
+description: "Choose the store category for an extension whose repository doesn't name one."
+title: "Category: "
+labels: ["category-request"]
+body:
+  - type: markdown
+    attributes:
+      value: "The Extensions store groups extensions by purpose. An extension normally names its category itself, with a `safelight-<category>` topic or `categories` in its safelight.json, and those always win. Use this for an extension whose author left it untagged."
+  - type: input
+    id: repo
+    attributes:
+      label: "Repository"
+      description: "owner/repo, or the repository's GitHub URL."
+      placeholder: "owner/repo"
+    validations:
+      required: true
+  - type: input
+    id: categories
+    attributes:
+      label: "Categories"
+      description: "One to 3, by name, separated by commas. The list is in [categories.json](https://github.com/anthonyreimche/safelight-registry/blob/main/categories.json)."
+      placeholder: "Export and sharing, Workflow"
+    validations:
+      required: true

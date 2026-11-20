@@ -1,0 +1,33 @@
+# Rendered from FORMS in requests.mjs: edit it there, then run
+# node requests.mjs --write-templates
+name: "Get an extension verified"
+description: "Ask for a code review of a release, for the Verified badge in Safelight's Extensions window."
+title: "Verify: "
+labels: ["verify-request"]
+body:
+  - type: markdown
+    attributes:
+      value: "A maintainer reads the code of the release you name. Once the pull request this request opens is merged, Safelight shows the extension as Verified and installs it without the unreviewed warning.\n\nVerification covers that version only. A newer release shows as unreviewed until it is verified too, so ask again for each release you want covered.\n\nBefore asking: the repository is public, has the `safelight-extension` topic, and publishes the version as a GitHub Release."
+  - type: input
+    id: repo
+    attributes:
+      label: "Repository"
+      description: "owner/repo, or the repository's GitHub URL."
+      placeholder: "owner/repo"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: "Version"
+      description: "The release to review. Leave it empty for the latest release."
+      placeholder: "1.2.0"
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Notes for the reviewer"
+      description: "Anything that helps the review: what changed since the last verified version, the permissions it asks for and why."
+    validations:
+      required: false

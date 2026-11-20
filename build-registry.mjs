@@ -23,6 +23,7 @@
 //         avatarUrl, thumbnail: { url, custom }, name?,
 //         categories: [slug], type: slug | null, keywords: [string],
 //         screenshots: [url], worksWith: ["owner/repo"],
+//         deprecated?: { replacedBy: "owner/repo" | null, message: string | null },
 //         latest?: { version, from: "release", tag, zips, minAppVersion? }
 //                | { version, from: "branch", minAppVersion? },
 //         prerelease?: { version, from: "release", tag, zips, minAppVersion? },
@@ -32,8 +33,10 @@
 // each repo's HEAD safelight.json; see store-fields.mjs.
 
 import { writeFile, readFile } from "node:fs/promises";
+import { parseDeprecated } from "./apply-changes.mjs";
 import { pathToFileURL } from "node:url";
 import {
+  cleanDeprecated,
   cleanKeywords,
   cleanName,
   cleanScreenshots,
@@ -54,6 +57,7 @@ const BANNED_FILE = process.env.BANNED_FILE || "banned.json";
 const VERIFIED_FILE = process.env.VERIFIED_FILE || "verified.json";
 const CATEGORIES_FILE = process.env.CATEGORIES_FILE || "categories.json";
 const OVERRIDES_FILE = process.env.OVERRIDES_FILE || "category-overrides.json";
+const DEPRECATED_FILE = process.env.DEPRECATED_FILE || "deprecated.json";
 const MAX_PAGES = 10; // 10 × 100 = up to 1000 extensions; raise if ever needed
 const CONCURRENCY = 8; // parallel thumbnail resolutions
 
@@ -129,6 +133,7 @@ export async function loadVerified(file = VERIFIED_FILE) {
 }
 
 const list = (v) => (Array.isArray(v) ? v : []);
+const isMark = (v) => !!v && typeof v === "object" && !Array.isArray(v);
 
 /** One repo's store fields. When GitHub couldn't give us the manifest, the
  *  previous build's manifest-derived fields stand in until a readable build;
@@ -145,6 +150,7 @@ export function entryStoreFields(fullName, topics, manifest, previous, { vocabul
         type,
         keywords: list(previous.keywords),
         screenshots: list(previous.screenshots),
+        ...(isMark(previous.deprecated) ? { deprecated: previous.deprecated } : {}),
       },
       declared: list(previous.worksWith),
       ignored: [],
@@ -158,6 +164,7 @@ export function entryStoreFields(fullName, topics, manifest, previous, { vocabul
     vocabulary,
   });
   const name = cleanName(readable);
+  const deprecated = cleanDeprecated(fullName, readable);
   return {
     fields: {
       ...(name ? { name } : {}),
@@ -165,10 +172,29 @@ export function entryStoreFields(fullName, topics, manifest, previous, { vocabul
       type,
       keywords: cleanKeywords(readable),
       screenshots: cleanScreenshots(fullName, readable),
+      ...(deprecated ? { deprecated } : {}),
     },
     declared: declaredWorksWith(fullName, readable),
     ignored,
   };
+}
+
+/** The registry's own discontinued marks (deprecated.json, written from
+ *  Discontinue and Replace requests). Missing or unreadable means none. */
+async function loadDeprecated(file = DEPRECATED_FILE) {
+  try {
+    return parseDeprecated(JSON.parse(await readFile(file, "utf8")));
+  } catch (e) {
+    if (e?.code !== "ENOENT") console.error(`${file} unreadable, ignored: ${e?.message || e}`);
+    return new Map();
+  }
+}
+
+/** `fields` with the registry's mark for `fullName`, which wins over the one
+ *  its manifest declares. */
+export function withCuratedDeprecation(fields, marks, fullName) {
+  const mark = marks.get(fullName.toLowerCase());
+  return mark ? { ...fields, deprecated: mark } : fields;
 }
 
 /** The published catalogue: the public vocabulary, then every entry with its
@@ -508,6 +534,7 @@ async function main() {
   const banned = await loadBanned();
   const storeConfig = await loadStoreConfig();
   const verified = await loadVerified();
+  const deprecated = await loadDeprecated();
   const declared = new Map();
   const repos = (await searchAll()).filter(
     (r) => r.full_name && !isBanned(r.full_name, banned),
@@ -533,7 +560,7 @@ async function main() {
       topics,
       avatarUrl,
       thumbnail,
-      ...own.fields,
+      ...withCuratedDeprecation(own.fields, deprecated, r.full_name),
       worksWith: [],
       ...(await versionFields(r.full_name, manifest, previous)),
     };

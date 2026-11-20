@@ -3,7 +3,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import { LIMITS, cleanKeywords, cleanName, cleanScreenshots, declaredWorksWith, linkWorksWith, parseCategories, parseOverrides, publicVocabulary, resolveAssetUrl, resolveCategories, resolveType } from "./store-fields.mjs";
+import { LIMITS, cleanDeprecated, cleanKeywords, cleanName, cleanScreenshots, declaredWorksWith, linkWorksWith, parseCategories, parseOverrides, publicVocabulary, resolveAssetUrl, resolveCategories, resolveType } from "./store-fields.mjs";
 
 const committed = (name) => JSON.parse(readFileSync(new URL(`./${name}`, import.meta.url), "utf8"));
 
@@ -298,4 +298,31 @@ test("declared links come first, then reverse links, each in catalogue order, at
     isBanned: () => false,
   });
   assert.equal(capped.get("acme/r0").length, LIMITS.worksWith);
+});
+
+test("a manifest marked deprecated gives its replacement and message", () => {
+  assert.deepEqual(
+    cleanDeprecated("opg/safelight-border", {
+      deprecated: { replacedBy: "OPGERUIMD97/safelight-mat-frame", message: "  Use Framing / Border " },
+    }),
+    { replacedBy: "OPGERUIMD97/safelight-mat-frame", message: "Use Framing / Border" },
+  );
+});
+
+test("deprecated: true, or a bad replacement or message, still marks the extension", () => {
+  const none = { replacedBy: null, message: null };
+  assert.deepEqual(cleanDeprecated("acme/old", { deprecated: true }), none);
+  assert.deepEqual(cleanDeprecated("acme/old", { deprecated: {} }), none);
+  assert.deepEqual(cleanDeprecated("acme/old", { deprecated: { replacedBy: "../x", message: 7 } }), none);
+  assert.deepEqual(cleanDeprecated("acme/old", { deprecated: { replacedBy: "Acme/Old" } }), none);
+  assert.deepEqual(
+    cleanDeprecated("acme/old", { deprecated: { message: "x".repeat(LIMITS.deprecatedMessage + 1) } }),
+    none,
+  );
+});
+
+test("a manifest not marked deprecated gives nothing", () => {
+  for (const deprecated of [undefined, null, false, "yes", []])
+    assert.equal(cleanDeprecated("acme/old", { deprecated }), null);
+  assert.equal(cleanDeprecated("acme/old", null), null);
 });

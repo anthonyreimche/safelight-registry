@@ -15,7 +15,9 @@ on:
       - banned.json
       - categories.json
       - category-overrides.json
+      - deprecated.json
       - build-registry.mjs
+      - apply-changes.mjs
       - store-fields.mjs
       - .github/workflows/build-registry.yml
 

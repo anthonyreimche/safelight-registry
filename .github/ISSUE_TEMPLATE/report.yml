@@ -1,0 +1,33 @@
+# Rendered from FORMS in requests.mjs: edit it there, then run
+# node requests.mjs --write-templates
+name: "Report an extension"
+description: "Report an extension that harms people's photos, files or privacy, for the ban list."
+title: "Report: "
+labels: ["ban-report"]
+body:
+  - type: markdown
+    attributes:
+      value: "A banned extension can't be installed, and Safelight turns it off where it is installed. Its reason is shown to everyone who has it, so describe what the extension does, factually, with the version or commit where you saw it. A maintainer checks every report before anything is banned.\n\nThis issue is public. For a security problem that shouldn't be public yet, [report it privately](https://github.com/anthonyreimche/safelight-registry/security/advisories/new) instead."
+  - type: input
+    id: target
+    attributes:
+      label: "Repository or account"
+      description: "owner/repo, or a GitHub account to ban every repository under it (a typosquatter, a compromised account)."
+      placeholder: "owner/repo"
+    validations:
+      required: true
+  - type: input
+    id: reason
+    attributes:
+      label: "Reason shown to users"
+      description: "One factual sentence, at most 200 characters, with the version if you know it."
+      placeholder: "Uploads the catalogue to an undeclared server (1.2.0)"
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Evidence"
+      description: "What you saw and how to see it: files and lines, network requests, steps."
+    validations:
+      required: true

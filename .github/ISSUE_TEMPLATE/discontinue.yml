@@ -1,0 +1,33 @@
+# Rendered from FORMS in requests.mjs: edit it there, then run
+# node requests.mjs --write-templates
+name: "Discontinue an extension"
+description: "Mark your extension as discontinued in Safelight's Extensions window."
+title: "Discontinue: "
+labels: ["discontinue-request"]
+body:
+  - type: markdown
+    attributes:
+      value: "Safelight shows a Discontinued bar on the extension wherever it is installed, with your message and Uninstall, and Browse stops offering it. It stays installed until each person removes it.\n\nIf another extension takes over from it, use **Replace an extension** instead, so the bar offers the replacement."
+  - type: input
+    id: repo
+    attributes:
+      label: "Repository"
+      description: "owner/repo, or the repository's GitHub URL."
+      placeholder: "owner/repo"
+    validations:
+      required: true
+  - type: input
+    id: message
+    attributes:
+      label: "Message"
+      description: "Shown on the Discontinued bar, at most 140 characters. Leave it empty for \"No longer maintained.\""
+      placeholder: "Use Framing / Border instead"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "Ownership"
+      options:
+        - label: "I maintain this repository"
+          required: true

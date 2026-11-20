@@ -20,6 +20,8 @@ It is a community safety aid, **not a guarantee**. See [Scope & disclaimer](#sco
 | `registry.json` | The store's **browse catalogue** — auto-generated, do not hand-edit. See [Registry index](#registry-index-registryjson). |
 | [`categories.json`](categories.json) | The Extensions store's categories: slug, label, description, aliases, and the type badges. Hand-edited. See [Store categories](#store-categories-categoriesjson). |
 | [`category-overrides.json`](category-overrides.json) | Categories for repos whose authors haven't tagged one. Used only when the repo has no purpose topic and no matching manifest categories. |
+| [`deprecated.json`](deprecated.json) | Extensions the registry lists as discontinued, with the repo that replaces them and a message. Wins over a manifest's own `deprecated`. The store shows a Discontinued bar with Install replacement and Uninstall. |
+| [`changes/`](changes/) | Merged requests waiting to be applied, one file per request. See [Requests](#requests). |
 
 The app reads these from `raw.githubusercontent.com/anthonyreimche/safelight-registry/main/`,
 caches them for ~6 hours, and falls back to the last-known-good copy if a fetch fails
@@ -91,10 +93,53 @@ it means.
 - A verified extension still runs with full access. Apply the same judgement you would
   to any third-party software.
 
+## Requests
+
+Most changes to the lists start as a form, here under
+[New issue](https://github.com/anthonyreimche/safelight-registry/issues/new/choose)
+or on the Safelight website's registry page
+([`site/registry.html`](https://github.com/anthonyreimche/SafeLight/blob/main/site/registry.html)),
+which opens the same form filled in:
+
+| Form | Becomes |
+|------|---------|
+| Get an extension verified | A pin in `verified.json` of the release's version and commit |
+| Discontinue an extension | A mark in `deprecated.json` |
+| Replace an extension | A mark in `deprecated.json` naming the replacement |
+| Report an extension | A draft ban in `banned.json` |
+| Set an extension's category | An entry in `category-overrides.json` |
+
+What happens to a submitted form (`requests.mjs`, run by
+[`requests.yml`](.github/workflows/requests.yml)):
+
+1. The form is checked: the repo exists and is public; for a verification, the
+   release exists and its `safelight.json` has the same version. A problem gets a
+   comment saying what to fix, and editing the issue checks it again.
+2. A checked request opens a pull request that adds `changes/<issue>.json` and
+   closes the issue. Requests to discontinue, replace or categorize a repo from
+   someone who isn't its owner are labelled `owner-unconfirmed`; ban reports open
+   as drafts. Editing the issue updates the pull request.
+3. A maintainer reviews and merges. [`apply-changes.yml`](.github/workflows/apply-changes.yml)
+   then folds the change file into its list and deletes it, and the registry
+   build runs.
+
+Each request is its own file, so two open requests never conflict, whichever is
+merged first. Two requests about the same repo apply in issue order.
+
+Setup, once: issues on; **Run workflow** on Registry requests to create the
+labels; the `REGISTRY_PUSH_TOKEN` secret (already used by the registry build)
+lets the request pull requests start their checks and lets the apply step push
+to main. The issue forms are rendered from `FORMS` in `requests.mjs`: edit them
+there and run `node requests.mjs --write-templates`.
+
+Editing the lists by hand in a pull request still works.
+
 ## Getting your extension verified
 
 1. Make sure your repo has a valid `safelight.json` and is tagged `safelight-extension`.
-2. Open a pull request adding your repo to `verified.json`. Two forms are accepted:
+2. Fill in [Get an extension verified](https://github.com/anthonyreimche/safelight-registry/issues/new?template=verify.yml),
+   which opens the pull request for you, or open one adding your repo to `verified.json`
+   yourself. Two forms are accepted:
    ```json
    {
      "verified": [
@@ -112,13 +157,15 @@ it means.
 3. A maintainer reviews the extension's code, then merges. Within a few hours every
    client reflects it.
 
-When you ship a new version, open a PR bumping the `version` (and `commit`) so the
-update is covered by verification again.
+When you ship a new version, ask again (the form fills in the new version and commit)
+so the update is covered by verification again.
 
 ## Reporting a malicious extension
 
-Open an issue (or a PR straight to `banned.json`) with the repo and what it does. Ban a
-specific repo, or a whole account for a typosquatter / compromised owner:
+Fill in [Report an extension](https://github.com/anthonyreimche/safelight-registry/issues/new?template=report.yml)
+(or open a PR straight to `banned.json`) with the repo and what it does. The form opens a
+draft pull request that a maintainer checks before merging. Ban a specific repo, or a
+whole account for a typosquatter / compromised owner:
 
 ```json
 {
@@ -248,7 +295,14 @@ The builder also copies, from the default branch's `safelight.json`:
   and caches them for up to a week, so give a changed screenshot a new file name;
 - `worksWith`: `"owner/repo"` extensions it pairs well with (at most 6). The
   link shows on this extension's page, and on the other extension's page too
-  when this one is verified.
+  when this one is verified;
+- `deprecated`: marks a discontinued extension, as `true` or
+  `{ "replacedBy": "owner/repo", "message": "..." }`. The app shows a
+  Discontinued bar on it where it is installed, with Install replacement and
+  Uninstall, keeps it off Browse and lists it last in searches. A replacement
+  that isn't a plain `owner/repo` (or names the repo itself), or a message over
+  140 characters, reads as `null`; the mark stays. When the manifest can't be
+  read, the previous build's mark is kept.
 
 Rules for `categories.json` (checked by `validate-categories.mjs` in CI and by
 the builder): slugs match `^[a-z][a-z0-9-]{0,23}$`, are unique, and aren't

@@ -1,0 +1,45 @@
+# Folds merged registry requests (changes/<issue>.json) into verified.json,
+# banned.json, deprecated.json and category-overrides.json, deletes the change
+# files, and commits. The commit uses REGISTRY_PUSH_TOKEN, like the registry
+# build, so it passes main's pull request rule and starts the registry build.
+
+name: Apply registry requests
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - changes/**
+
+permissions:
+  contents: write
+
+# One at a time, and never cancelled halfway: each run applies every change
+# file present, so a run that waits picks up what the one before left.
+concurrency:
+  group: apply-changes
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.REGISTRY_PUSH_TOKEN }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node apply-changes.mjs
+      - name: Commit if changed
+        run: |
+          git add -A verified.json banned.json deprecated.json category-overrides.json changes
+          if git diff --cached --quiet; then
+            echo "Nothing to apply."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: apply registry requests"
+          git push

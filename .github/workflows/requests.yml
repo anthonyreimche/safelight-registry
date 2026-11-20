@@ -1,0 +1,54 @@
+# Turns a registry request issue (the forms in .github/ISSUE_TEMPLATE, also
+# opened prefilled from the Safelight website) into a pull request that adds
+# changes/<issue>.json. See requests.mjs. A request with something to fix gets
+# a comment instead; editing the issue runs the check again and updates the
+# pull request.
+#
+# Run it by hand ("Run workflow") once to create the labels the forms apply.
+
+name: Registry requests
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+  workflow_dispatch: {}
+
+# Comments and labels go out as the Actions bot. The branch and pull request
+# use REGISTRY_PUSH_TOKEN when it is set, so the checks on the pull request
+# run (pull requests opened with the Actions token start no workflows).
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: request-${{ github.event.issue.number || 'labels' }}
+  cancel-in-progress: true
+
+jobs:
+  request:
+    if: github.event_name == 'issues' && !github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      # The issue's text is read from the event file by the script, never put
+      # into a shell command.
+      - run: node requests.mjs --issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REGISTRY_PUSH_TOKEN: ${{ secrets.REGISTRY_PUSH_TOKEN }}
+
+  labels:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node requests.mjs --setup-labels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
