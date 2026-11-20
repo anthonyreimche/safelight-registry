@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T08:03:46.246Z",
+  "generatedAt": "2026-11-20T03:40:51.957Z",
   "topic": "safelight-extension",
-  "count": 107,
+  "count": 108,
   "categories": [
     {
       "slug": "library",
@@ -898,11 +898,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.1",
-        "tag": "v1.1.1",
+        "version": "1.2.0",
+        "tag": "v1.2.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Filmstrip/releases/download/v1.1.1/Filmstrip-1.1.1.zip"
+          "https://github.com/anthonyreimche/Filmstrip/releases/download/v1.2.0/Filmstrip-1.2.0.zip"
         ],
         "minAppVersion": "2.5.1"
       }
@@ -1967,11 +1967,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.3",
-        "tag": "v1.0.3",
+        "version": "1.0.4",
+        "tag": "v1.0.4",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Contrast-and-Texture/releases/download/v1.0.3/Contrast-and-Texture-1.0.3.zip"
+          "https://github.com/anthonyreimche/Contrast-and-Texture/releases/download/v1.0.4/Contrast-and-Texture-1.0.4.zip"
         ],
         "minAppVersion": "3.2.2"
       }
@@ -2762,6 +2762,47 @@
           "https://github.com/anthonyreimche/Heal/releases/download/v3.0.1/Heal-3.0.1.zip"
         ],
         "minAppVersion": "3.2.0"
+      }
+    },
+    {
+      "fullName": "anthonyreimche/High-Pass-Sharpen",
+      "description": "High Pass Sharpening for Safelight",
+      "stars": 0,
+      "createdAt": "2026-11-20T03:17:26Z",
+      "updatedAt": "2026-11-20T03:19:32Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "High Pass Sharpen",
+      "categories": [
+        "detail"
+      ],
+      "type": "panel",
+      "keywords": [
+        "sharpen",
+        "sharpening",
+        "high pass",
+        "linear light",
+        "detail",
+        "display-referred"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/High-Pass-Sharpen/releases/download/v1.0.0/High-Pass-Sharpen-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.3"
       }
     },
     {
@@ -3678,11 +3719,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Saturation-and-Density/releases/download/v1.0.0/Saturation-and-Density-1.0.0.zip"
+          "https://github.com/anthonyreimche/Saturation-and-Density/releases/download/v1.0.1/Saturation-and-Density-1.0.1.zip"
         ],
         "minAppVersion": "3.2.0"
       }
