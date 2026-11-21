@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T05:19:41.106Z",
+  "generatedAt": "2026-11-21T13:37:28.734Z",
   "topic": "safelight-extension",
   "count": 111,
   "categories": [
@@ -554,11 +554,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.1",
-        "tag": "v1.1.1",
+        "version": "1.1.2",
+        "tag": "v1.1.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Colour-Equaliser/releases/download/v1.1.1/Colour-Equaliser-1.1.1.zip"
+          "https://github.com/anthonyreimche/Colour-Equaliser/releases/download/v1.1.2/Colour-Equaliser-1.1.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -1695,11 +1695,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/3D-Colorimetric-Film/releases/download/v1.0.0/3D-Colorimetric-Film-1.0.0.zip"
+          "https://github.com/anthonyreimche/3D-Colorimetric-Film/releases/download/v1.0.1/3D-Colorimetric-Film-1.0.1.zip"
         ],
         "minAppVersion": "3.2.6"
       }
@@ -2048,11 +2048,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.4",
-        "tag": "v1.0.4",
+        "version": "1.0.5",
+        "tag": "v1.0.5",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Contrast-and-Texture/releases/download/v1.0.4/Contrast-and-Texture-1.0.4.zip"
+          "https://github.com/anthonyreimche/Contrast-and-Texture/releases/download/v1.0.5/Contrast-and-Texture-1.0.5.zip"
         ],
         "minAppVersion": "3.2.2"
       }
@@ -2092,11 +2092,11 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.2",
-        "tag": "v3.0.2",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Crop/releases/download/v3.0.2/Crop-3.0.2.zip"
+          "https://github.com/anthonyreimche/Crop/releases/download/v3.1.0/Crop-3.1.0.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -2545,11 +2545,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Flat-Field-and-Dark-Frame/releases/download/v1.0.0/Flat-Field-and-Dark-Frame-1.0.0.zip"
+          "https://github.com/anthonyreimche/Flat-Field-and-Dark-Frame/releases/download/v1.0.1/Flat-Field-and-Dark-Frame-1.0.1.zip"
         ],
         "minAppVersion": "3.2.4"
       }
@@ -2710,11 +2710,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Glow/releases/download/v1.0.1/Glow-1.0.1.zip"
+          "https://github.com/anthonyreimche/Glow/releases/download/v1.0.2/Glow-1.0.2.zip"
         ],
         "minAppVersion": "3.1.0"
       }
@@ -2962,11 +2962,11 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.1.0",
+        "tag": "v1.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/History/releases/download/v1.0.1/History-1.0.1.zip"
+          "https://github.com/anthonyreimche/History/releases/download/v1.1.0/History-1.1.0.zip"
         ],
         "minAppVersion": "3.2.5"
       }
@@ -3405,11 +3405,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/LUT-Tools/releases/download/v1.0.0/LUT-Tools-1.0.0.zip"
+          "https://github.com/anthonyreimche/LUT-Tools/releases/download/v1.0.1/LUT-Tools-1.0.1.zip"
         ],
         "minAppVersion": "3.2.4"
       }
@@ -3574,17 +3574,18 @@
         "display-transform",
         "agx",
         "filmic",
+        "sigmoid",
         "scene-referred",
         "highlights"
       ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.1.0",
+        "tag": "v1.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Parametric-Tone-Mappers/releases/download/v1.0.1/Parametric-Tone-Mappers-1.0.1.zip"
+          "https://github.com/anthonyreimche/Parametric-Tone-Mappers/releases/download/v1.1.0/Parametric-Tone-Mappers-1.1.0.zip"
         ],
         "minAppVersion": "3.1.0"
       }
@@ -3755,11 +3756,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "tag": "v1.1.0",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Relight/releases/download/v1.1.0/Relight-1.1.0.zip"
+          "https://github.com/anthonyreimche/Relight/releases/download/v1.1.1/Relight-1.1.1.zip"
         ],
         "minAppVersion": "3.2.4"
       }
@@ -3890,11 +3891,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Skin-Tone-Brush/releases/download/v1.0.0/Skin-Tone-Brush-1.0.0.zip"
+          "https://github.com/anthonyreimche/Skin-Tone-Brush/releases/download/v1.0.1/Skin-Tone-Brush-1.0.1.zip"
         ],
         "minAppVersion": "3.2.3"
       }
@@ -3982,11 +3983,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Soft-Proofing/releases/download/v1.0.0/Soft-Proofing-1.0.0.zip"
+          "https://github.com/anthonyreimche/Soft-Proofing/releases/download/v1.0.1/Soft-Proofing-1.0.1.zip"
         ],
         "minAppVersion": "3.2.4"
       }
@@ -4166,11 +4167,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.1",
-        "tag": "v1.1.1",
+        "version": "1.1.2",
+        "tag": "v1.1.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Tone-Equalizer/releases/download/v1.1.1/Tone-Equalizer-1.1.1.zip"
+          "https://github.com/anthonyreimche/Tone-Equalizer/releases/download/v1.1.2/Tone-Equalizer-1.1.2.zip"
         ],
         "minAppVersion": "3.1.0"
       }
@@ -4298,11 +4299,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.0.1",
+        "tag": "v1.0.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/USM-and-RL-Sharpening/releases/download/v1.0.0/USM-and-RL-Sharpening-1.0.0.zip"
+          "https://github.com/anthonyreimche/USM-and-RL-Sharpening/releases/download/v1.0.1/USM-and-RL-Sharpening-1.0.1.zip"
         ],
         "minAppVersion": "3.2.2"
       }
