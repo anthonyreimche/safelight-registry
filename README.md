@@ -40,7 +40,8 @@ Recently-updated / Featured shelves.
 That catalogue is `registry.json`, built by [`build-registry.mjs`](build-registry.mjs)
 and committed automatically by the
 [Build registry index](.github/workflows/build-registry.yml) workflow. It runs on a
-schedule (hourly), on demand (the **Run workflow** button), and whenever
+schedule (every 15 minutes), on demand (the **Run workflow** button), on an
+`extension-updated` repository dispatch from an extension repo, and whenever
 `verified.json`, `banned.json`, `categories.json`, `category-overrides.json`,
 `store-fields.mjs` or the generator change. Banned repos/owners are
 excluded at build time as well as enforced live.

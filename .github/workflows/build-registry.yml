@@ -1,13 +1,23 @@
 # Regenerates registry.json — the static catalog the SafeLight Extensions store
-# loads from jsDelivr — on a schedule, on demand, and whenever the curation lists
-# or the generator change. See build-registry.mjs for what it produces.
+# loads from jsDelivr — on a schedule, on demand, when an extension repo reports
+# a release or a merge, and whenever the curation lists or the generator change.
+# See build-registry.mjs for what it produces.
 
 name: Build registry index
 
 on:
   schedule:
-    - cron: "0 * * * *" # hourly; the app caches the index for 1h
+    # Every 15 minutes, off the top of the hour. GitHub delays or drops
+    # scheduled runs under load, worst at minute 0: an "0 * * * *" schedule
+    # ran only every 4 to 8 hours. A build is ~115 API calls, well inside the
+    # Actions token's 1,000 an hour.
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch: {} # manual "Run workflow" button
+  # An extension repo's notify workflow, after a release or a push to its
+  # default branch: POST /repos/anthonyreimche/safelight-registry/dispatches
+  # with {"event_type": "extension-updated"}.
+  repository_dispatch:
+    types: [extension-updated]
   push:
     branches: [main]
     paths:
