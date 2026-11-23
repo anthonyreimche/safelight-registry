@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T10:40:19.280Z",
+  "generatedAt": "2026-11-23T22:17:35.456Z",
   "topic": "safelight-extension",
-  "count": 116,
+  "count": 117,
   "categories": [
     {
       "slug": "library",
@@ -133,12 +133,22 @@
         "theme"
       ],
       "type": null,
-      "keywords": [],
+      "keywords": [
+        "theme",
+        "dark",
+        "warm",
+        "orange"
+      ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.2.0",
-        "from": "branch"
+        "version": "1.2.1",
+        "tag": "v1.2.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-claude-theme/releases/download/v1.2.1/safelight-claude-theme-1.2.1.zip"
+        ],
+        "minAppVersion": "3.0.0"
       }
     },
     {
@@ -4757,6 +4767,45 @@
       "latest": {
         "version": "1.0.0",
         "from": "branch"
+      }
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-graphite-separated",
+      "description": "Cool graphite Safelight theme with blue-grey headers, a cyan accent and a teal slider. Mapped from the darktable theme Modern Graphite Separated.",
+      "stars": 0,
+      "createdAt": "2026-11-23T16:41:40Z",
+      "updatedAt": "2026-11-23T19:15:05Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Graphite Separated",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "theme",
+        "dark",
+        "graphite",
+        "cyan",
+        "darktable"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-graphite-separated/releases/download/v1.0.1/safelight-graphite-separated-1.0.1.zip"
+        ],
+        "minAppVersion": "3.2.0"
       }
     },
     {
