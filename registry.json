@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T22:17:35.456Z",
+  "generatedAt": "2026-11-24T06:10:42.252Z",
   "topic": "safelight-extension",
   "count": 117,
   "categories": [
@@ -1636,7 +1636,7 @@
       "description": "DISCONTINUED — use OPGERUIMD97/safelight-mat-frame (Framing / Border → Border mode)",
       "stars": 1,
       "createdAt": "2026-10-20T14:34:19Z",
-      "updatedAt": "2026-11-20T08:26:10Z",
+      "updatedAt": "2026-11-23T22:22:49Z",
       "topics": [
         "safelight-extension"
       ],
@@ -1647,20 +1647,16 @@
       },
       "name": "Border",
       "categories": [
-        "export"
+        "look"
       ],
       "type": null,
       "keywords": [
         "border",
-        "matte",
-        "export",
-        "frame"
+        "frame line",
+        "framing",
+        "develop"
       ],
       "screenshots": [],
-      "deprecated": {
-        "replacedBy": "OPGERUIMD97/safelight-mat-frame",
-        "message": "Solid borders are now in Framing / Border (Border mode). Use Import Border for your templates."
-      },
       "worksWith": [],
       "latest": {
         "version": "1.1.0",
