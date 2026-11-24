@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T06:10:42.252Z",
+  "generatedAt": "2026-11-24T17:58:06.589Z",
   "topic": "safelight-extension",
   "count": 117,
   "categories": [
@@ -1633,10 +1633,10 @@
     },
     {
       "fullName": "OPGERUIMD97/safelight-border",
-      "description": "DISCONTINUED — use OPGERUIMD97/safelight-mat-frame (Framing / Border → Border mode)",
+      "description": "Safelight Border — inside-fit border with frame line, templates and a default template, in Develop",
       "stars": 1,
       "createdAt": "2026-10-20T14:34:19Z",
-      "updatedAt": "2026-11-23T22:22:49Z",
+      "updatedAt": "2026-11-24T10:07:04Z",
       "topics": [
         "safelight-extension"
       ],
@@ -1652,17 +1652,20 @@
       "type": null,
       "keywords": [
         "border",
-        "frame line",
-        "framing",
+        "line",
+        "templates",
         "develop"
       ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "tag": "v1.1.0",
+        "version": "2.3.0",
+        "tag": "v2.3.0",
         "from": "release",
-        "zips": []
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-border/releases/download/v2.3.0/safelight-border-2.3.0.zip"
+        ],
+        "minAppVersion": "3.2.6"
       }
     },
     {
@@ -4795,11 +4798,11 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
+        "version": "1.0.2",
+        "tag": "v1.0.2",
         "from": "release",
         "zips": [
-          "https://github.com/OPGERUIMD97/safelight-graphite-separated/releases/download/v1.0.1/safelight-graphite-separated-1.0.1.zip"
+          "https://github.com/OPGERUIMD97/safelight-graphite-separated/releases/download/v1.0.2/safelight-graphite-separated-1.0.2.zip"
         ],
         "minAppVersion": "3.2.0"
       }
@@ -4834,10 +4837,10 @@
     },
     {
       "fullName": "OPGERUIMD97/safelight-mat-frame",
-      "description": "Safelight Framing / Border module — mat/frame toolkit + solid px border (replaces Print Mat & Border)",
+      "description": "Safelight Framing — mats and frames for prints and export (replaces Print Mat)",
       "stars": 0,
       "createdAt": "2026-11-12T19:07:08Z",
-      "updatedAt": "2026-11-13T19:07:56Z",
+      "updatedAt": "2026-11-24T10:07:03Z",
       "topics": [
         "safelight-extension",
         "safelight-module"
@@ -4847,7 +4850,7 @@
         "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
         "custom": false
       },
-      "name": "Framing / Border",
+      "name": "Framing",
       "categories": [
         "export"
       ],
@@ -4855,7 +4858,6 @@
       "keywords": [
         "mat",
         "frame",
-        "border",
         "passe-partout",
         "print",
         "module",
@@ -4866,10 +4868,12 @@
         "OPGERUIMD97/safelight-print"
       ],
       "latest": {
-        "version": "2.1.1",
-        "tag": "v2.1.1",
+        "version": "3.0.1",
+        "tag": "v3.0.1",
         "from": "release",
-        "zips": [],
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-mat-frame/releases/download/v3.0.1/safelight-mat-frame-3.0.1.zip"
+        ],
         "minAppVersion": "2.6.0"
       }
     },
