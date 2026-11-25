@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T11:30:21.516Z",
+  "generatedAt": "2026-11-25T20:38:45.333Z",
   "topic": "safelight-extension",
-  "count": 122,
+  "count": 126,
   "categories": [
     {
       "slug": "library",
@@ -112,7 +112,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 177
+      "downloads": 181
     },
     {
       "fullName": "OPGERUIMD97/safelight-claude-theme",
@@ -190,7 +190,7 @@
           "https://github.com/anthonyreimche/3rd-Party-Preset-Tools/releases/download/v1.1.2/3rd-Party-Preset-Tools-1.1.2.zip"
         ]
       },
-      "downloads": 56
+      "downloads": 57
     },
     {
       "fullName": "anthonyreimche/Advanced-Denoise-Tools",
@@ -231,7 +231,7 @@
         ],
         "minAppVersion": "2.4.3"
       },
-      "downloads": 137
+      "downloads": 139
     },
     {
       "fullName": "anthonyreimche/Advanced-Exif-Tools",
@@ -280,7 +280,7 @@
         ],
         "minAppVersion": "2.5.0"
       },
-      "downloads": 99
+      "downloads": 100
     },
     {
       "fullName": "anthonyreimche/Advanced-Library-Sort",
@@ -325,7 +325,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 105
+      "downloads": 106
     },
     {
       "fullName": "anthonyreimche/Advanced-Rendering",
@@ -360,7 +360,7 @@
         ],
         "minAppVersion": "2.5.0"
       },
-      "downloads": 120
+      "downloads": 121
     },
     {
       "fullName": "anthonyreimche/Batch-Tools",
@@ -491,7 +491,7 @@
         ],
         "minAppVersion": "2.5.1"
       },
-      "downloads": 95
+      "downloads": 96
     },
     {
       "fullName": "anthonyreimche/Colour-Correction",
@@ -535,7 +535,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 114
+      "downloads": 116
     },
     {
       "fullName": "anthonyreimche/Colour-Equaliser",
@@ -583,7 +583,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 131
+      "downloads": 133
     },
     {
       "fullName": "anthonyreimche/Colour-Harmonizer",
@@ -630,7 +630,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 116
+      "downloads": 118
     },
     {
       "fullName": "anthonyreimche/Continuous-2D-Color-Editor",
@@ -675,7 +675,7 @@
         ],
         "minAppVersion": "2.4.3"
       },
-      "downloads": 107
+      "downloads": 109
     },
     {
       "fullName": "anthonyreimche/Contrast-Equalizer",
@@ -717,7 +717,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 131
+      "downloads": 133
     },
     {
       "fullName": "anthonyreimche/Custom-Cursors",
@@ -890,7 +890,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 83
+      "downloads": 84
     },
     {
       "fullName": "anthonyreimche/Filmstrip",
@@ -935,7 +935,7 @@
         ],
         "minAppVersion": "2.5.1"
       },
-      "downloads": 105
+      "downloads": 106
     },
     {
       "fullName": "anthonyreimche/Graphite-Theme",
@@ -1063,7 +1063,7 @@
         ],
         "minAppVersion": "2.5.1"
       },
-      "downloads": 84
+      "downloads": 85
     },
     {
       "fullName": "anthonyreimche/Image-Comparison-Tools",
@@ -1151,7 +1151,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 120
+      "downloads": 123
     },
     {
       "fullName": "anthonyreimche/Ivory-Theme",
@@ -1229,7 +1229,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 118
+      "downloads": 120
     },
     {
       "fullName": "anthonyreimche/Panel-Toggle",
@@ -1310,7 +1310,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 100
+      "downloads": 102
     },
     {
       "fullName": "anthonyreimche/Scopes",
@@ -1357,7 +1357,7 @@
         ],
         "minAppVersion": "2.5.4"
       },
-      "downloads": 108
+      "downloads": 110
     },
     {
       "fullName": "anthonyreimche/Slate-Theme",
@@ -1513,7 +1513,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 107
+      "downloads": 108
     },
     {
       "fullName": "anthonyreimche/Virtual-Copies",
@@ -1556,7 +1556,7 @@
         ],
         "minAppVersion": "2.4.5"
       },
-      "downloads": 85
+      "downloads": 86
     },
     {
       "fullName": "anthonyreimche/Web-Tools",
@@ -1705,7 +1705,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 21
+      "downloads": 23
     },
     {
       "fullName": "anthonyreimche/3D-Colorimetric-Film",
@@ -1792,7 +1792,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 244
+      "downloads": 247
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -1886,7 +1886,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 266
+      "downloads": 269
     },
     {
       "fullName": "anthonyreimche/Burst-Detection",
@@ -2023,7 +2023,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 264
+      "downloads": 267
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2295,7 +2295,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 282
+      "downloads": 286
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2342,7 +2342,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 252
+      "downloads": 255
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2391,7 +2391,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 273
+      "downloads": 276
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -2435,7 +2435,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 24
+      "downloads": 32
     },
     {
       "fullName": "anthonyreimche/Edit-History",
@@ -2478,7 +2478,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 252
+      "downloads": 258
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -2520,7 +2520,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 267
+      "downloads": 270
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -2569,7 +2569,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 243
+      "downloads": 246
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -2848,7 +2848,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 273
+      "downloads": 276
     },
     {
       "fullName": "anthonyreimche/Fuzzy-Select",
@@ -2968,7 +2968,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 15
+      "downloads": 16
     },
     {
       "fullName": "anthonyreimche/GMIC",
@@ -3142,7 +3142,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 250
+      "downloads": 253
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3228,7 +3228,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 250
+      "downloads": 253
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3316,7 +3316,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 266
+      "downloads": 269
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -3405,7 +3405,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 246
+      "downloads": 249
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -3493,7 +3493,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 115
+      "downloads": 117
     },
     {
       "fullName": "anthonyreimche/Keywords",
@@ -3537,7 +3537,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 247
+      "downloads": 250
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -3628,7 +3628,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 306
+      "downloads": 309
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -3677,7 +3677,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 271
+      "downloads": 274
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -3811,7 +3811,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 11
+      "downloads": 12
     },
     {
       "fullName": "anthonyreimche/Map",
@@ -3855,7 +3855,7 @@
         ],
         "minAppVersion": "3.0.1"
       },
-      "downloads": 17
+      "downloads": 18
     },
     {
       "fullName": "anthonyreimche/Masking",
@@ -3901,7 +3901,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 279
+      "downloads": 285
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -3991,7 +3991,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 34
+      "downloads": 35
     },
     {
       "fullName": "anthonyreimche/Pixel-Shift-Merge",
@@ -4082,7 +4082,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 248
+      "downloads": 251
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -4639,7 +4639,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 265
+      "downloads": 268
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -4684,7 +4684,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 31
+      "downloads": 32
     },
     {
       "fullName": "anthonyreimche/Tone-Levels",
@@ -4776,7 +4776,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 250
+      "downloads": 253
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -4910,7 +4910,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 283
+      "downloads": 286
     },
     {
       "fullName": "anthonyreimche/Zones",
@@ -5073,6 +5073,44 @@
       "downloads": 0
     },
     {
+      "fullName": "OPGERUIMD97/safelight-classic-grey",
+      "description": "Mid-grey theme for Safelight.",
+      "stars": 0,
+      "createdAt": "2026-11-25T16:35:30Z",
+      "updatedAt": "2026-11-25T16:35:41Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Classic Grey",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "theme",
+        "grey",
+        "gray",
+        "neutral"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-classic-grey/releases/download/v1.0.0/safelight-classic-grey-1.0.0.zip"
+        ]
+      },
+      "downloads": 1
+    },
+    {
       "fullName": "OPGERUIMD97/safelight-exif-plus",
       "description": null,
       "stars": 0,
@@ -5094,9 +5132,13 @@
       "type": "panel",
       "keywords": [],
       "screenshots": [],
+      "deprecated": {
+        "replacedBy": "OPGERUIMD97/safelight-image-info",
+        "message": "Image Information now includes this panel."
+      },
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.0.1",
         "from": "branch"
       },
       "downloads": 0
@@ -5165,10 +5207,90 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
+        "version": "1.1.3",
         "from": "branch"
       },
       "downloads": 0
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-inspect",
+      "description": "Safelight Inspect - one key for a full-screen magnified view (up to 800%) from Develop or the Library",
+      "stars": 0,
+      "createdAt": "2026-11-25T16:18:50Z",
+      "updatedAt": "2026-11-25T16:23:12Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Inspect",
+      "categories": [
+        "library",
+        "workflow"
+      ],
+      "type": null,
+      "keywords": [
+        "inspect",
+        "zoom",
+        "fullscreen",
+        "sharpness",
+        "noise",
+        "develop"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-inspect/releases/download/v1.0.0/safelight-inspect-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.6"
+      },
+      "downloads": 1
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-lights-out",
+      "description": "Dim or black out everything in Safelight except the photo.",
+      "stars": 0,
+      "createdAt": "2026-11-25T16:00:16Z",
+      "updatedAt": "2026-11-25T16:35:33Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Lights Out",
+      "categories": [
+        "workflow"
+      ],
+      "type": null,
+      "keywords": [
+        "lights out",
+        "dim",
+        "loupe",
+        "shortcut"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-lights-out/releases/download/v1.0.1/safelight-lights-out-1.0.1.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      },
+      "downloads": 2
     },
     {
       "fullName": "OPGERUIMD97/safelight-mat-frame",
@@ -5214,11 +5336,51 @@
       "downloads": 4
     },
     {
+      "fullName": "OPGERUIMD97/safelight-orange-dashboard",
+      "description": "Near-black Safelight theme with one orange accent.",
+      "stars": 0,
+      "createdAt": "2026-11-25T16:53:30Z",
+      "updatedAt": "2026-11-25T16:53:42Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Orange Dashboard",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "theme",
+        "dark",
+        "orange",
+        "darktable",
+        "dashboard"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-orange-dashboard/releases/download/v1.0.0/safelight-orange-dashboard-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      },
+      "downloads": 1
+    },
+    {
       "fullName": "OPGERUIMD97/safelight-print",
-      "description": "A Print module (Beta) for Safelight (v2.6+). It adds a Print tab beside Library and Develop: lay out a page, preview the selection, and print through the OS dialog.  Requires the module registry (registerModule).",
+      "description": "A Print module for Safelight (v2.6+). It adds a Print tab beside Library and Develop: lay out a page, preview the selection, and print through the OS dialog. Requires the module registry (registerModule).",
       "stars": 0,
       "createdAt": "2026-10-22T04:08:25Z",
-      "updatedAt": "2026-10-22T07:59:59Z",
+      "updatedAt": "2026-11-25T18:40:38Z",
       "topics": [
         "safelight-extension",
         "safelight-module"
@@ -5245,10 +5407,14 @@
       ],
       "latest": {
         "version": "1.1.1",
-        "from": "branch",
+        "tag": "v1.1.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-print/releases/download/v1.1.1/safelight-print-1.1.1.zip"
+        ],
         "minAppVersion": "2.6.0"
       },
-      "downloads": 0
+      "downloads": 1
     },
     {
       "fullName": "OPGERUIMD97/safelight-print-mat",
@@ -5280,7 +5446,9 @@
         "version": "1.3.0",
         "tag": "v1.3.0",
         "from": "release",
-        "zips": []
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-print-mat/releases/download/v1.3.0/safelight-print-mat-1.3.0.zip"
+        ]
       },
       "downloads": 0
     },
