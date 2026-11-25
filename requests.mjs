@@ -23,9 +23,7 @@ import { pathToFileURL } from "node:url";
 import { LIMITS, REPO, parseCategories, resolveCategories } from "./store-fields.mjs";
 
 const REGISTRY = "anthonyreimche/safelight-registry";
-const OWNER = /^[A-Za-z0-9](?:[A-Za-z0-9-]{0,38})$/;
 const SEMVER = /^\d+\.\d+\.\d+(?:-[0-9A-Za-z.-]+)?$/;
-const MAX_REASON = 200;
 const MARKER = "<!-- safelight-registry-request -->";
 
 // ── The forms ────────────────────────────────────────────────────────────────
@@ -116,41 +114,6 @@ export const FORMS = {
       },
       messageField,
       confirmField,
-    ],
-  },
-  report: {
-    file: "report.yml",
-    label: "ban-report",
-    titlePrefix: "Report: ",
-    name: "Report an extension",
-    description: "Report an extension that harms people's photos, files or privacy, for the ban list.",
-    intro:
-      "A banned extension can't be installed, and Safelight turns it off where it is installed. Its reason is shown to everyone who has it, so describe what the extension does, factually, with the version or commit where you saw it. A maintainer checks every report before anything is banned.\n\n" +
-      `This issue is public. For a security problem that shouldn't be public yet, [report it privately](https://github.com/${REGISTRY}/security/advisories/new) instead.`,
-    fields: [
-      {
-        id: "target",
-        type: "input",
-        label: "Repository or account",
-        description: "owner/repo, or a GitHub account to ban every repository under it (a typosquatter, a compromised account).",
-        placeholder: "owner/repo",
-        required: true,
-      },
-      {
-        id: "reason",
-        type: "input",
-        label: "Reason shown to users",
-        description: `One factual sentence, at most ${MAX_REASON} characters, with the version if you know it.`,
-        placeholder: "Uploads the catalogue to an undeclared server (1.2.0)",
-        required: true,
-      },
-      {
-        id: "details",
-        type: "textarea",
-        label: "Evidence",
-        description: "What you saw and how to see it: files and lines, network requests, steps.",
-        required: true,
-      },
     ],
   },
   category: {
@@ -270,18 +233,6 @@ export function normalizeRepo(input) {
   return plainRepo(repo) ? repo : null;
 }
 
-/** A report's target: { repo } or a whole account { owner }, or null. */
-export function normalizeTarget(input) {
-  const repo = normalizeRepo(input);
-  if (repo) return { repo };
-  const owner = String(input ?? "")
-    .trim()
-    .replace(/^@/, "")
-    .replace(/^(?:https?:\/\/)?(?:www\.)?github\.com\//i, "")
-    .replace(/\/+$/, "");
-  return OWNER.test(owner) ? { owner } : null;
-}
-
 // ── Checking a request ───────────────────────────────────────────────────────
 
 const lc = (s) => String(s ?? "").toLowerCase();
@@ -293,18 +244,8 @@ const entryRepo = (e) => (typeof e === "string" ? e : e?.repo);
  *  repo, releases, commitSha and manifest) }. The plan carries the change to
  *  write, or the errors to fix. */
 export async function planRequest(kind, fields, ctx) {
-  const plan = { form: kind, errors: [], warnings: [], change: null, draft: kind === "report", ownerConfirmed: null };
+  const plan = { form: kind, errors: [], warnings: [], change: null, ownerConfirmed: null };
   const fail = (msg) => plan.errors.push(msg);
-
-  if (kind === "report") {
-    const target = normalizeTarget(fields.target);
-    if (!target) fail("**Repository or account** must be owner/repo, a GitHub URL, or a GitHub account name.");
-    const reason = String(fields.reason ?? "").trim();
-    if (!reason || reason.length > MAX_REASON) fail(`**Reason shown to users** must be 1 to ${MAX_REASON} characters.`);
-    if (!String(fields.details ?? "").trim()) fail("**Evidence** is needed so a maintainer can check the report.");
-    if (!plan.errors.length) plan.change = { kind: "ban", issue: ctx.issue, ...target, reason };
-    return plan;
-  }
 
   const repo = normalizeRepo(fields.repo);
   if (!repo) {
@@ -423,8 +364,6 @@ function titleOf(plan) {
   switch (c.kind) {
     case "verify":
       return `Verify ${c.repo} ${c.version}`;
-    case "ban":
-      return `Ban ${c.repo ?? `every repository of ${c.owner}`}`;
     case "category":
       return `Categories for ${c.repo}: ${c.categories.join(", ")}`;
     default:
@@ -432,7 +371,7 @@ function titleOf(plan) {
   }
 }
 
-/** The pull request a checked request opens: title, body, draft and labels. */
+/** The pull request a checked request opens: title, body and labels. */
 export function pullRequestFor(plan, { number, requester }) {
   const c = plan.change;
   const lines = [`Requested by @${requester} in #${number}.`, ""];
@@ -451,9 +390,6 @@ export function pullRequestFor(plan, { number, requester }) {
     );
     if (plan.notes) lines.push("", "Notes from the requester:", "", ...plan.notes.split("\n").map((l) => `> ${l}`));
     lines.push("", "Before merging:", "- [ ] Read the code at this commit, including the built bundle", "- [ ] The permissions it declares match what it does");
-  } else if (c.kind === "ban") {
-    lines.push(`- Ban: ${c.repo ? `the repository ${c.repo}` : `every repository of ${c.owner}`}`, `- Reason shown to users: ${c.reason}`);
-    lines.push("", "Before merging (this is a draft until checked):", "- [ ] The evidence in the issue holds up", "- [ ] The reason is factual and names the version");
   } else if (c.kind === "category") {
     lines.push(`- Categories: ${c.categories.join(", ")}`);
   } else {
@@ -463,7 +399,7 @@ export function pullRequestFor(plan, { number, requester }) {
   lines.push("", `Closes #${number}`, "", `Merging adds \`${changePathFor(number)}\`; the Apply registry requests workflow folds it into the lists.`);
   const labels = [FORMS[plan.form].label];
   if (plan.ownerConfirmed === false && plan.form !== "verify") labels.push("owner-unconfirmed");
-  return { title: titleOf(plan), body: lines.join("\n"), draft: plan.draft, labels };
+  return { title: titleOf(plan), body: lines.join("\n"), labels };
 }
 
 function errorComment(plan) {
@@ -574,7 +510,7 @@ async function openPullRequest(gh, repo, base, plan, issue) {
     });
   const result = open
     ? await gh.call("PATCH", `/repos/${repo}/pulls/${open.number}`, { title: pr.title, body: pr.body })
-    : await gh.call("POST", `/repos/${repo}/pulls`, { title: pr.title, head: branch, base, body: pr.body, draft: pr.draft });
+    : await gh.call("POST", `/repos/${repo}/pulls`, { title: pr.title, head: branch, base, body: pr.body });
   await gh.call("POST", `/repos/${repo}/issues/${result.number}/labels`, { labels: pr.labels });
   return result;
 }

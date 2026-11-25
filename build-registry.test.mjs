@@ -12,6 +12,7 @@ import {
   branchOrPrevious,
   catalogPayload,
   compareSemver,
+  downloadCount,
   eligibleReleases,
   entryStoreFields,
   fetchHeadManifest,
@@ -113,10 +114,10 @@ test("version order matches the app's", () => {
   assert.equal(compareSemver("1.10.0", "1.9.0"), 1);
 });
 
-test("a failed lookup keeps the previous build's version fields", () => {
+test("a failed lookup keeps the previous build's version fields and downloads", () => {
   assert.deepEqual(
-    pickVersionFields({ fullName: REPO, stars: 3, latest: { version: "1.0.0", from: "branch" } }),
-    { latest: { version: "1.0.0", from: "branch" } },
+    pickVersionFields({ fullName: REPO, stars: 3, downloads: 40, latest: { version: "1.0.0", from: "branch" } }),
+    { latest: { version: "1.0.0", from: "branch" }, downloads: 40 },
   );
   assert.deepEqual(pickVersionFields(undefined), {});
 });
@@ -446,4 +447,17 @@ test("loadVerified logs one line naming a broken file and returns the empty set"
 test("the store icon refuses non-https schemes", () => {
   assert.equal(iconFromManifest(REPO, { icon: "http://example.com/i.png" }), null);
   assert.equal(iconFromManifest(REPO, { icon: "icon.png" }), `https://cdn.jsdelivr.net/gh/${REPO}/icon.png`);
+});
+
+test("downloads add up every asset of every published version release; drafts and other tags are left out", () => {
+  const payload = [
+    gh("v1.1.0", { assets: [{ download_count: 10 }, { download_count: 2 }] }),
+    gh("v1.0.0", { assets: [{ download_count: 5 }] }),
+    gh("v0.9.0", { draft: true, assets: [{ download_count: 99 }] }),
+    gh("nightly", { assets: [{ download_count: 3 }] }),
+  ];
+  assert.equal(downloadCount(payload), 17);
+  assert.equal(downloadCount([]), 0);
+  assert.equal(downloadCount(null), 0);
+  assert.equal(downloadCount([gh("v1.0.0", { assets: [{ download_count: "7" }, {}] })]), 0);
 });

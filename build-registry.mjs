@@ -422,6 +422,19 @@ async function firstAgreeing(candidates, manifestAt) {
   return { rec: null, mismatches };
 }
 
+/** Every download of every asset the repo's published releases carry (the
+ *  newest 30, as fetched), so the store and website can show real use. */
+export function downloadCount(payload) {
+  if (!Array.isArray(payload)) return 0;
+  let total = 0;
+  for (const r of payload) {
+    if (!r || r.draft || typeof r.tag_name !== "string" || !isSemver(r.tag_name)) continue;
+    for (const a of Array.isArray(r.assets) ? r.assets : [])
+      if (a && Number.isInteger(a.download_count) && a.download_count > 0) total += a.download_count;
+  }
+  return total;
+}
+
 /** Registry fields for a repo's releases: { latest, prerelease? };
  *  { releaseError } when no full release agrees with its manifest; {} when it
  *  has only pre-releases (the app then asks GitHub itself); null when it has
@@ -455,7 +468,7 @@ export function branchOrPrevious(manifest, previous) {
 /** The version fields of a previous build's entry. */
 export function pickVersionFields(entry) {
   const out = {};
-  for (const k of ["latest", "prerelease", "releaseError"])
+  for (const k of ["latest", "prerelease", "releaseError", "downloads"])
     if (entry && entry[k] !== undefined) out[k] = entry[k];
   return out;
 }
@@ -496,8 +509,9 @@ async function fetchManifestAt(repo, ref) {
 // recorded, so a GitHub hiccup never drops an extension's update record.
 async function versionFields(repo, manifest, previous) {
   try {
-    const fields = await releaseFields(await fetchReleases(repo), repo, (tag) => fetchManifestAt(repo, tag));
-    return fields ?? branchOrPrevious(manifest, previous);
+    const payload = await fetchReleases(repo);
+    const fields = await releaseFields(payload, repo, (tag) => fetchManifestAt(repo, tag));
+    return { ...(fields ?? branchOrPrevious(manifest, previous)), downloads: downloadCount(payload) };
   } catch (e) {
     console.error(`versions for ${repo} kept from the last build: ${e?.message || e}`);
     return pickVersionFields(previous);

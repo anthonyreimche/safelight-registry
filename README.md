@@ -75,6 +75,9 @@ sign-in):
 - `prerelease`: present only when a pre-release is newer than `latest`.
 - `releaseError`: replaces both when the repo has full releases but none agrees
   with its manifest (for example `"v1.3.0: safelight.json says 1.2.0"`).
+- `downloads`: how many times the assets of its version releases were
+  downloaded, summed over the newest 30 releases. The website uses it to show
+  popular extensions.
 
 A repo with only pre-releases gets none of these, and the app asks GitHub
 itself. If GitHub can't be read for a repo during a build, its fields from the
@@ -107,7 +110,6 @@ which opens the same form filled in:
 | Get an extension verified | A pin in `verified.json` of the release's version and commit |
 | Discontinue an extension | A mark in `deprecated.json` |
 | Replace an extension | A mark in `deprecated.json` naming the replacement |
-| Report an extension | A draft ban in `banned.json` |
 | Set an extension's category | An entry in `category-overrides.json` |
 
 What happens to a submitted form (`requests.mjs`, run by
@@ -118,8 +120,8 @@ What happens to a submitted form (`requests.mjs`, run by
    comment saying what to fix, and editing the issue checks it again.
 2. A checked request opens a pull request that adds `changes/<issue>.json` and
    closes the issue. Requests to discontinue, replace or categorize a repo from
-   someone who isn't its owner are labelled `owner-unconfirmed`; ban reports open
-   as drafts. Editing the issue updates the pull request.
+   someone who isn't its owner are labelled `owner-unconfirmed`. Editing the
+   issue updates the pull request.
 3. A maintainer reviews and merges. [`apply-changes.yml`](.github/workflows/apply-changes.yml)
    then folds the change file into its list and deletes it, and the registry
    build runs.
@@ -163,10 +165,14 @@ so the update is covered by verification again.
 
 ## Reporting a malicious extension
 
-Fill in [Report an extension](https://github.com/anthonyreimche/safelight-registry/issues/new?template=report.yml)
-(or open a PR straight to `banned.json`) with the repo and what it does. The form opens a
-draft pull request that a maintainer checks before merging. Ban a specific repo, or a
-whole account for a typosquatter / compromised owner:
+Reports are private, so nobody is accused in public before the report is checked.
+[Report it privately](https://github.com/anthonyreimche/safelight-registry/security/advisories/new)
+or email **anthonyreimche@gmail.com** with the repo, what it does, the version or commit
+where you saw it, and how to see it (files and lines, network requests, steps). Please
+don't open a public issue or pull request.
+
+A maintainer checks the evidence, then edits `banned.json`. A ban names a specific repo,
+or a whole account for a typosquatter / compromised owner:
 
 ```json
 {

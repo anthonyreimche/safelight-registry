@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Report a harmful extension
+    url: https://github.com/anthonyreimche/safelight-registry/security/advisories/new
+    about: Reports are private. Describe what the extension does and the version where you saw it; a maintainer checks it before anything is banned.
   - name: A problem with Safelight itself
     url: https://github.com/anthonyreimche/SafeLight/issues/new/choose
     about: Bugs and ideas for the app go to the Safelight repository.

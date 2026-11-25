@@ -13,7 +13,6 @@ import {
   fieldsOf,
   kindOf,
   normalizeRepo,
-  normalizeTarget,
   parseIssueBody,
   planRequest,
   pullRequestFor,
@@ -103,13 +102,6 @@ test("repos read from owner/repo or a GitHub URL; anything else is refused", () 
   assert.equal(normalizeRepo("github.com/acme/warp/tree/main"), "acme/warp");
   for (const bad of ["", "acme", "../warp", "acme/..", "acme/warp/extra thing", "https://gitlab.com/a/b"])
     assert.equal(normalizeRepo(bad), null, bad);
-});
-
-test("a report target is a repo or a whole account", () => {
-  assert.deepEqual(normalizeTarget("acme/warp"), { repo: "acme/warp" });
-  assert.deepEqual(normalizeTarget("https://github.com/acme"), { owner: "acme" });
-  assert.deepEqual(normalizeTarget("@acme"), { owner: "acme" });
-  assert.equal(normalizeTarget("not a target!"), null);
 });
 
 // ── Checking requests ──
@@ -208,27 +200,12 @@ test("a replace request needs a replacement that exists and isn't the repo itsel
   assert.match(missing.errors.join(), /acme\/gone/);
 });
 
-test("a report becomes a draft ban with its reason", async () => {
-  const plan = await planRequest(
-    "report",
-    { target: "acme/warp", reason: "Uploads the catalogue to a third-party server (1.2.0)", details: "See index.js line 40." },
-    context({ requester: "someone" }),
-  );
-  assert.deepEqual(plan.errors, []);
-  assert.deepEqual(plan.change, {
-    kind: "ban",
-    issue: 42,
-    repo: "acme/warp",
-    reason: "Uploads the catalogue to a third-party server (1.2.0)",
-  });
-  assert.equal(plan.draft, true);
-});
-
-test("a report on a whole account bans the owner; a report needs a short reason and details", async () => {
-  const owner = await planRequest("report", { target: "@squatter", reason: "Typosquats official names", details: "x" }, context());
-  assert.equal(owner.change.owner, "squatter");
-  const bad = await planRequest("report", { target: "acme/warp", reason: "x".repeat(201), details: "" }, context());
-  assert.equal(bad.errors.length, 2);
+test("harmful-extension reports are private: no public form, and a report issue isn't a request", () => {
+  assert.ok(!KINDS.includes("report"));
+  assert.equal(kindOf({ labels: [{ name: "ban-report" }], title: "Report: acme/warp" }), null);
+  const dir = new URL("./.github/ISSUE_TEMPLATE/", import.meta.url);
+  assert.throws(() => readFileSync(new URL("report.yml", dir)));
+  assert.match(readFileSync(new URL("config.yml", dir), "utf8"), /security\/advisories\/new/);
 });
 
 test("a category request names one to three categories by label, slug or alias", async () => {
@@ -258,7 +235,6 @@ test("the pull request closes the issue and says what to check", async () => {
   assert.equal(pr.title, "Verify acme/warp 1.2.0");
   assert.match(pr.body, /Closes #42/);
   assert.match(pr.body, new RegExp(`compare/${"c".repeat(40)}\\.\\.\\.${"a".repeat(40)}`));
-  assert.equal(pr.draft, false);
 });
 
 // ── The forms themselves ──
