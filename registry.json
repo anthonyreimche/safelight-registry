@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T01:49:24.484Z",
+  "generatedAt": "2026-11-25T02:20:23.785Z",
   "topic": "safelight-extension",
   "count": 117,
   "categories": [
@@ -2337,15 +2337,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.0",
-        "tag": "v1.1.0",
+        "version": "1.1.1",
+        "tag": "v1.1.1",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.1.0/Developer-Tools-1.1.0.zip"
+          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.1.1/Developer-Tools-1.1.1.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.7"
       },
-      "downloads": 21
+      "downloads": 22
     },
     {
       "fullName": "anthonyreimche/Edit-History",
@@ -2388,7 +2388,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 250
+      "downloads": 251
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -3140,7 +3140,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 21
+      "downloads": 22
     },
     {
       "fullName": "anthonyreimche/HSL",
