@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T02:20:23.785Z",
+  "generatedAt": "2026-11-25T11:30:21.516Z",
   "topic": "safelight-extension",
-  "count": 117,
+  "count": 122,
   "categories": [
     {
       "slug": "library",
@@ -112,7 +112,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 175
+      "downloads": 177
     },
     {
       "fullName": "OPGERUIMD97/safelight-claude-theme",
@@ -151,7 +151,7 @@
         ],
         "minAppVersion": "3.0.0"
       },
-      "downloads": 4
+      "downloads": 5
     },
     {
       "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
@@ -583,7 +583,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 130
+      "downloads": 131
     },
     {
       "fullName": "anthonyreimche/Colour-Harmonizer",
@@ -1151,7 +1151,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 119
+      "downloads": 120
     },
     {
       "fullName": "anthonyreimche/Ivory-Theme",
@@ -1697,15 +1697,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.6.0",
-        "tag": "v2.6.0",
+        "version": "2.6.1",
+        "tag": "v2.6.1",
         "from": "release",
         "zips": [
-          "https://github.com/OPGERUIMD97/safelight-border/releases/download/v2.6.0/safelight-border-2.6.0.zip"
+          "https://github.com/OPGERUIMD97/safelight-border/releases/download/v2.6.1/safelight-border-2.6.1.zip"
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 18
+      "downloads": 21
     },
     {
       "fullName": "anthonyreimche/3D-Colorimetric-Film",
@@ -1792,7 +1792,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 243
+      "downloads": 244
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -1886,7 +1886,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 265
+      "downloads": 266
     },
     {
       "fullName": "anthonyreimche/Burst-Detection",
@@ -2023,7 +2023,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 263
+      "downloads": 264
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2070,6 +2070,96 @@
         "minAppVersion": "3.2.0"
       },
       "downloads": 24
+    },
+    {
+      "fullName": "anthonyreimche/Colour-Look-Up-Table",
+      "description": "Move colours in Lab with up to 49 patches, each taking a colour to a target, and every other colour carried smoothly between them; with chart presets and five film looks, a colour picker and a patch chart to edit on.",
+      "stars": 0,
+      "createdAt": "2026-11-25T04:06:45Z",
+      "updatedAt": "2026-11-25T04:08:29Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Colour Look Up Table",
+      "categories": [
+        "color"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "colour look up table",
+        "color look up table",
+        "lut",
+        "colour checker",
+        "color checker",
+        "colour grading",
+        "film look",
+        "lab",
+        "profile"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Colour-Look-Up-Table/releases/download/v1.0.0/Colour-Look-Up-Table-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 1
+    },
+    {
+      "fullName": "anthonyreimche/Colour-Mapping",
+      "description": "Moves one photo's colour palette and spread of tones onto another. Set a photo as the colour source, then match any other photo to it in Develop, or a whole selection from the Library.",
+      "stars": 0,
+      "createdAt": "2026-11-25T04:33:54Z",
+      "updatedAt": "2026-11-25T04:34:55Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-look",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Colour Mapping",
+      "categories": [
+        "color"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "colour mapping",
+        "colour transfer",
+        "palette",
+        "match",
+        "look",
+        "reinhard"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Colour-Mapping/releases/download/v1.0.0/Colour-Mapping-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 2
     },
     {
       "fullName": "anthonyreimche/Colour-Zones",
@@ -2160,7 +2250,7 @@
         ],
         "minAppVersion": "3.2.2"
       },
-      "downloads": 35
+      "downloads": 36
     },
     {
       "fullName": "anthonyreimche/Crop",
@@ -2205,7 +2295,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 279
+      "downloads": 282
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2252,7 +2342,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 250
+      "downloads": 252
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2301,7 +2391,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 272
+      "downloads": 273
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -2337,15 +2427,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.1",
-        "tag": "v1.1.1",
+        "version": "1.1.2",
+        "tag": "v1.1.2",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.1.1/Developer-Tools-1.1.1.zip"
+          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.1.2/Developer-Tools-1.1.2.zip"
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 22
+      "downloads": 24
     },
     {
       "fullName": "anthonyreimche/Edit-History",
@@ -2388,7 +2478,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 251
+      "downloads": 252
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -2430,7 +2520,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 266
+      "downloads": 267
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -2479,7 +2569,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 242
+      "downloads": 243
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -2668,7 +2758,7 @@
         ],
         "minAppVersion": "3.2.4"
       },
-      "downloads": 14
+      "downloads": 15
     },
     {
       "fullName": "anthonyreimche/Focus-Mask",
@@ -2758,7 +2848,48 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 272
+      "downloads": 273
+    },
+    {
+      "fullName": "anthonyreimche/Fuzzy-Select",
+      "description": "Select a connected area of similar colour with a click, as a mask component.",
+      "stars": 0,
+      "createdAt": "2026-11-25T04:13:37Z",
+      "updatedAt": "2026-11-25T04:14:16Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-tone"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Fuzzy Select",
+      "categories": [
+        "tone"
+      ],
+      "type": null,
+      "keywords": [
+        "mask",
+        "fuzzy select",
+        "magic wand",
+        "selection"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Masking"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Fuzzy-Select/releases/download/v1.0.0/Fuzzy-Select-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 2
     },
     {
       "fullName": "anthonyreimche/Glass-Theme",
@@ -2959,15 +3090,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.1.0",
+        "tag": "v1.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Graduated-Density/releases/download/v1.0.0/Graduated-Density-1.0.0.zip"
+          "https://github.com/anthonyreimche/Graduated-Density/releases/download/v1.1.0/Graduated-Density-1.1.0.zip"
         ],
-        "minAppVersion": "3.2.6"
+        "minAppVersion": "3.2.8"
       },
-      "downloads": 6
+      "downloads": 8
     },
     {
       "fullName": "anthonyreimche/Heal",
@@ -3011,7 +3142,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 249
+      "downloads": 250
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3097,7 +3228,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 249
+      "downloads": 250
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3140,7 +3271,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 22
+      "downloads": 23
     },
     {
       "fullName": "anthonyreimche/HSL",
@@ -3185,7 +3316,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 265
+      "downloads": 266
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -3229,7 +3360,7 @@
         ],
         "minAppVersion": "3.2.2"
       },
-      "downloads": 13
+      "downloads": 14
     },
     {
       "fullName": "anthonyreimche/Info",
@@ -3274,7 +3405,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 245
+      "downloads": 246
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -3406,7 +3537,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 246
+      "downloads": 247
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -3449,7 +3580,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 11
+      "downloads": 13
     },
     {
       "fullName": "anthonyreimche/Library",
@@ -3497,7 +3628,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 305
+      "downloads": 306
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -3546,7 +3677,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 270
+      "downloads": 271
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -3680,7 +3811,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 10
+      "downloads": 11
     },
     {
       "fullName": "anthonyreimche/Map",
@@ -3762,15 +3893,15 @@
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.0.2",
-        "tag": "v3.0.2",
+        "version": "3.1.0",
+        "tag": "v3.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Masking/releases/download/v3.0.2/Masking-3.0.2.zip"
+          "https://github.com/anthonyreimche/Masking/releases/download/v3.1.0/Masking-3.1.0.zip"
         ],
-        "minAppVersion": "3.2.0"
+        "minAppVersion": "3.2.8"
       },
-      "downloads": 276
+      "downloads": 279
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -3860,7 +3991,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 33
+      "downloads": 34
     },
     {
       "fullName": "anthonyreimche/Pixel-Shift-Merge",
@@ -3907,7 +4038,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 2
+      "downloads": 3
     },
     {
       "fullName": "anthonyreimche/Presets",
@@ -3951,7 +4082,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 247
+      "downloads": 248
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -4271,6 +4402,53 @@
       "downloads": 9
     },
     {
+      "fullName": "anthonyreimche/Social-Export",
+      "description": "Share photos sized and shaped for each social network. Post straight to Bluesky, Mastodon and Pixelfed with alt text, or save files ready for Instagram, Facebook, X and Threads and open the site. Copy one to paste anywhere.",
+      "stars": 0,
+      "createdAt": "2026-11-25T03:40:48Z",
+      "updatedAt": "2026-11-25T03:41:47Z",
+      "topics": [
+        "safelight-export",
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Social Export",
+      "categories": [
+        "export"
+      ],
+      "type": null,
+      "keywords": [
+        "social",
+        "share",
+        "instagram",
+        "facebook",
+        "x",
+        "twitter",
+        "threads",
+        "bluesky",
+        "mastodon",
+        "pixelfed",
+        "post",
+        "alt text"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Social-Export/releases/download/v1.0.0/Social-Export-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.7"
+      },
+      "downloads": 4
+    },
+    {
       "fullName": "anthonyreimche/Soft-Proofing",
       "description": "Soft Proofing tools for Safelight",
       "stars": 0,
@@ -4461,7 +4639,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 264
+      "downloads": 265
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -4506,7 +4684,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 30
+      "downloads": 31
     },
     {
       "fullName": "anthonyreimche/Tone-Levels",
@@ -4598,7 +4776,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 249
+      "downloads": 250
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -4642,6 +4820,50 @@
         "minAppVersion": "3.2.2"
       },
       "downloads": 19
+    },
+    {
+      "fullName": "anthonyreimche/Wavelet-Decompose",
+      "description": "The photo split into up to seven wavelet detail scales and a residual, each scale with its own opacity: lower a scale to soften skin or blemishes at that size, raise one to bring out texture. Show any scale on its own as a grey detail layer, and use it inside masks.",
+      "stars": 0,
+      "createdAt": "2026-11-25T04:06:39Z",
+      "updatedAt": "2026-11-25T04:07:19Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Wavelet Decompose",
+      "categories": [
+        "detail"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "wavelet",
+        "decompose",
+        "frequency separation",
+        "retouch",
+        "skin",
+        "detail",
+        "display-referred"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Wavelet-Decompose/releases/download/v1.0.0/Wavelet-Decompose-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.3"
+      },
+      "downloads": 3
     },
     {
       "fullName": "anthonyreimche/White-Balance",
@@ -4688,7 +4910,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 282
+      "downloads": 283
     },
     {
       "fullName": "anthonyreimche/Zones",
@@ -4917,7 +5139,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 7
+      "downloads": 8
     },
     {
       "fullName": "OPGERUIMD97/safelight-image-info",
@@ -4989,7 +5211,7 @@
         ],
         "minAppVersion": "2.6.0"
       },
-      "downloads": 2
+      "downloads": 4
     },
     {
       "fullName": "OPGERUIMD97/safelight-print",
