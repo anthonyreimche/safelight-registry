@@ -121,7 +121,9 @@ What happens to a submitted form (`requests.mjs`, run by
 2. A checked request opens a pull request that adds `changes/<issue>.json` and
    closes the issue. Requests to discontinue, replace or categorize a repo from
    someone who isn't its owner are labelled `owner-unconfirmed`. Editing the
-   issue updates the pull request.
+   issue updates the pull request. If the pull request can't be opened (most
+   often `REGISTRY_PUSH_TOKEN` lacking Pull requests: write), the issue gets a
+   comment that mentions the maintainer and shows what failed, and the run fails.
 3. A maintainer reviews and merges. [`apply-changes.yml`](.github/workflows/apply-changes.yml)
    then folds the change file into its list and deletes it, and the registry
    build runs.

@@ -17,6 +17,7 @@ import {
   planRequest,
   pullRequestFor,
   renderTemplate,
+  stuckComment,
 } from "./requests.mjs";
 
 const vocabulary = parseCategories(JSON.parse(readFileSync(new URL("./categories.json", import.meta.url), "utf8")))
@@ -235,6 +236,15 @@ test("the pull request closes the issue and says what to check", async () => {
   assert.equal(pr.title, "Verify acme/warp 1.2.0");
   assert.match(pr.body, /Closes #42/);
   assert.match(pr.body, new RegExp(`compare/${"c".repeat(40)}\\.\\.\\.${"a".repeat(40)}`));
+});
+
+test("a request whose pull request can't be opened tells the requester and calls the maintainer", () => {
+  const error = new Error(`POST /repos/acme/reg/pulls: 403 {"message":"Resource not accessible by personal access token"}${" x".repeat(400)}`);
+  const comment = stuckComment(error, "acme");
+  assert.match(comment, /<!-- safelight-registry-request -->/);
+  assert.match(comment, /@acme/);
+  assert.match(comment, /Resource not accessible by personal access token/);
+  assert.ok(comment.length < 900, "the error is cut short");
 });
 
 // ── The forms themselves ──

@@ -423,6 +423,25 @@ function acceptedComment(plan, prUrl) {
   ].join("\n");
 }
 
+/** The comment when a checked request's pull request couldn't be opened: the
+ *  requester learns it isn't their mistake, the maintainer is mentioned so they
+ *  hear of it, and the reason sits folded away for them. */
+export function stuckComment(error, maintainer) {
+  const reason = String(error?.message || error).slice(0, 400);
+  return [
+    MARKER,
+    `This request checked out, but its pull request couldn't be opened. Nothing to fix on your side: @${maintainer} will open it by hand.`,
+    "",
+    "<details><summary>What failed</summary>",
+    "",
+    "```",
+    reason,
+    "```",
+    "",
+    "</details>",
+  ].join("\n");
+}
+
 // ── GitHub ───────────────────────────────────────────────────────────────────
 
 function gitHub(token) {
@@ -511,7 +530,7 @@ async function openPullRequest(gh, repo, base, plan, issue) {
   const result = open
     ? await gh.call("PATCH", `/repos/${repo}/pulls/${open.number}`, { title: pr.title, body: pr.body })
     : await gh.call("POST", `/repos/${repo}/pulls`, { title: pr.title, head: branch, base, body: pr.body });
-  await gh.call("POST", `/repos/${repo}/issues/${result.number}/labels`, { labels: pr.labels });
+  for (const label of pr.labels) await setLabel(gh, repo, result.number, label, true);
   return result;
 }
 
@@ -552,7 +571,15 @@ async function handleIssue() {
   }
   if ((issue.labels ?? []).some((l) => (l?.name ?? l) === "needs-changes"))
     await setLabel(bot, repo, issue.number, "needs-changes", false);
-  const pr = await openPullRequest(pusher, repo, base, plan, issue);
+  let pr;
+  try {
+    pr = await openPullRequest(pusher, repo, base, plan, issue);
+  } catch (e) {
+    await upsertComment(bot, repo, issue.number, stuckComment(e, repo.split("/")[0])).catch((c) =>
+      console.error(`comment: ${c.message}`),
+    );
+    throw e;
+  }
   await upsertComment(bot, repo, issue.number, acceptedComment(plan, pr.html_url));
   console.error(`#${issue.number}: ${pr.html_url}`);
 }
