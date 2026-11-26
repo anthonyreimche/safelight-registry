@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T20:38:45.333Z",
+  "generatedAt": "2026-11-26T03:14:41.592Z",
   "topic": "safelight-extension",
   "count": 126,
   "categories": [
@@ -112,14 +112,52 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 181
+      "downloads": 182
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-border",
+      "description": "Safelight Border — inside-fit border with frame line, templates and a default template, in Develop",
+      "stars": 2,
+      "createdAt": "2026-10-20T14:34:19Z",
+      "updatedAt": "2026-11-25T22:20:40Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Border",
+      "categories": [
+        "look"
+      ],
+      "type": null,
+      "keywords": [
+        "border",
+        "line",
+        "templates",
+        "develop"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "2.7.0",
+        "tag": "v2.7.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-border/releases/download/v2.7.0/safelight-border-2.7.0.zip"
+        ],
+        "minAppVersion": "3.2.6"
+      },
+      "downloads": 24
     },
     {
       "fullName": "OPGERUIMD97/safelight-claude-theme",
-      "description": null,
+      "description": "Warm dark theme for Safelight. Rust-orange accent, off-white text and warm stone-grey panels.",
       "stars": 2,
       "createdAt": "2026-06-14T00:20:00Z",
-      "updatedAt": "2026-11-07T19:11:42Z",
+      "updatedAt": "2026-11-25T22:18:38Z",
       "topics": [
         "safelight-extension",
         "safelight-theme"
@@ -143,15 +181,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.2.1",
-        "tag": "v1.2.1",
+        "version": "1.2.3",
+        "tag": "v1.2.3",
         "from": "release",
         "zips": [
-          "https://github.com/OPGERUIMD97/safelight-claude-theme/releases/download/v1.2.1/safelight-claude-theme-1.2.1.zip"
+          "https://github.com/OPGERUIMD97/safelight-claude-theme/releases/download/v1.2.3/safelight-claude-theme-1.2.3.zip"
         ],
         "minAppVersion": "3.0.0"
       },
-      "downloads": 5
+      "downloads": 7
     },
     {
       "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
@@ -231,7 +269,7 @@
         ],
         "minAppVersion": "2.4.3"
       },
-      "downloads": 139
+      "downloads": 141
     },
     {
       "fullName": "anthonyreimche/Advanced-Exif-Tools",
@@ -280,7 +318,7 @@
         ],
         "minAppVersion": "2.5.0"
       },
-      "downloads": 100
+      "downloads": 101
     },
     {
       "fullName": "anthonyreimche/Advanced-Library-Sort",
@@ -325,7 +363,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 106
+      "downloads": 107
     },
     {
       "fullName": "anthonyreimche/Advanced-Rendering",
@@ -360,7 +398,7 @@
         ],
         "minAppVersion": "2.5.0"
       },
-      "downloads": 121
+      "downloads": 122
     },
     {
       "fullName": "anthonyreimche/Batch-Tools",
@@ -491,7 +529,7 @@
         ],
         "minAppVersion": "2.5.1"
       },
-      "downloads": 96
+      "downloads": 97
     },
     {
       "fullName": "anthonyreimche/Colour-Correction",
@@ -717,7 +755,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 133
+      "downloads": 134
     },
     {
       "fullName": "anthonyreimche/Custom-Cursors",
@@ -890,7 +928,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 84
+      "downloads": 85
     },
     {
       "fullName": "anthonyreimche/Filmstrip",
@@ -1063,7 +1101,7 @@
         ],
         "minAppVersion": "2.5.1"
       },
-      "downloads": 85
+      "downloads": 86
     },
     {
       "fullName": "anthonyreimche/Image-Comparison-Tools",
@@ -1151,7 +1189,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 123
+      "downloads": 124
     },
     {
       "fullName": "anthonyreimche/Ivory-Theme",
@@ -1229,7 +1267,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 120
+      "downloads": 121
     },
     {
       "fullName": "anthonyreimche/Panel-Toggle",
@@ -1310,7 +1348,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 102
+      "downloads": 103
     },
     {
       "fullName": "anthonyreimche/Scopes",
@@ -1513,7 +1551,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 108
+      "downloads": 109
     },
     {
       "fullName": "anthonyreimche/Virtual-Copies",
@@ -1556,7 +1594,7 @@
         ],
         "minAppVersion": "2.4.5"
       },
-      "downloads": 86
+      "downloads": 87
     },
     {
       "fullName": "anthonyreimche/Web-Tools",
@@ -1670,11 +1708,158 @@
       "downloads": 0
     },
     {
-      "fullName": "OPGERUIMD97/safelight-border",
-      "description": "Safelight Border — inside-fit border with frame line, templates and a default template, in Develop",
+      "fullName": "OPGERUIMD97/safelight-classic-grey",
+      "description": "Mid-grey theme for Safelight. Neutral accent, no brand colours.",
       "stars": 1,
-      "createdAt": "2026-10-20T14:34:19Z",
-      "updatedAt": "2026-11-24T10:07:04Z",
+      "createdAt": "2026-11-25T16:35:30Z",
+      "updatedAt": "2026-11-25T22:20:18Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Classic Grey Theme",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "theme",
+        "grey",
+        "gray",
+        "neutral"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-classic-grey/releases/download/v1.0.2/safelight-classic-grey-1.0.2.zip"
+        ]
+      },
+      "downloads": 3
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-exif-plus",
+      "description": "Discontinued. Image Information (OPGERUIMD97/safelight-image-info) includes this panel.",
+      "stars": 1,
+      "createdAt": "2026-06-15T14:40:00Z",
+      "updatedAt": "2026-11-25T22:20:27Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "EXIF Plus",
+      "categories": [
+        "metadata"
+      ],
+      "type": "panel",
+      "keywords": [],
+      "screenshots": [],
+      "deprecated": {
+        "replacedBy": "OPGERUIMD97/safelight-image-info",
+        "message": "Image Information now includes this panel."
+      },
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-exif-plus/releases/download/v1.0.1/safelight-exif-plus-1.0.1.zip"
+        ]
+      },
+      "downloads": 1
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-graphite-separated",
+      "description": "Cool graphite theme for Safelight. Blue-grey headers, a cyan accent, a teal slider and a cooler grey around the photo.",
+      "stars": 1,
+      "createdAt": "2026-11-23T16:41:40Z",
+      "updatedAt": "2026-11-25T22:19:20Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Graphite Separated Theme",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "theme",
+        "dark",
+        "graphite",
+        "cyan"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.4",
+        "tag": "v1.0.4",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-graphite-separated/releases/download/v1.0.4/safelight-graphite-separated-1.0.4.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      },
+      "downloads": 10
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-image-info",
+      "description": "Image information panel: orientation, camera, exposure, lens and file details.",
+      "stars": 1,
+      "createdAt": "2026-06-16T08:20:13Z",
+      "updatedAt": "2026-11-25T22:20:34Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Image Information",
+      "categories": [
+        "metadata"
+      ],
+      "type": "panel",
+      "keywords": [],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.1.3",
+        "tag": "v1.1.3",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-image-info/releases/download/v1.1.3/safelight-image-info-1.1.3.zip"
+        ]
+      },
+      "downloads": 1
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-inspect",
+      "description": "Safelight Inspect - one key for a full-screen magnified view (up to 800%) from Develop or the Library",
+      "stars": 1,
+      "createdAt": "2026-11-25T16:18:50Z",
+      "updatedAt": "2026-11-25T22:21:13Z",
       "topics": [
         "safelight-extension"
       ],
@@ -1683,29 +1868,264 @@
         "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
         "custom": false
       },
-      "name": "Border",
+      "name": "Inspect",
       "categories": [
-        "look"
+        "library",
+        "workflow"
       ],
       "type": null,
       "keywords": [
-        "border",
-        "line",
-        "templates",
+        "inspect",
+        "zoom",
+        "fullscreen",
+        "sharpness",
+        "noise",
         "develop"
       ],
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "2.6.1",
-        "tag": "v2.6.1",
+        "version": "1.0.0",
+        "tag": "v1.0.0",
         "from": "release",
         "zips": [
-          "https://github.com/OPGERUIMD97/safelight-border/releases/download/v2.6.1/safelight-border-2.6.1.zip"
+          "https://github.com/OPGERUIMD97/safelight-inspect/releases/download/v1.0.0/safelight-inspect-1.0.0.zip"
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 23
+      "downloads": 1
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-lights-out",
+      "description": "Dim or black out everything in Safelight except the photo.",
+      "stars": 1,
+      "createdAt": "2026-11-25T16:00:16Z",
+      "updatedAt": "2026-11-25T22:21:07Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Lights Out",
+      "categories": [
+        "workflow"
+      ],
+      "type": null,
+      "keywords": [
+        "lights out",
+        "dim",
+        "loupe",
+        "shortcut"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-lights-out/releases/download/v1.0.1/safelight-lights-out-1.0.1.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      },
+      "downloads": 2
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-mat-frame",
+      "description": "Safelight Framing — mats and frames for prints and export (replaces Print Mat)",
+      "stars": 1,
+      "createdAt": "2026-11-12T19:07:08Z",
+      "updatedAt": "2026-11-25T22:21:47Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-module"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Framing",
+      "categories": [
+        "export"
+      ],
+      "type": "module",
+      "keywords": [
+        "mat",
+        "frame",
+        "passe-partout",
+        "print",
+        "module",
+        "framing"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "OPGERUIMD97/safelight-print"
+      ],
+      "latest": {
+        "version": "3.0.1",
+        "tag": "v3.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-mat-frame/releases/download/v3.0.1/safelight-mat-frame-3.0.1.zip"
+        ],
+        "minAppVersion": "2.6.0"
+      },
+      "downloads": 4
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-orange-dashboard",
+      "description": "Near-black theme for Safelight. One orange accent. The grey around the photo stays neutral.",
+      "stars": 1,
+      "createdAt": "2026-11-25T16:53:30Z",
+      "updatedAt": "2026-11-25T22:20:04Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-theme"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Orange Dashboard Theme",
+      "categories": [
+        "theme"
+      ],
+      "type": null,
+      "keywords": [
+        "theme",
+        "dark",
+        "orange",
+        "dashboard"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.2",
+        "tag": "v1.0.2",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-orange-dashboard/releases/download/v1.0.2/safelight-orange-dashboard-1.0.2.zip"
+        ],
+        "minAppVersion": "3.2.0"
+      },
+      "downloads": 3
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-print",
+      "description": "A Print module for Safelight (v2.6+). It adds a Print tab beside Library and Develop: lay out a page, preview the selection, and print through the OS dialog. Requires the module registry (registerModule).",
+      "stars": 1,
+      "createdAt": "2026-10-22T04:08:25Z",
+      "updatedAt": "2026-11-25T22:21:00Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-module"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Print",
+      "categories": [
+        "export"
+      ],
+      "type": "module",
+      "keywords": [
+        "print",
+        "contact sheet",
+        "layout",
+        "module"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "OPGERUIMD97/safelight-mat-frame"
+      ],
+      "latest": {
+        "version": "1.1.1",
+        "tag": "v1.1.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-print/releases/download/v1.1.1/safelight-print-1.1.1.zip"
+        ],
+        "minAppVersion": "2.6.0"
+      },
+      "downloads": 1
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-print-mat",
+      "description": "DISCONTINUED — use OPGERUIMD97/safelight-mat-frame (Framing / Border)",
+      "stars": 1,
+      "createdAt": "2026-06-24T10:00:38Z",
+      "updatedAt": "2026-11-25T22:20:22Z",
+      "topics": [
+        "safelight-extension"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
+        "custom": false
+      },
+      "name": "Print Mat",
+      "categories": [
+        "export"
+      ],
+      "type": null,
+      "keywords": [],
+      "screenshots": [],
+      "deprecated": {
+        "replacedBy": "OPGERUIMD97/safelight-mat-frame",
+        "message": "Mats and frames are now in Framing / Border. Use Import Print Mat for your templates."
+      },
+      "worksWith": [],
+      "latest": {
+        "version": "1.3.0",
+        "tag": "v1.3.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-print-mat/releases/download/v1.3.0/safelight-print-mat-1.3.0.zip"
+        ]
+      },
+      "downloads": 1
+    },
+    {
+      "fullName": "OPGERUIMD97/safelight-watermark",
+      "description": "Text or PNG watermark on the photo. Develop edits the open photo. Library applies watermark 1 to the selection.",
+      "stars": 1,
+      "createdAt": "2026-06-24T17:51:06Z",
+      "updatedAt": "2026-11-25T22:21:28Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
+      "thumbnail": {
+        "url": "https://repository-images.githubusercontent.com/1279457337/8ada62e3-1c34-4e9a-8000-11e7e2dc364d",
+        "custom": true
+      },
+      "name": "Watermark",
+      "categories": [
+        "export"
+      ],
+      "type": "panel",
+      "keywords": [],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.3.0",
+        "tag": "v1.3.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/OPGERUIMD97/safelight-watermark/releases/download/v1.3.0/safelight-watermark-1.3.0.zip"
+        ],
+        "minAppVersion": "3.2.6"
+      },
+      "downloads": 1
     },
     {
       "fullName": "anthonyreimche/3D-Colorimetric-Film",
@@ -1792,7 +2212,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 247
+      "downloads": 248
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -1886,7 +2306,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 269
+      "downloads": 270
     },
     {
       "fullName": "anthonyreimche/Burst-Detection",
@@ -2023,7 +2443,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 267
+      "downloads": 268
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2295,7 +2715,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 286
+      "downloads": 287
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2342,7 +2762,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 255
+      "downloads": 256
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2391,7 +2811,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 276
+      "downloads": 277
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -2435,7 +2855,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 32
+      "downloads": 33
     },
     {
       "fullName": "anthonyreimche/Edit-History",
@@ -2478,7 +2898,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 258
+      "downloads": 259
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -2520,7 +2940,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 270
+      "downloads": 271
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -2569,7 +2989,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 246
+      "downloads": 247
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -2848,7 +3268,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 276
+      "downloads": 277
     },
     {
       "fullName": "anthonyreimche/Fuzzy-Select",
@@ -3142,7 +3562,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 253
+      "downloads": 254
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3228,7 +3648,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 253
+      "downloads": 254
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3316,7 +3736,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 269
+      "downloads": 270
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -3405,7 +3825,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 249
+      "downloads": 250
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -3493,7 +3913,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 117
+      "downloads": 118
     },
     {
       "fullName": "anthonyreimche/Keywords",
@@ -3537,7 +3957,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 250
+      "downloads": 251
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -3628,7 +4048,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 309
+      "downloads": 310
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -3677,7 +4097,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 274
+      "downloads": 275
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -3901,7 +4321,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 285
+      "downloads": 286
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -4082,7 +4502,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 251
+      "downloads": 252
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -4639,7 +5059,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 268
+      "downloads": 269
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -4776,7 +5196,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 253
+      "downloads": 254
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -4910,7 +5330,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 286
+      "downloads": 287
     },
     {
       "fullName": "anthonyreimche/Zones",
@@ -5071,420 +5491,6 @@
         "from": "branch"
       },
       "downloads": 0
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-classic-grey",
-      "description": "Mid-grey theme for Safelight.",
-      "stars": 0,
-      "createdAt": "2026-11-25T16:35:30Z",
-      "updatedAt": "2026-11-25T16:35:41Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Classic Grey",
-      "categories": [
-        "theme"
-      ],
-      "type": null,
-      "keywords": [
-        "theme",
-        "grey",
-        "gray",
-        "neutral"
-      ],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-classic-grey/releases/download/v1.0.0/safelight-classic-grey-1.0.0.zip"
-        ]
-      },
-      "downloads": 1
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-exif-plus",
-      "description": null,
-      "stars": 0,
-      "createdAt": "2026-06-15T14:40:00Z",
-      "updatedAt": "2026-10-02T14:39:48Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "EXIF Plus",
-      "categories": [
-        "metadata"
-      ],
-      "type": "panel",
-      "keywords": [],
-      "screenshots": [],
-      "deprecated": {
-        "replacedBy": "OPGERUIMD97/safelight-image-info",
-        "message": "Image Information now includes this panel."
-      },
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.1",
-        "from": "branch"
-      },
-      "downloads": 0
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-graphite-separated",
-      "description": "Cool graphite Safelight theme with blue-grey headers, a cyan accent and a teal slider. Mapped from the darktable theme Modern Graphite Separated.",
-      "stars": 0,
-      "createdAt": "2026-11-23T16:41:40Z",
-      "updatedAt": "2026-11-23T19:15:05Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Graphite Separated",
-      "categories": [
-        "theme"
-      ],
-      "type": null,
-      "keywords": [
-        "theme",
-        "dark",
-        "graphite",
-        "cyan",
-        "darktable"
-      ],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-graphite-separated/releases/download/v1.0.2/safelight-graphite-separated-1.0.2.zip"
-        ],
-        "minAppVersion": "3.2.0"
-      },
-      "downloads": 8
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-image-info",
-      "description": null,
-      "stars": 0,
-      "createdAt": "2026-06-16T08:20:13Z",
-      "updatedAt": "2026-10-02T14:42:10Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Image Information",
-      "categories": [
-        "metadata"
-      ],
-      "type": "panel",
-      "keywords": [],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.1.3",
-        "from": "branch"
-      },
-      "downloads": 0
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-inspect",
-      "description": "Safelight Inspect - one key for a full-screen magnified view (up to 800%) from Develop or the Library",
-      "stars": 0,
-      "createdAt": "2026-11-25T16:18:50Z",
-      "updatedAt": "2026-11-25T16:23:12Z",
-      "topics": [
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Inspect",
-      "categories": [
-        "library",
-        "workflow"
-      ],
-      "type": null,
-      "keywords": [
-        "inspect",
-        "zoom",
-        "fullscreen",
-        "sharpness",
-        "noise",
-        "develop"
-      ],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-inspect/releases/download/v1.0.0/safelight-inspect-1.0.0.zip"
-        ],
-        "minAppVersion": "3.2.6"
-      },
-      "downloads": 1
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-lights-out",
-      "description": "Dim or black out everything in Safelight except the photo.",
-      "stars": 0,
-      "createdAt": "2026-11-25T16:00:16Z",
-      "updatedAt": "2026-11-25T16:35:33Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-workflow"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Lights Out",
-      "categories": [
-        "workflow"
-      ],
-      "type": null,
-      "keywords": [
-        "lights out",
-        "dim",
-        "loupe",
-        "shortcut"
-      ],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.1",
-        "tag": "v1.0.1",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-lights-out/releases/download/v1.0.1/safelight-lights-out-1.0.1.zip"
-        ],
-        "minAppVersion": "3.2.0"
-      },
-      "downloads": 2
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-mat-frame",
-      "description": "Safelight Framing — mats and frames for prints and export (replaces Print Mat)",
-      "stars": 0,
-      "createdAt": "2026-11-12T19:07:08Z",
-      "updatedAt": "2026-11-24T10:07:03Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-module"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Framing",
-      "categories": [
-        "export"
-      ],
-      "type": "module",
-      "keywords": [
-        "mat",
-        "frame",
-        "passe-partout",
-        "print",
-        "module",
-        "framing"
-      ],
-      "screenshots": [],
-      "worksWith": [
-        "OPGERUIMD97/safelight-print"
-      ],
-      "latest": {
-        "version": "3.0.1",
-        "tag": "v3.0.1",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-mat-frame/releases/download/v3.0.1/safelight-mat-frame-3.0.1.zip"
-        ],
-        "minAppVersion": "2.6.0"
-      },
-      "downloads": 4
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-orange-dashboard",
-      "description": "Near-black Safelight theme with one orange accent.",
-      "stars": 0,
-      "createdAt": "2026-11-25T16:53:30Z",
-      "updatedAt": "2026-11-25T16:53:42Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-theme"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Orange Dashboard",
-      "categories": [
-        "theme"
-      ],
-      "type": null,
-      "keywords": [
-        "theme",
-        "dark",
-        "orange",
-        "darktable",
-        "dashboard"
-      ],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-orange-dashboard/releases/download/v1.0.0/safelight-orange-dashboard-1.0.0.zip"
-        ],
-        "minAppVersion": "3.2.0"
-      },
-      "downloads": 1
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-print",
-      "description": "A Print module for Safelight (v2.6+). It adds a Print tab beside Library and Develop: lay out a page, preview the selection, and print through the OS dialog. Requires the module registry (registerModule).",
-      "stars": 0,
-      "createdAt": "2026-10-22T04:08:25Z",
-      "updatedAt": "2026-11-25T18:40:38Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-module"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Print",
-      "categories": [
-        "export"
-      ],
-      "type": "module",
-      "keywords": [
-        "print",
-        "contact sheet",
-        "layout",
-        "module"
-      ],
-      "screenshots": [],
-      "worksWith": [
-        "OPGERUIMD97/safelight-mat-frame"
-      ],
-      "latest": {
-        "version": "1.1.1",
-        "tag": "v1.1.1",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-print/releases/download/v1.1.1/safelight-print-1.1.1.zip"
-        ],
-        "minAppVersion": "2.6.0"
-      },
-      "downloads": 1
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-print-mat",
-      "description": "DISCONTINUED — use OPGERUIMD97/safelight-mat-frame (Framing / Border)",
-      "stars": 0,
-      "createdAt": "2026-06-24T10:00:38Z",
-      "updatedAt": "2026-11-20T08:26:11Z",
-      "topics": [
-        "safelight-extension"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://avatars.githubusercontent.com/u/193993686?v=4",
-        "custom": false
-      },
-      "name": "Print Mat",
-      "categories": [
-        "export"
-      ],
-      "type": null,
-      "keywords": [],
-      "screenshots": [],
-      "deprecated": {
-        "replacedBy": "OPGERUIMD97/safelight-mat-frame",
-        "message": "Mats and frames are now in Framing / Border. Use Import Print Mat for your templates."
-      },
-      "worksWith": [],
-      "latest": {
-        "version": "1.3.0",
-        "tag": "v1.3.0",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-print-mat/releases/download/v1.3.0/safelight-print-mat-1.3.0.zip"
-        ]
-      },
-      "downloads": 0
-    },
-    {
-      "fullName": "OPGERUIMD97/safelight-watermark",
-      "description": null,
-      "stars": 0,
-      "createdAt": "2026-06-24T17:51:06Z",
-      "updatedAt": "2026-11-24T21:22:32Z",
-      "topics": [
-        "safelight-extension",
-        "safelight-panel"
-      ],
-      "avatarUrl": "https://avatars.githubusercontent.com/u/193993686?v=4",
-      "thumbnail": {
-        "url": "https://repository-images.githubusercontent.com/1279457337/8ada62e3-1c34-4e9a-8000-11e7e2dc364d",
-        "custom": true
-      },
-      "name": "Watermark",
-      "categories": [
-        "export"
-      ],
-      "type": "panel",
-      "keywords": [],
-      "screenshots": [],
-      "worksWith": [],
-      "latest": {
-        "version": "1.3.0",
-        "tag": "v1.3.0",
-        "from": "release",
-        "zips": [
-          "https://github.com/OPGERUIMD97/safelight-watermark/releases/download/v1.3.0/safelight-watermark-1.3.0.zip"
-        ],
-        "minAppVersion": "3.2.6"
-      },
-      "downloads": 1
     }
   ]
 }
