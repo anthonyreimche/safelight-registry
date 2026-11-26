@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T03:14:41.592Z",
+  "generatedAt": "2026-11-26T05:05:10.093Z",
   "topic": "safelight-extension",
-  "count": 126,
+  "count": 129,
   "categories": [
     {
       "slug": "library",
@@ -189,7 +189,7 @@
         ],
         "minAppVersion": "3.0.0"
       },
-      "downloads": 7
+      "downloads": 8
     },
     {
       "fullName": "anthonyreimche/3rd-Party-Preset-Tools",
@@ -2212,7 +2212,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 248
+      "downloads": 249
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -2306,7 +2306,101 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 270
+      "downloads": 271
+    },
+    {
+      "fullName": "anthonyreimche/Batch-Consistency",
+      "description": "Even out exposure and white balance across a selection: match every photo to a reference, or smooth a time-lapse against itself so flicker goes and the change of light stays. Each photo gets one undoable step.",
+      "stars": 0,
+      "createdAt": "2026-11-26T04:12:58Z",
+      "updatedAt": "2026-11-26T04:13:51Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-library",
+        "safelight-panel"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Batch Consistency",
+      "categories": [
+        "library"
+      ],
+      "type": "panel",
+      "keywords": [
+        "batch",
+        "consistency",
+        "match",
+        "exposure",
+        "white balance",
+        "colour",
+        "time-lapse",
+        "timelapse",
+        "deflicker",
+        "event",
+        "sync"
+      ],
+      "screenshots": [],
+      "worksWith": [
+        "anthonyreimche/Library"
+      ],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Batch-Consistency/releases/download/v1.0.0/Batch-Consistency-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 2
+    },
+    {
+      "fullName": "anthonyreimche/Blur-Reduction",
+      "description": "Undoes motion blur, focus blur and soft Gaussian blur by deconvolution. Set the blur's shape with sliders, or trace a motion streak on the photo, and Richardson-Lucy deconvolution with noise suppression restores the detail. Works on luminance in linear light, so colours stay put, and inside masks for a moving subject.",
+      "stars": 0,
+      "createdAt": "2026-11-26T03:36:02Z",
+      "updatedAt": "2026-11-26T03:36:34Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Blur Reduction",
+      "categories": [
+        "detail"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "deblur",
+        "blur reduction",
+        "motion blur",
+        "camera shake",
+        "out of focus",
+        "deconvolution",
+        "richardson-lucy",
+        "detail"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Blur-Reduction/releases/download/v1.0.1/Blur-Reduction-1.0.1.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 1
     },
     {
       "fullName": "anthonyreimche/Burst-Detection",
@@ -2443,7 +2537,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 268
+      "downloads": 269
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2571,15 +2665,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.0",
-        "tag": "v1.0.0",
+        "version": "1.1.0",
+        "tag": "v1.1.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Colour-Mapping/releases/download/v1.0.0/Colour-Mapping-1.0.0.zip"
+          "https://github.com/anthonyreimche/Colour-Mapping/releases/download/v1.1.0/Colour-Mapping-1.1.0.zip"
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 2
+      "downloads": 4
     },
     {
       "fullName": "anthonyreimche/Colour-Zones",
@@ -2715,7 +2809,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 287
+      "downloads": 288
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2762,7 +2856,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 256
+      "downloads": 257
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2811,7 +2905,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 277
+      "downloads": 278
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -2847,15 +2941,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.2",
-        "tag": "v1.1.2",
+        "version": "1.1.3",
+        "tag": "v1.1.3",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.1.2/Developer-Tools-1.1.2.zip"
+          "https://github.com/anthonyreimche/Developer-Tools/releases/download/v1.1.3/Developer-Tools-1.1.3.zip"
         ],
-        "minAppVersion": "3.2.7"
+        "minAppVersion": "3.2.8"
       },
-      "downloads": 33
+      "downloads": 34
     },
     {
       "fullName": "anthonyreimche/Edit-History",
@@ -2898,7 +2992,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 259
+      "downloads": 260
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -2940,7 +3034,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 271
+      "downloads": 272
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -2989,7 +3083,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 247
+      "downloads": 248
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -3268,7 +3362,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 277
+      "downloads": 278
     },
     {
       "fullName": "anthonyreimche/Fuzzy-Select",
@@ -3562,7 +3656,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 254
+      "downloads": 255
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3648,7 +3742,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 254
+      "downloads": 255
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3736,7 +3830,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 270
+      "downloads": 271
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -3825,7 +3919,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 250
+      "downloads": 251
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -3957,7 +4051,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 251
+      "downloads": 252
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -4048,7 +4142,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 310
+      "downloads": 311
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -4097,7 +4191,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 275
+      "downloads": 276
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -4321,7 +4415,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 286
+      "downloads": 288
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -4502,7 +4596,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 252
+      "downloads": 253
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -4592,6 +4686,49 @@
         "minAppVersion": "3.2.0"
       },
       "downloads": 28
+    },
+    {
+      "fullName": "anthonyreimche/Reference-View",
+      "description": "Pins a reference photo beside the one you're editing in Develop, so you can match a set by eye. With Colour Mapping installed, match the photo's colours to the reference in one click.",
+      "stars": 0,
+      "createdAt": "2026-11-26T03:37:42Z",
+      "updatedAt": "2026-11-26T03:38:26Z",
+      "topics": [
+        "safelight-color",
+        "safelight-extension",
+        "safelight-workflow"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Reference View",
+      "categories": [
+        "color",
+        "workflow"
+      ],
+      "type": null,
+      "keywords": [
+        "reference",
+        "compare",
+        "side by side",
+        "match",
+        "consistency",
+        "develop"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Reference-View/releases/download/v1.0.0/Reference-View-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 2
     },
     {
       "fullName": "anthonyreimche/Relight",
@@ -5059,7 +5196,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 269
+      "downloads": 270
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -5196,7 +5333,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 254
+      "downloads": 255
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -5330,7 +5467,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 287
+      "downloads": 288
     },
     {
       "fullName": "anthonyreimche/Zones",
