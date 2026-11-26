@@ -1,7 +1,0 @@
-{
-  "kind": "deprecate",
-  "issue": 7,
-  "repo": "OPGERUIMD97/safelight-exif-plus",
-  "replacedBy": "OPGERUIMD97/safelight-image-info",
-  "message": "Image Information now includes this panel."
-}
