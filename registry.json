@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T14:04:45.610Z",
+  "generatedAt": "2026-11-27T22:39:48.704Z",
   "topic": "safelight-extension",
-  "count": 130,
+  "count": 131,
   "categories": [
     {
       "slug": "library",
@@ -112,7 +112,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 189
+      "downloads": 193
     },
     {
       "fullName": "OPGERUIMD97/safelight-border",
@@ -150,7 +150,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 34
+      "downloads": 36
     },
     {
       "fullName": "OPGERUIMD97/safelight-claude-theme",
@@ -228,7 +228,7 @@
           "https://github.com/anthonyreimche/3rd-Party-Preset-Tools/releases/download/v1.1.2/3rd-Party-Preset-Tools-1.1.2.zip"
         ]
       },
-      "downloads": 61
+      "downloads": 62
     },
     {
       "fullName": "anthonyreimche/Advanced-Denoise-Tools",
@@ -269,7 +269,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 147
+      "downloads": 149
     },
     {
       "fullName": "anthonyreimche/Advanced-Exif-Tools",
@@ -318,7 +318,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 103
+      "downloads": 104
     },
     {
       "fullName": "anthonyreimche/Advanced-Library-Sort",
@@ -363,7 +363,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 113
+      "downloads": 114
     },
     {
       "fullName": "anthonyreimche/Advanced-Rendering",
@@ -398,7 +398,7 @@
         ],
         "minAppVersion": "2.5.0"
       },
-      "downloads": 123
+      "downloads": 124
     },
     {
       "fullName": "anthonyreimche/Batch-Tools",
@@ -573,7 +573,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 123
+      "downloads": 125
     },
     {
       "fullName": "anthonyreimche/Colour-Equaliser",
@@ -713,7 +713,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 114
+      "downloads": 116
     },
     {
       "fullName": "anthonyreimche/Contrast-Equalizer",
@@ -755,7 +755,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 140
+      "downloads": 141
     },
     {
       "fullName": "anthonyreimche/Custom-Cursors",
@@ -1395,7 +1395,7 @@
         ],
         "minAppVersion": "2.5.4"
       },
-      "downloads": 116
+      "downloads": 117
     },
     {
       "fullName": "anthonyreimche/Slate-Theme",
@@ -1551,7 +1551,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 111
+      "downloads": 112
     },
     {
       "fullName": "anthonyreimche/Virtual-Copies",
@@ -2014,7 +2014,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 8
+      "downloads": 9
     },
     {
       "fullName": "OPGERUIMD97/safelight-print",
@@ -2125,7 +2125,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 1
+      "downloads": 2
     },
     {
       "fullName": "anthonyreimche/3D-Colorimetric-Film",
@@ -2171,7 +2171,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 17
+      "downloads": 18
     },
     {
       "fullName": "anthonyreimche/Accessibility",
@@ -2212,7 +2212,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 258
+      "downloads": 264
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -2306,7 +2306,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 279
+      "downloads": 285
     },
     {
       "fullName": "anthonyreimche/Batch-Consistency",
@@ -2451,6 +2451,49 @@
       "downloads": 11
     },
     {
+      "fullName": "anthonyreimche/Capture-Sharpening",
+      "description": "Capture sharpening for Safelight: Richardson-Lucy deconvolution that undoes the blur of the anti-aliasing filter, the lens and the demosaicer, applied to RAW photos as they are decoded.",
+      "stars": 0,
+      "createdAt": "2026-11-27T14:38:40Z",
+      "updatedAt": "2026-11-27T14:40:21Z",
+      "topics": [
+        "safelight-detail",
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Capture Sharpening",
+      "categories": [
+        "detail"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "safelight-extension",
+        "capture sharpening",
+        "deconvolution",
+        "richardson-lucy",
+        "raw",
+        "sharpen"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Capture-Sharpening/releases/download/v1.0.1/Capture-Sharpening-1.0.1.zip"
+        ],
+        "minAppVersion": "3.1.0"
+      },
+      "downloads": 1
+    },
+    {
       "fullName": "anthonyreimche/Card-Ingest",
       "description": "Copy photos off a memory card into the project: each one lands in the grid as soon as it is copied, so you can rate and tag while the rest copies. Files go into dated folders, are renamed from their metadata and backed up to a second folder at the same time, and putting a card in again copies only what is new.",
       "stars": 0,
@@ -2585,7 +2628,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 278
+      "downloads": 284
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2857,7 +2900,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 296
+      "downloads": 299
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2904,7 +2947,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 266
+      "downloads": 272
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2953,7 +2996,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 283
+      "downloads": 291
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -3040,7 +3083,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 270
+      "downloads": 276
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -3082,7 +3125,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 279
+      "downloads": 285
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -3131,7 +3174,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 256
+      "downloads": 260
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -3365,7 +3408,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 21
+      "downloads": 22
     },
     {
       "fullName": "anthonyreimche/Folders",
@@ -3410,7 +3453,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 286
+      "downloads": 292
     },
     {
       "fullName": "anthonyreimche/Fuzzy-Select",
@@ -3704,7 +3747,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 262
+      "downloads": 266
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3790,7 +3833,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 264
+      "downloads": 270
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3878,7 +3921,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 278
+      "downloads": 284
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -3967,7 +4010,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 259
+      "downloads": 266
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -4055,7 +4098,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 120
+      "downloads": 122
     },
     {
       "fullName": "anthonyreimche/Keywords",
@@ -4099,7 +4142,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 255
+      "downloads": 257
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -4190,7 +4233,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 317
+      "downloads": 320
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -4239,7 +4282,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 281
+      "downloads": 284
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -4463,7 +4506,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 297
+      "downloads": 303
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -4553,7 +4596,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 38
+      "downloads": 39
     },
     {
       "fullName": "anthonyreimche/Pixel-Shift-Merge",
@@ -4644,7 +4687,7 @@
         ],
         "minAppVersion": "3.2.4"
       },
-      "downloads": 262
+      "downloads": 268
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -4690,7 +4733,7 @@
         ],
         "minAppVersion": "3.1.0"
       },
-      "downloads": 28
+      "downloads": 29
     },
     {
       "fullName": "anthonyreimche/RAW-Denoise",
@@ -4733,7 +4776,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 30
+      "downloads": 32
     },
     {
       "fullName": "anthonyreimche/Reference-View",
@@ -5244,7 +5287,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 280
+      "downloads": 286
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -5336,7 +5379,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 23
+      "downloads": 24
     },
     {
       "fullName": "anthonyreimche/Transform",
@@ -5381,7 +5424,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 262
+      "downloads": 266
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -5424,7 +5467,7 @@
         ],
         "minAppVersion": "3.2.2"
       },
-      "downloads": 21
+      "downloads": 22
     },
     {
       "fullName": "anthonyreimche/Wavelet-Decompose",
@@ -5468,7 +5511,7 @@
         ],
         "minAppVersion": "3.2.3"
       },
-      "downloads": 4
+      "downloads": 6
     },
     {
       "fullName": "anthonyreimche/White-Balance",
@@ -5515,7 +5558,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 296
+      "downloads": 302
     },
     {
       "fullName": "anthonyreimche/Zones",
