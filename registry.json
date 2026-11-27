@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T22:16:18.019Z",
+  "generatedAt": "2026-11-27T04:20:39.967Z",
   "topic": "safelight-extension",
   "count": 130,
   "categories": [
@@ -2212,7 +2212,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 254
+      "downloads": 255
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -2306,7 +2306,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 276
+      "downloads": 277
     },
     {
       "fullName": "anthonyreimche/Batch-Consistency",
@@ -2585,7 +2585,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 275
+      "downloads": 276
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2857,7 +2857,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 291
+      "downloads": 292
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2904,7 +2904,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 263
+      "downloads": 264
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2953,7 +2953,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 280
+      "downloads": 281
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -3040,7 +3040,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 262
+      "downloads": 263
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -3082,7 +3082,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 276
+      "downloads": 277
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -3131,7 +3131,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 251
+      "downloads": 252
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -3410,7 +3410,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 283
+      "downloads": 284
     },
     {
       "fullName": "anthonyreimche/Fuzzy-Select",
@@ -3704,7 +3704,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 257
+      "downloads": 258
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3790,7 +3790,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 261
+      "downloads": 262
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3878,7 +3878,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 275
+      "downloads": 276
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -3967,7 +3967,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 255
+      "downloads": 256
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -4099,7 +4099,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 253
+      "downloads": 254
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -4190,7 +4190,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 314
+      "downloads": 315
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -4239,7 +4239,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 278
+      "downloads": 279
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -4463,7 +4463,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 292
+      "downloads": 293
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -4644,7 +4644,7 @@
         ],
         "minAppVersion": "3.2.4"
       },
-      "downloads": 258
+      "downloads": 259
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -5244,7 +5244,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 277
+      "downloads": 278
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -5381,7 +5381,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 257
+      "downloads": 258
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -5515,7 +5515,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 293
+      "downloads": 294
     },
     {
       "fullName": "anthonyreimche/Zones",
