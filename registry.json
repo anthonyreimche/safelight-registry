@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-28T04:21:21.387Z",
+  "generatedAt": "2026-11-28T13:23:22.544Z",
   "topic": "safelight-extension",
-  "count": 131,
+  "count": 133,
   "categories": [
     {
       "slug": "library",
@@ -112,7 +112,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 194
+      "downloads": 196
     },
     {
       "fullName": "OPGERUIMD97/safelight-border",
@@ -269,7 +269,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 150
+      "downloads": 152
     },
     {
       "fullName": "anthonyreimche/Advanced-Exif-Tools",
@@ -318,7 +318,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 104
+      "downloads": 106
     },
     {
       "fullName": "anthonyreimche/Advanced-Library-Sort",
@@ -613,15 +613,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.1.3",
-        "tag": "v1.1.3",
+        "version": "1.2.0",
+        "tag": "v1.2.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/Colour-Equaliser/releases/download/v1.1.3/Colour-Equaliser-1.1.3.zip"
+          "https://github.com/anthonyreimche/Colour-Equaliser/releases/download/v1.2.0/Colour-Equaliser-1.2.0.zip"
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 135
+      "downloads": 136
     },
     {
       "fullName": "anthonyreimche/Colour-Harmonizer",
@@ -755,7 +755,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 142
+      "downloads": 144
     },
     {
       "fullName": "anthonyreimche/Custom-Cursors",
@@ -1144,7 +1144,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 109
+      "downloads": 110
     },
     {
       "fullName": "anthonyreimche/Image-Warp",
@@ -1189,7 +1189,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 127
+      "downloads": 128
     },
     {
       "fullName": "anthonyreimche/Ivory-Theme",
@@ -1267,7 +1267,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 124
+      "downloads": 125
     },
     {
       "fullName": "anthonyreimche/Panel-Toggle",
@@ -1348,7 +1348,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 106
+      "downloads": 107
     },
     {
       "fullName": "anthonyreimche/Scopes",
@@ -2163,15 +2163,15 @@
       "screenshots": [],
       "worksWith": [],
       "latest": {
-        "version": "1.0.2",
-        "tag": "v1.0.2",
+        "version": "1.0.3",
+        "tag": "v1.0.3",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/3D-Colorimetric-Film/releases/download/v1.0.2/3D-Colorimetric-Film-1.0.2.zip"
+          "https://github.com/anthonyreimche/3D-Colorimetric-Film/releases/download/v1.0.3/3D-Colorimetric-Film-1.0.3.zip"
         ],
-        "minAppVersion": "3.2.6"
+        "minAppVersion": "3.2.8"
       },
-      "downloads": 18
+      "downloads": 19
     },
     {
       "fullName": "anthonyreimche/Accessibility",
@@ -2212,7 +2212,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 265
+      "downloads": 270
     },
     {
       "fullName": "anthonyreimche/Advanced-Layouts",
@@ -2257,6 +2257,51 @@
         "minAppVersion": "3.2.6"
       },
       "downloads": 10
+    },
+    {
+      "fullName": "anthonyreimche/Base-Curve",
+      "description": "Christian Bouhon's base curve as a display transform: a curve you draw, four tone-mapping methods, exposure fusion, colour looks and gamut compression.",
+      "stars": 0,
+      "createdAt": "2026-11-28T06:47:57Z",
+      "updatedAt": "2026-11-28T06:48:55Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-panel",
+        "safelight-pipeline",
+        "safelight-tone"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Base Curve",
+      "categories": [
+        "look",
+        "tone"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "tone-mapper",
+        "display-transform",
+        "base-curve",
+        "curve",
+        "exposure-fusion",
+        "aces",
+        "oklab"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.0",
+        "tag": "v1.0.0",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Base-Curve/releases/download/v1.0.0/Base-Curve-1.0.0.zip"
+        ],
+        "minAppVersion": "3.2.8"
+      },
+      "downloads": 1
     },
     {
       "fullName": "anthonyreimche/Basic",
@@ -2306,7 +2351,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 286
+      "downloads": 292
     },
     {
       "fullName": "anthonyreimche/Batch-Consistency",
@@ -2628,7 +2673,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 285
+      "downloads": 291
     },
     {
       "fullName": "anthonyreimche/Colorise",
@@ -2900,7 +2945,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 300
+      "downloads": 308
     },
     {
       "fullName": "anthonyreimche/Detail",
@@ -2947,7 +2992,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 273
+      "downloads": 278
     },
     {
       "fullName": "anthonyreimche/Develop",
@@ -2996,7 +3041,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 292
+      "downloads": 298
     },
     {
       "fullName": "anthonyreimche/Developer-Tools",
@@ -3083,7 +3128,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 277
+      "downloads": 283
     },
     {
       "fullName": "anthonyreimche/Effects",
@@ -3125,7 +3170,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 286
+      "downloads": 292
     },
     {
       "fullName": "anthonyreimche/Export",
@@ -3174,7 +3219,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 261
+      "downloads": 266
     },
     {
       "fullName": "anthonyreimche/Export-Recipes",
@@ -3268,6 +3313,53 @@
         "minAppVersion": "3.2.0"
       },
       "downloads": 15
+    },
+    {
+      "fullName": "anthonyreimche/Film-Look",
+      "description": "A film look for stills in one panel: a base film look, colour settings with subtractive saturation, richness, split tone and skin bias, then halation, bloom, grain, vignette, a film gate and chromatic fringe. Blend masters for the look, the colour and the effects, and built-in looks to start from.",
+      "stars": 0,
+      "createdAt": "2026-11-28T06:52:34Z",
+      "updatedAt": "2026-11-28T06:53:16Z",
+      "topics": [
+        "safelight-extension",
+        "safelight-look",
+        "safelight-panel",
+        "safelight-pipeline"
+      ],
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17351880?v=4",
+      "thumbnail": {
+        "url": "https://avatars.githubusercontent.com/u/17351880?v=4",
+        "custom": false
+      },
+      "name": "Film Look",
+      "categories": [
+        "look"
+      ],
+      "type": "pipeline",
+      "keywords": [
+        "film",
+        "film look",
+        "film emulation",
+        "halation",
+        "bloom",
+        "grain",
+        "split tone",
+        "vignette",
+        "print film",
+        "bleach bypass"
+      ],
+      "screenshots": [],
+      "worksWith": [],
+      "latest": {
+        "version": "1.0.1",
+        "tag": "v1.0.1",
+        "from": "release",
+        "zips": [
+          "https://github.com/anthonyreimche/Film-Look/releases/download/v1.0.1/Film-Look-1.0.1.zip"
+        ],
+        "minAppVersion": "3.2.2"
+      },
+      "downloads": 4
     },
     {
       "fullName": "anthonyreimche/Film-Negative",
@@ -3453,7 +3545,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 293
+      "downloads": 299
     },
     {
       "fullName": "anthonyreimche/Fuzzy-Select",
@@ -3703,7 +3795,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 9
+      "downloads": 11
     },
     {
       "fullName": "anthonyreimche/Heal",
@@ -3747,7 +3839,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 267
+      "downloads": 273
     },
     {
       "fullName": "anthonyreimche/High-Pass-Sharpen",
@@ -3833,7 +3925,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 271
+      "downloads": 277
     },
     {
       "fullName": "anthonyreimche/History",
@@ -3921,7 +4013,7 @@
         ],
         "minAppVersion": "3.2.7"
       },
-      "downloads": 285
+      "downloads": 291
     },
     {
       "fullName": "anthonyreimche/Impulse-Noise-Reduction",
@@ -4010,7 +4102,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 267
+      "downloads": 273
     },
     {
       "fullName": "anthonyreimche/Input-Colour-Profiles",
@@ -4142,7 +4234,7 @@
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 258
+      "downloads": 263
     },
     {
       "fullName": "anthonyreimche/Lens-Blur",
@@ -4233,7 +4325,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 321
+      "downloads": 326
     },
     {
       "fullName": "anthonyreimche/Library-Filters",
@@ -4282,7 +4374,7 @@
         ],
         "minAppVersion": "3.2.6"
       },
-      "downloads": 285
+      "downloads": 290
     },
     {
       "fullName": "anthonyreimche/Local-Contrast",
@@ -4506,7 +4598,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 304
+      "downloads": 310
     },
     {
       "fullName": "anthonyreimche/Paint-Layers",
@@ -4643,7 +4735,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 4
+      "downloads": 5
     },
     {
       "fullName": "anthonyreimche/Presets",
@@ -4687,7 +4779,7 @@
         ],
         "minAppVersion": "3.2.4"
       },
-      "downloads": 269
+      "downloads": 275
     },
     {
       "fullName": "anthonyreimche/Pyramid-Local-Contrast",
@@ -5287,7 +5379,7 @@
         ],
         "minAppVersion": "3.2.1"
       },
-      "downloads": 287
+      "downloads": 293
     },
     {
       "fullName": "anthonyreimche/Tone-Equalizer",
@@ -5424,7 +5516,7 @@
         ],
         "minAppVersion": "3.2.8"
       },
-      "downloads": 267
+      "downloads": 273
     },
     {
       "fullName": "anthonyreimche/USM-and-RL-Sharpening",
@@ -5543,22 +5635,23 @@
         "auto white balance",
         "kelvin",
         "as shot",
-        "white balance presets"
+        "white balance presets",
+        "chromatic adaptation"
       ],
       "screenshots": [],
       "worksWith": [
         "anthonyreimche/Develop"
       ],
       "latest": {
-        "version": "3.1.1",
-        "tag": "v3.1.1",
+        "version": "3.2.0",
+        "tag": "v3.2.0",
         "from": "release",
         "zips": [
-          "https://github.com/anthonyreimche/White-Balance/releases/download/v3.1.1/White-Balance-3.1.1.zip"
+          "https://github.com/anthonyreimche/White-Balance/releases/download/v3.2.0/White-Balance-3.2.0.zip"
         ],
         "minAppVersion": "3.2.0"
       },
-      "downloads": 303
+      "downloads": 311
     },
     {
       "fullName": "anthonyreimche/Zones",
